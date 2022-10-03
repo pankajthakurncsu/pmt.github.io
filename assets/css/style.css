@@ -488,10 +488,7 @@ section{
         padding-bottom: 1rem;
         margin-left: 1rem;
     }
-    .blog-first-post{
-        margin-right: 0.5rem;
-    }
-    .blog-second-post{
+    #blog-first-post, #blog-second-post, #blog-third-post{
         margin-right: 0.5rem;
     }
     #error{
