@@ -72,12 +72,13 @@ body, html{
     color: rebeccapurple;
 } */
 .nav-link {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     color: black;
 }
 .nav-link:hover{
-    text-decoration: underline;
+    font-weight: 600;
+    /* text-decoration: underline; */
     color: var(--bs-pink);
     border-bottom: none;
     transition: all 0.3s ease-in-out;
@@ -90,8 +91,11 @@ a {
     text-decoration: none;
 }
 a:hover {
+    color: #0d6efd;
+    text-decoration: none;
     transition: all 0.3s ease-in-out;
-    border-bottom: 1px solid #00f;
+    /* border-bottom: 1px solid #00f; */
+    border-bottom: 1px solid #0d6efd;
 }
 /* #header{
     background-color: rgb(39, 39, 39);
@@ -350,9 +354,8 @@ section{
     padding-top: 8rem;
 }
 /* Third Post Page */
-.third-post{
-    padding-top: 1rem;
-    padding-bottom: 22rem;
+#blog-third-post{
+    padding-top: 8rem;
 }
 /* Online Presence */
 #online{
@@ -430,7 +433,11 @@ section{
     visibility: hidden;
     opacity: 0;
 }
-
+/* 404 Html Page */
+#error{
+    padding-top: 8rem;
+    padding-bottom: 25rem;
+}
 /* Media Query */
 @media(max-width:992px){
     .view-all{
@@ -480,6 +487,16 @@ section{
         padding-top: 1rem;
         padding-bottom: 1rem;
         margin-left: 1rem;
+    }
+    .blog-first-post{
+        margin-right: 0.5rem;
+    }
+    .blog-second-post{
+        margin-right: 0.5rem;
+    }
+    #error{
+        padding-top: 8rem;
+        padding-bottom: 15rem;
     }
 }
 
