@@ -9,6 +9,10 @@ font-family: 'Poppins', sans-serif; */
 
 /* font-family: 'Nunito', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
 *{
     padding: 0;
     margin: 0;
@@ -72,7 +76,8 @@ body, html{
     color: rebeccapurple;
 } */
 .nav-link {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: black;
 }
@@ -80,8 +85,8 @@ body, html{
     font-weight: 600;
     /* text-decoration: underline; */
     /* color: var(--bs-pink); */
-    color: var(--bs-light);
-    background-color: #32302ce8;
+    color: var(--bs-gray-dark);
+    /* background-color: #32302ce8; */
     border-bottom: none;
     transition: all 0.3s ease-in-out;
     border-radius: 0;
@@ -165,7 +170,6 @@ section{
 .col-lg-8{
     text-align: none;
 }
-
 #about h3, #skill h3, #project h3, #blog h3, #contact h3{
     font-weight: 300;
     color: #007bff;
@@ -216,9 +220,13 @@ section{
     transition: all 0.5sec ease-in-out;
 }
 .badge{
-    background: var(--bs-light);
+    /* background: var(--bs-light); */
+    background-color: var(--bs-white);
+    /* color: var(--bs-dark); */
     color: var(--bs-dark);
-    font-size: 500;
+    /* font-size: 500; */
+    font-size: 300;
+    font-weight: 500;
     margin: 4px;
     border: 1px solid rgb(52, 124, 163);
     /* border-radius: 5rem; */
@@ -311,10 +319,10 @@ section{
 .first-blog-title{
     padding-top: 2rem;
 }
-  .second-blog-title{
+.second-blog-title{
     padding-top: 1rem;
 }
-  .third-blog-title{
+.third-blog-title{
     padding-top: 1rem;
     padding-bottom: 22rem;
 }
@@ -504,5 +512,15 @@ section{
     #error{
         padding-top: 8rem;
         padding-bottom: 15rem;
+    }
+    .nav-link:hover{
+        font-weight: 600;
+        /* text-decoration: underline; */
+        /* color: var(--bs-pink); */
+        color: var(--bs-light);
+        background-color: none !important;
+        border-bottom: none;
+        transition: all 0.3s ease-in-out;
+        border-radius: 0;
     }
 }
