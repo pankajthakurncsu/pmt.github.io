@@ -18,7 +18,7 @@ body, html{
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #444452;
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     line-height: 1.5;
@@ -79,9 +79,12 @@ body, html{
 .nav-link:hover{
     font-weight: 600;
     /* text-decoration: underline; */
-    color: var(--bs-pink);
+    /* color: var(--bs-pink); */
+    color: var(--bs-light);
+    background-color: #32302ce8;
     border-bottom: none;
     transition: all 0.3s ease-in-out;
+    border-radius: 0;
 }
 #p{
     color: #4b4b4b;
@@ -143,14 +146,17 @@ section{
 }
 #get-in-touch{
     /* background-color: var(--bs-yellow); */
-    background-color: var(--bs-purple);
+    /* background-color: var(--bs-purple); */
+    background-color: var(--bs-white);
     /* color: #000; */
-    color: #f8f8f8;
+    color: var(--bs-primary);
     /* border-radius: 10px; */
     border-radius: 0;
 }
 #get-in-touch:hover{
-    background-color: var(--bs-orange);
+    /* background-color: var(--bs-orange); */
+    background-color: var(--bs-gray-dark);
+    color: #f8f8f8;
     transition: all 0.5s ease-in-out;
 }
 .col-lg-4{
@@ -161,6 +167,7 @@ section{
 }
 
 #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    font-weight: 300;
     color: #007bff;
 }
 .container{
@@ -208,7 +215,6 @@ section{
     cursor: pointer;
     transition: all 0.5sec ease-in-out;
 }
-
 .badge{
     background: var(--bs-light);
     color: var(--bs-dark);
@@ -500,5 +506,3 @@ section{
         padding-bottom: 15rem;
     }
 }
-
-
