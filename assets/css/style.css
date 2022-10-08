@@ -142,9 +142,12 @@ section{
     padding-top: 10rem;
 }
 #get-in-touch{
-    background-color: var(--bs-yellow);
-    color: #000;
-    border-radius: 10px;
+    /* background-color: var(--bs-yellow); */
+    background-color: var(--bs-purple);
+    /* color: #000; */
+    color: #f8f8f8;
+    /* border-radius: 10px; */
+    border-radius: 0;
 }
 #get-in-touch:hover{
     background-color: var(--bs-orange);
@@ -212,7 +215,8 @@ section{
     font-size: 500;
     margin: 4px;
     border: 1px solid rgb(52, 124, 163);
-    border-radius: 5rem;
+    /* border-radius: 5rem; */
+    border-radius: 0;
 }
 /* Contact  */
 .fa-location-arrow{
