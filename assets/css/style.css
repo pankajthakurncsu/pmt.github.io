@@ -241,12 +241,14 @@ section{
     transition: all 0.5sec ease-in-out;
 }
 .about{
+    font-family: 'Montserrat', sans-serif;
     font-size: 300;
     font-weight: 400;
     padding-left: 0;
 }
 .skill{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     font-weight: 400;
     padding-left: 0;
 }
@@ -264,11 +266,13 @@ section{
     border-radius: 0;
 }
 .project{
+    font-family: 'Montserrat', sans-serif;
     font-size: 300;
     font-weight: 400;
     padding-left: 0;
 }
 .blog{
+    font-family: 'Montserrat', sans-serif;
     font-size: 300;
     font-weight: 400;
     padding-left: 0;
@@ -354,6 +358,8 @@ section{
 }
 /* Contact  */
 .contact{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 300;
     font-weight: 400;
     padding-left: 0;
 }
