@@ -429,6 +429,7 @@ section{
 #social-links a{
     color: rgba(96, 96, 96, 0.986);
     padding: 0.1rem;
+    margin-left: 0;
     font-size: small;
     font-weight: 400;
 }
