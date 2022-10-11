@@ -215,25 +215,25 @@ section{
 #get-in-touch{
     /* background-color: var(--bs-yellow); */
     /* background-color: var(--bs-purple); */
-    background-color: var(--bs-white);
+    background-color: var(--bs-dark);
     /* color: #000; */
-    color: var(--bs-primary);
+    /* color: var(--bs-primary); */
     /* border-radius: 10px; */
     border-radius: 0;
-}
-#get-in-touch:hover{
-    /* background-color: var(--bs-orange); */
-    background-color: var(--bs-gray-dark);
-    color: #f8f8f8;
-    transition: all 0.5s ease-in-out;
-}
-#get-in-touch{
     font-size: small;
     font-weight: 400;
     margin-top: 2rem;
 }
+#get-in-touch:hover{
+    /* background-color: var(--bs-orange); */
+    /* background-color: var(--bs-gray-dark); */
+    background-color: var(--bs-white);
+    /* color: #f8f8f8; */
+     color: var(--bs-primary);
+    transition: all 0.5s ease-in-out;
+}
 #get-in-touch a{
-    color: rgb(17, 59, 158);
+    /* color: rgb(17, 59, 158); */
     text-decoration: none;
 }
 #get-in-touch a:hover{
@@ -469,14 +469,16 @@ section{
     font-size: 12px;
     border: none;
     outline: none;
-    background-color: rgba(30, 60, 210, 0.674);
+    /* background-color: rgba(30, 60, 210, 0.674); */
+    background-color: rgba(85, 85, 85, 0.795);
     color: white;
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
 }
 #myBtn:hover {
-    background-color: rgba(85, 85, 85, 0.795);
+    /* background-color: rgba(85, 85, 85, 0.795); */
+    background-color: rgba(66, 65, 65, 0.977);
 }
 /* Preloader */
 #Preloader {
