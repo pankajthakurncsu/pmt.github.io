@@ -55,22 +55,29 @@ body, html{
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 .navbar-brand{
-   color: black;
+   /* color: black; */
+   color: var(--bs-light);
 }
 .navbar-brand:hover{
-    color: black;
+    color: var(--bs-light);
     border-bottom: none;
 }
 .navbar-toggler{
     /* color: rgb(0 0 0 / 0%); */
-    color: rgba(68, 68, 68, 0.107);
-    border: 1px solid rgba(0, 0, 0, 0.655);
+    /* color: rgba(68, 68, 68, 0.107); */
+    color: rgba(128, 128, 128, 0.107);
+    border: 1px solid rgba(219, 219, 219, 0.655);
     border-radius: 4px;
     padding: 1px 2px 1px 2px;
+}
+.navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 100, 12, 120.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar{
     --bs-navbar-toggler-font-size: 1rem;
     --bs-navbar-toggler-border-radius: 0rem;
+    background-color: rgba(10, 25, 47, 0.85) !important;
+    backdrop-filter: blur(10px) !important;
 }
 /* .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: rebeccapurple;
@@ -80,13 +87,15 @@ body, html{
     font-family: 'Open Sans', sans-serif;
     font-size: large;
     font-weight: 400;
-    color: black;
+    /* color: black; */
+    color: var(--bs-light);
 }
 .nav-link:hover{
     font-size: medium;
     font-weight: 600;
     /* text-decoration: underline; */
-    color: var(--bs-dark);
+    /* color: var(--bs-dark); */
+    color: var(--bs-light);
     border-bottom: none;
     transition: all 0.5s ease-in-out;
     /* border-bottom: 1px solid black; */
