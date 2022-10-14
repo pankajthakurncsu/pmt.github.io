@@ -1,3 +1,10 @@
-# Welcome to this Repo.
-#This is my first portfolio website.
+# Welcome !
+
+Hi there,
+
+This is my first personal website built using HTML, CSS, JavScript, Boostrap.
+
+### Visit [My Portfolio Website](https://dnyaneshkolhe.in/)
+
+Dnyanesh Kolhe | 14/10/2022
 
