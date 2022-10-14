@@ -153,9 +153,10 @@ section{
 .col-lg-8{
     text-align: none;
 }
-#about h4, #skill h4, #project h4, #blog h4, #contact h4{
-    color: #007bff;
-    font-weight: 400;
+#about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    /* color: #007bff; */
+    color: var(--bs-primary);
+    font-weight:500;
 }
 #home{
     padding-top: 10rem;
@@ -229,14 +230,16 @@ section{
     font-family: 'Poppins', sans-serif; */
     padding-left: 0;
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 .skill{
     /* font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif; */
     padding-left: 0;
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 .badge{
     /* background: var(--bs-light);
@@ -256,14 +259,16 @@ section{
      /* font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif; */
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 /* Blog */
 .blog{
     /* font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif; */
+    font-size: 1.2rem;
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 /* Blog Main Page */
 .view-all{
@@ -348,7 +353,8 @@ section{
 /* Contact  */
 #contact{
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 .fa-location-arrow{
     font-size: small;
@@ -359,7 +365,8 @@ section{
 }
 .contact-form {
     max-width: 400px;
-    margin-left: -1rem;
+    /* margin-left: -1rem; */
+    margin-left: -0.6rem;
     width: 100%;
     display: grid;
     row-gap: 1rem;
