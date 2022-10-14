@@ -89,6 +89,7 @@ body, html{
     color: var(--bs-dark);
     border-bottom: none;
     transition: all 0.5s ease-in-out;
+    /* border-bottom: 1px solid black; */
 }
 #p{
     /* color: #4b4b4b; */
@@ -389,7 +390,8 @@ section{
     color: black;
     /* background: #f8f8f8; */
     background: #f8f8f82c;
-    border: 0.5px solid rgba(19, 19, 19, 0.763);
+    /* border: 0.5px solid rgba(19, 19, 19, 0.763); */
+    border: 0.8px solid rgba(19, 19, 19, 0.763);
     border-radius: 0px;
 }
 .contact-form .send-btn{
@@ -413,7 +415,7 @@ section{
     color: white;
     background: #7c7c7c; */
     /* border: 0.5px solid rgba(19, 19, 19, 0.763); */
-    border: 1px solid rgba(19, 19, 19, 0.763);
+    border: 0.8px solid rgba(19, 19, 19, 0.763);
     border-radius: 0;
 }
 .contact-form .send-btn:hover{
