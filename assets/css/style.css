@@ -65,18 +65,27 @@ body, html{
 .navbar-toggler{
     /* color: rgb(0 0 0 / 0%); */
     /* color: rgba(68, 68, 68, 0.107); */
-    color: rgba(128, 128, 128, 0.107);
-    border: 1px solid rgba(219, 219, 219, 0.655);
+    /* color: rgba(128, 128, 128, 0.107); */
+    /* color: rgba(0, 88, 50, 0.247); */
+
+    color: rgba(161, 161, 161, 0.13);
+
+    /* border: 1px solid rgba(6, 6, 6, 0.655); */
+    /* border: 1px solid rgba(0, 113, 74, 0.655); */
+    border: 1px solid rgba(255, 255, 255, 0.847);
     border-radius: 4px;
     padding: 1px 2px 1px 2px;
 }
 .navbar-toggler-icon{
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 100, 12, 120.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 100, 12, 120.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); */
+
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(210, 210, 210, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar{
     --bs-navbar-toggler-font-size: 1rem;
     --bs-navbar-toggler-border-radius: 0rem;
     background-color: rgba(10, 25, 47, 0.85) !important;
+    /* background-color: rgba(255, 255, 255, 0.737) !important; */
     backdrop-filter: blur(10px) !important;
 }
 /* .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
@@ -95,7 +104,7 @@ body, html{
     font-weight: 600;
     /* text-decoration: underline; */
     /* color: var(--bs-dark); */
-    color: var(--bs-light);
+    color: var(--bs-gray);
     border-bottom: none;
     transition: all 0.5s ease-in-out;
     /* border-bottom: 1px solid black; */
@@ -168,6 +177,9 @@ section{
     color: var(--bs-primary);
     font-weight:500;
 }
+.title-underline{
+    border-bottom: 1px solid var(--bs-primary);
+}
 #home{
     padding-top: 10rem;
 }
@@ -215,7 +227,7 @@ section{
 }
 .name{
     /* color: rgb(112, 112, 112); */
-    color: var(--bs-orange);
+    color: var(--bs-dark);
     font-size: 1.5rem;
 }
 .fa-laptop-code{
@@ -225,7 +237,8 @@ section{
     /* background-color: var(--bs-yellow);
     color: #000;
     border-radius: 10px; */
-    background-color: var(--bs-dark);
+
+    /* background-color: var(--bs-dark); */
     border-radius: 0;
     font-size: small;
     font-weight: 400;
@@ -234,7 +247,7 @@ section{
 #get-in-touch:hover{
     /* background-color: var(--bs-orange);
     transition: all 0.5s ease-in-out; */
-    background-color: var(--bs-white);
+    /* background-color: var(--bs-white); */
     color: var(--bs-primary);
     transition: all 0.5s ease-in-out;
 }
@@ -440,13 +453,16 @@ section{
     margin-bottom: 0.5em;
 }
 #social-links a{
-    color: rgba(96, 96, 96, 0.986);
+    /* color: rgba(96, 96, 96, 0.986); */
+    /* color: var(--bs-gray-dark); */
+    color: #000;
     padding: 0.1rem;
     font-size: small;
     font-weight: 400;
 }
 #social-links a:hover{
-    color: #000;
+    /* color: #000; */
+    color: var(--bs-gray);
     font-weight: 500;
     border-bottom: none;
 }
@@ -477,14 +493,16 @@ section{
     border: none;
     outline: none;
     /* background-color: rgba(30, 60, 210, 0.674); */
-    background-color: rgba(85, 85, 85, 0.795);
+    /* background-color: rgba(85, 85, 85, 0.795); */
+    background-color: rgba(10, 25, 47, 0.783) !important;
     color: white;
     cursor: pointer;
     padding: 10px;
     border-radius: 4px;
 }
 #myBtn:hover {
-    background-color: rgba(66, 65, 65, 0.977);
+    /* background-color: rgba(66, 65, 65, 0.977); */
+    background-color: rgba(10, 25, 47, 0.664) !important;
 }
 /* Preloader */
 #Preloader {
@@ -578,7 +596,7 @@ section{
     .footer p{
         text-align: center;
     }
-    #about h4, #skill h4, #project h4, #blog h4, #contact h4{
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
     .about{
@@ -594,7 +612,8 @@ section{
     ul{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        margin-left: 1rem;
+        text-align: center;
+        /* margin-left: 1rem; */
     }
     #blog-first-post, #blog-second-post, #blog-third-post{
         margin-right: 0.5rem;
