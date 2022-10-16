@@ -531,20 +531,24 @@ section{
 }
 /* Media Query */
 @media(max-width:992px){
-    .view-all{
-        font-size: small;
+    ul{
+        text-align: center;
+    }
+    .home-content{
+        width: 80%;
+        margin-left: -1rem;
     }
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
-    #about h4{
+    #about h3{
         margin-left: -0.8rem;
     }
-    #skill h4{
+    #skill h3{
         margin-left: -0.6rem;
     }
-    #project h4, #blog h4, #contact h4{
-        margin-left: -0.2rem;
+    .view-all{
+        font-size: small;
     }
     .footer p{
         text-align: center;
@@ -570,6 +574,7 @@ section{
         font-size: 1rem;
     }
     .skill{
+        padding-left: -1rem;
         font-weight: 400;
         /* font-size: medium; */
         font-size: 1rem;
@@ -596,18 +601,33 @@ section{
     .footer p{
         text-align: center;
     }
-    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
-        text-align: left;
+    #about h3{
+        margin-left: -0.5rem;
     }
+    #skill h3{
+        margin-left: -0.5rem;
+    }
+    #project h3{
+        margin-left: -0.2rem;
+    }
+    #blog h3{
+        margin-left: -0.2rem;
+    }
+    #contact h3{
+        margin-left: -0.2rem;
+    }
+    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+        text-align: left;
+    } */
     .about{
-        margin-left: 1.5rem !important;
+        margin-left: 1.1rem;
     }
     .skill{
-        margin-left: 1.5rem !important;
+        margin-left: 1.1rem;
     }
     .project, .blog, .contact{
-        /* margin-left: 0.5rem; */
-        margin-left: 1rem;
+        margin-left: 0.8rem;
+        /* margin-left: 1rem; */
     }
     ul{
         padding-top: 1rem;
