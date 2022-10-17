@@ -505,10 +505,6 @@ section{
     ul{
         text-align: center;
     }
-    .home-content{
-        width: 80%;
-        margin-left: -1rem;
-    }
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
@@ -537,7 +533,6 @@ section{
         /* font-size: medium; */
         font-size: 1rem;
         width: 96%;
-        margin-left: 1rem;
     }
     .about{
         padding-left: -1rem;
@@ -604,8 +599,8 @@ section{
     ul{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        text-align: left;
-        margin-left: 1rem;
+        text-align: center;
+        /* margin-left: 1rem; */
     }
     #blog-first-post, #blog-second-post, #blog-third-post{
         margin-right: 0.5rem;
