@@ -502,18 +502,18 @@ section{
 }
 /* Media Query */
 @media(max-width:992px){
-    ul{
+    /* ul{
         text-align: center;
-    }
+    } */
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
-    #about h3{
+    /* #about h3{
         margin-left: -0.8rem;
     }
     #skill h3{
         margin-left: -0.6rem;
-    }
+    } */
     .view-all{
         font-size: small;
     }
@@ -535,13 +535,11 @@ section{
         width: 96%;
     }
     .about{
-        padding-left: -1rem;
         font-weight: 400;
         /* font-size: medium; */
         font-size: 1rem;
     }
     .skill{
-        padding-left: -1rem;
         font-weight: 400;
         /* font-size: medium; */
         font-size: 1rem;
@@ -568,7 +566,7 @@ section{
     .footer p{
         text-align: center;
     }
-    #about h3{
+    /* #about h3{
         margin-left: -0.5rem;
     }
     #skill h3{
@@ -582,7 +580,7 @@ section{
     }
     #contact h3{
         margin-left: -0.2rem;
-    }
+    } */
     /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     } */
@@ -592,10 +590,10 @@ section{
     .skill{
         margin-left: 1.1rem;
     }
-    .project, .blog, .contact{
-        margin-left: 0.8rem;
+    /* .project, .blog, .contact{
+        margin-left: 0.8rem; */
         /* margin-left: 1rem; */
-    }
+    /* } */
     ul{
         padding-top: 1rem;
         padding-bottom: 1rem;
