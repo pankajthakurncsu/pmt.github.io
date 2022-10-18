@@ -505,6 +505,15 @@ section{
     /* ul{
         text-align: center;
     } */
+    .home-content{
+        width: 80%;
+    }
+    #about h3{
+        margin-left: -0.8rem;
+    }
+    #skill h3{
+        margin-left: -0.6rem;
+    }
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
