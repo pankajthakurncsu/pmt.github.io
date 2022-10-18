@@ -114,21 +114,22 @@ body, html{
     color: var(--bs-dark);
     font-weight: 300;
 }
-/* a { */
+a {
     /* color: rgb(32, 32, 32); */
     
-    /* color: var(--bs-dark);
+    color: var(--bs-dark);
     text-decoration: none;
-} */
-/* a:hover {
+}
+a:hover {
     color: #0d6efd;
     text-decoration: none;
-    transition: all 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
 
     /* border-bottom: 1px solid #00f; */
 
-    /* border-bottom: 1px solid #0d6efd;
-} */
+    border-bottom: 1px solid #0d6efd;
+}
+
  
 .container{
     width: 100%;
