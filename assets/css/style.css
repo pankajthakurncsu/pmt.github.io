@@ -700,8 +700,8 @@ section{
         margin-right: 0.5rem;
     }
     #error{
-        padding-top: 8rem;
-        padding-bottom: 15rem;
+        padding-top: 10rem;
+        padding-bottom: auto;
     }
 }
 
