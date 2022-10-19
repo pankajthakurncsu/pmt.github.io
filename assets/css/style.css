@@ -1,16 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* font-family: 'Dancing Script', cursive;
-font-family: 'Poppins', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* font-family: 'Nunito', sans-serif; */
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
 /* font-family: 'Open Sans', sans-serif; */
 
 *{
@@ -188,7 +182,8 @@ section{
 
     scroll-margin-top: 70px;
     min-height: 5em;
-    padding: 50px 4%;
+    /* padding: 50px 4%; */
+    padding: 80px 8%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -228,6 +223,7 @@ section{
     width: 50%;
 }
 #intro{
+    font-family: var(--bs-font-monospace);
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -299,12 +295,12 @@ section{
     transition: all 0.5s ease-in-out;
 }
 .about{
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     padding-left: 0;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 .skill{
     /* font-family: 'Montserrat', sans-serif;
@@ -496,7 +492,7 @@ section{
 }
 /* Footer */
 #footer{
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 0.5rem;
 }
 .hr-footer{
@@ -516,13 +512,14 @@ section{
 }
 .source-code{
    font-family: var(--bs-font-monospace);
-    font-size: small;
+    font-size: smaller;
     color: var(--bs-gray);
     border-bottom: 1px solid var(--bs-gray);
     padding-bottom: 0;
 }
 .source-code:hover{
-    color: var(--bs-white);
+    color: var(--bs-light);
+    border-bottom: 1px solid var(--bs-light);
 }
 /* Back to top button */
 #myBtn {
