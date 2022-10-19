@@ -49,6 +49,14 @@ body, html{
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+
+
+    --navy-shadow: rgba(2,12,27,0.7);
+    --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    --border-radius: 4px;
+    --light-navy: #112240;
+    --light-slate: #a8b2d1;
+    --fz-lg: 18px;
 }
 .navbar-brand{
    /* color: black; */
@@ -183,7 +191,9 @@ section{
     scroll-margin-top: 70px;
     min-height: 5em;
     /* padding: 50px 4%; */
-    padding: 80px 8%;
+
+    /* padding: 80px 4%; */
+    padding: 80px 2%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -333,6 +343,63 @@ section{
     font-size: 1.2rem;
     font-weight: 400;
 }
+.project1{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: var(--fz-lg);
+
+    margin-bottom: 1rem;
+}
+.project2{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: var(--fz-lg);
+
+    margin-bottom: 1rem;
+}
+.project3{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: var(--fz-lg);
+
+    margin-bottom: 1rem;
+}
+.bi-arrow-up-right{
+    color: var(--bs-gray) !important;
+}
 /* Blog */
 .blog{
     /* font-family: 'Montserrat', sans-serif;
@@ -351,6 +418,15 @@ section{
 }
 .card{
     margin-bottom: 2rem;
+}
+h5{
+    color: #212529;
+}
+.card-text{
+    color: #112240;
+}
+.card-body p > a{
+    color: var(--bs-indigo);
 }
 #blog_list_img{
     height: 250px;
@@ -393,25 +469,30 @@ section{
 }
 .post-date{
     font-size: small;
-    color: #7c7c7c;
+    /* color: #7c7c7c; */
+    color: #b3b3b3d5;
 }
 .post-date span{
     border-bottom: 1px solid;
-    color: #7c7c7c;
+    /* color: #7c7c7c; */
+    color: #b3b3b3d5;
 }
 #post-content{
-    color: #5c5c5c;
+    /* color: #5c5c5c; */
+    color: rgba(245, 245, 245, 0.683);
 }
 #post-link{
     font-size: small;
-    color: teal;
+    /* color: teal; */
+    color: rgb(1, 167, 167);
 }
 #post-link:hover{
     transition: all 0.3s ease-in-out;
     border-bottom: 1px solid teal;
 }
 #post-content-head{
-    color: #000;
+    /* color: #000; */
+    color: #fff;
 }
 /* Second Post Page */
 #blog-second-post{
@@ -694,7 +775,7 @@ section{
         /* margin-left: 1rem; */
     }
     #blog-first-post, #blog-second-post, #blog-third-post{
-        margin-right: 0.5rem;
+        margin-right: 0rem;
     }
     #error{
         padding-top: 10rem;
