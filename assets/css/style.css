@@ -322,31 +322,26 @@ section{
     padding-top: 1rem;
 }
 .skill{
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     padding-left: 0;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     padding-top: 1rem;
 
-      /* font-family: 'Nunito', sans-serif; */
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 400;
-  
-      box-shadow: 0 10px 30px -15px var(--navy-shadow);
-      transition: var(--transition);
-      position: relative;
-      z-index: 2;
-      padding: 25px;
-      border-radius: var(--border-radius);
-      background-color: var(--light-navy);
-      color: var(--light-slate);
-      font-size: var(--fz-lg);
-
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    /* z-index: 2; */
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: var(--fz-lg);
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-bottom: 2rem;
 }
 .badge{
     /* background: var(--bs-light);
@@ -360,7 +355,8 @@ section{
     /* color: var(--bs-dark); */
     
     color: #fff;
-    margin: 4px;
+    /* margin: 4px; */
+    margin: 1px;
     border: 1px solid rgb(52, 124, 163);
     border-radius: 4px;
 }
@@ -749,7 +745,6 @@ h5{
         font-weight: 400;
         /* font-size: medium; */
         font-size: 1rem;
-        text-align: left;
     }
     .project{
         font-weight: 400;
