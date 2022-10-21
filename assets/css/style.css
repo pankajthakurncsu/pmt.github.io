@@ -768,12 +768,15 @@ h5{
     .footer p{
         text-align: center;
     }
-    .about{
+    
+    /* .about{
         padding-left: 0.8rem;
-    }
-    .skill{
+    } */
+
+    /* .skill{
         padding-left: 0.6rem;
-    }
+    } */
+
     /* #about h3{
         margin-left: -0.5rem;
     }
@@ -812,7 +815,7 @@ h5{
         margin-right: 0rem;
     }
     #error{
-        padding-top: 10rem;
+        padding-top: 8rem;
         padding-bottom: auto;
     }
 }
