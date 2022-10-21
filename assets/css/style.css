@@ -201,15 +201,23 @@ section{
 .col-lg-8{
     text-align: none;
 }
+#container-width{
+    width: 60%;
+}
 #about h3, #skill h3, #project h3, #blog h3, #contact h3{
     /* color: #007bff; */
     /* color: var(--bs-primary); */
     color: var(--bs-orange);
     font-weight:500;
 }
+#skill h5{
+    padding-bottom: 0.5rem;
+    color: var(--bs-light);
+}
 .title-underline{
     /* border-bottom: 1px solid var(--bs-primary); */
-    border-bottom: 1px solid var(--bs-orange);
+    color:  var(--bs-orange);
+    border-bottom: 1px solid var(--bs-gray);
 }
 #home{
     padding-top: 10rem;
@@ -311,6 +319,7 @@ section{
     /* font-family: 'Nunito', sans-serif; */
     font-size: 1.2rem;
     font-weight: 300;
+    padding-top: 1rem;
 }
 .skill{
     /* font-family: 'Montserrat', sans-serif;
@@ -319,6 +328,25 @@ section{
     font-family: 'Nunito', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
+    padding-top: 1rem;
+
+      /* font-family: 'Nunito', sans-serif; */
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 400;
+  
+      box-shadow: 0 10px 30px -15px var(--navy-shadow);
+      transition: var(--transition);
+      position: relative;
+      z-index: 2;
+      padding: 25px;
+      border-radius: var(--border-radius);
+      background-color: var(--light-navy);
+      color: var(--light-slate);
+      font-size: var(--fz-lg);
+
+      margin-top: 1rem;
+      margin-bottom: 1rem;
 }
 .badge{
     /* background: var(--bs-light);
@@ -330,10 +358,11 @@ section{
 
     /* background-color: var(--bs-white); */
     /* color: var(--bs-dark); */
+    
     color: #fff;
     margin: 4px;
     border: 1px solid rgb(52, 124, 163);
-    border-radius: 0;
+    border-radius: 4px;
 }
 /* Project */
 .project{
@@ -358,8 +387,9 @@ section{
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
-
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-bottom: 2rem;
 }
 .project2{
     /* font-family: 'Nunito', sans-serif; */
@@ -377,7 +407,8 @@ section{
     color: var(--light-slate);
     font-size: var(--fz-lg);
 
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .project3{
     /* font-family: 'Nunito', sans-serif; */
@@ -395,6 +426,7 @@ section{
     color: var(--light-slate);
     font-size: var(--fz-lg);
 
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 .bi-arrow-up-right{
@@ -658,6 +690,9 @@ h5{
     /* ul{
         text-align: center;
     } */
+    #container-width{
+        width: 100%;
+    }
     .home-content{
         width: 80%;
     }
@@ -685,6 +720,9 @@ h5{
 }
 
 @media(max-width:576px) {
+    #container-width{
+        width: 95%;
+    }
     .name{
         font-weight: 400;
         /* font-size: medium; */
@@ -711,6 +749,7 @@ h5{
         font-weight: 400;
         /* font-size: medium; */
         font-size: 1rem;
+        text-align: left;
     }
     .project{
         font-weight: 400;
