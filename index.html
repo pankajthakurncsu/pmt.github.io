@@ -49,7 +49,7 @@
   <button onclick="topFunction()" id="myBtn" title="Go to top">
     <i class="fa-solid fa-arrow-up"></i>
   </button>
-  <!-- Back to Top Button -->
+  <!-- End Back to Top Button -->
 
  <!-- Navbar -->
   <!-- <nav class="navbar autohide navbar-expand-lg bg-dark fixed-top shadow-sm p-3 mb-5 bg-body"> -->
@@ -140,6 +140,17 @@
                 <a class="btn btn-primary btn-lg" id="get-in-touch" href="mailto:dnyaneshkolhe1@gmail.com" role="button">Hire Me</a>
               </div>
           </div>
+        </div>
+        <!-- <div class="scroll-down">
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
+        </div> -->
+
+        <div id="scroll-down" class="scroll-down">
+          <a href="#about"><span></span>Scroll</a>
         </div>
     </section>
 
@@ -238,7 +249,7 @@
 
       <div class="row">
         <div class="col-sm">
-          <h5>Languages</h5>
+          <h6>Languages</h6>
           <p>
             <span class="badge" data-bs-toggle="tooltip" data-bs-placement="top" title="Backend" data-bs-custom-class="custom-tooltip">Java</span>
 
@@ -246,7 +257,7 @@
           </p>
         </div>
         <div class="col-sm">
-          <h5>Web Technologies</h5>
+          <h6>Web Technologies</h6>
           <p>
             <span class="badge" data-bs-toggle="tooltip" data-bs-placement="top" title="Frontend" data-bs-custom-class="custom-tooltip">HTML & CSS</span>
           </p>
@@ -254,13 +265,13 @@
       </div>
       <div class="row">
         <div class="col-sm">
-          <h5>Database</h5>
+          <h6>Database</h6>
           <p>
             <span class="badge" data-bs-toggle="tooltip" data-bs-placement="top" title="Database" data-bs-custom-class="custom-tooltip">MySql</span>
           </p>
         </div>
         <div class="col-sm">
-          <h5>Tools & Framework</h5>
+          <h6>Tools & Framework</h6>
           <p>
              <span class="badge" data-bs-toggle="tooltip" data-bs-placement="top" title="Frontend" data-bs-custom-class="custom-tooltip">Bootstrap</span> 
               <span class="badge" data-bs-toggle="tooltip" data-bs-placement="top" title="Cloud CRM" data-bs-custom-class="custom-tooltip">Salesforce</span>
@@ -302,16 +313,20 @@
 </section>
 
 <!-- Blog Section -->
-<section id="blog">
-  <div class="container" id="container-width">
-    <div class="col" data-aos="fade-up"
-    data-aos-anchor-placement="top-bottom">
-    <h3><span class="title-underline">BLOG</span></h3>
-    </div>
-    <div class="row">
-      <div class="col-sm blog" data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom">
+  <section id="blog">
+    <div class="container" id="container-width">
+      <div class="row">
+        <div class="col" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+          <h3><span class="title-underline">BLOG</span></h3>
+        </div>
+      </div>
+        <div class="col-sm blog text-start" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+        <div class="row">
+          <div class="col-sm">
             <p id="p"><strong>Lastest Post</strong></p>
+
             <p><strong><a href="./first-post.html" class="link"><span data-content="Hello World !">Hello World !</span></a></strong> <i class="bi bi-arrow-up-right"></i></p>
             <p id="p">The almost every programmer journey start with hello world program...</p>
 
@@ -322,25 +337,27 @@
             <p id="p">How to built developer portfolio website....</p>
 
             <p class="view-all"><a href="./blog.html" class="link"><span data-content="View all blog post">View all blog post</span></a> <i class="fa-solid fa-arrow-right"></i></p>
+
+          </div>
         </div>
-      </div>
+        </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact">
     <div class="container" id="container-width">
-      <div class="col" data-aos="fade-up"
-        data-aos-anchor-placement="top-bottom">
-        <h3><span class="title-underline">Contact</span></h3>
-        </div>
       <div class="row">
-        <div class="col-lg text-start contact">
-          <div class="contact-item" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom">
+        <div class="col" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+          <h3><span class="title-underline">CONTACT</span></h3>
+        </div>
+      </div>
+        <div class="col-sm contact text-start" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
+        <div class="row">
+          <div class="col-sm">
             <p><strong>Address</strong></p>
             <p><i class="fa-solid fa-location-arrow"></i> Amravati, MH, IN, 444705</p>
-            </p>
             <!-- <p><strong><a href="#" Onclick="email()" oncontextmenu="return false;">Contact</a></strong></p> -->
             <p><strong>Contact</strong></p>
             <section class="content container" id="contact_form-content">
@@ -351,12 +368,15 @@
                       required></textarea>
                   <input type="submit" value="Send" class="send-btn">
               </form>
-          </section>
+            </section>
           </div>
         </div>
-      </div>
+        </div>
     </div>
   </section>
+
+
+
 
 <!-- Footer -->
 <section id="footer">
