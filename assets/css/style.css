@@ -735,12 +735,15 @@ h5{
     .home-content{
         width: 80%;
     }
-    #about h3{
+    
+    /* #about h3{
         margin-left: -0.8rem;
-    }
-    #skill h3{
+    } */
+
+    /* #skill h3{
         margin-left: -0.6rem;
-    }
+    } */
+
     /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: left;
     }
@@ -852,7 +855,7 @@ h5{
         margin-right: 0rem;
     }
     #error{
-        padding-top: 4rem;
+        padding-top: 6rem;
         padding-bottom: auto;
     }
     .home-title-pic img{
@@ -891,111 +894,6 @@ h5{
     -webkit-transform: translate3d(0,-15px, 0);
 	transform: translate3d(0,-15px,0);
 }
-
-
-/* .arrows {
-    width: 60px;
-    height: 72px;
-    position: absolute;
-    left: 50%;
-    margin-left: -30px;
-    bottom: 20px;
-  }
-  
-  .arrows path {
-    stroke: #2994D1;
-    fill: transparent;
-    stroke-width: 1px;  
-    animation: arrow 2s infinite;
-    -webkit-animation: arrow 2s infinite; 
-  }
-  
-  @keyframes arrow
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-  
-  @-webkit-keyframes arrow 
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-  
-  .arrows path.a1 {
-    animation-delay:-1s;
-    -webkit-animation-delay:-1s; 
-  }
-  
-  .arrows path.a2 {
-    animation-delay:-0.5s;
-    -webkit-animation-delay:-0.5s; 
-  }
-  
-  .arrows path.a3 { 
-    animation-delay:0s;
-    -webkit-animation-delay:0s; 
-  }
-
-.scroll-down{
-    padding-top: 2rem;
-} */
-
-
-
-.scroll-down a {
-    position: absolute;
-    margin-top: 2rem;
-    margin-top: 2rem;
-    left: 50%;
-    right: 50%;
-    z-index: 2;
-    display: inline-block;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    color: #fff;
-    font : normal 400 20px/1 'Josefin Sans', sans-serif;
-    letter-spacing: .1em;
-    text-decoration: none;
-    transition: opacity .3s;
-  }
-  .scroll-down a:hover {
-    opacity: .5;
-  }
-  #scroll-down a {
-    padding-top: 60px;
-  }
-  #scroll-down a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 46px;
-    height: 46px;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    box-sizing: border-box;
-  }
-  #scroll-down a span::after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    content: '';
-    width: 16px;
-    height: 16px;
-    margin: -12px 0 0 -8px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    box-sizing: border-box;
-  }
-
-
 
 #contact-form .name{
     color: mediumaquamarine;
