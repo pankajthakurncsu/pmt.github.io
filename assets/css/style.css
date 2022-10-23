@@ -754,6 +754,11 @@ h5{
     .footer p{
         text-align: center;
     }
+    ul{
+        margin-left: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
 }
 
 @media(max-width:576px) {
@@ -861,6 +866,9 @@ h5{
     }
     .home-title-pic img{
         padding-top: 1rem;
+    }
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+        text-align: center;
     }
 }
 
