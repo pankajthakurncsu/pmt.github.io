@@ -193,7 +193,8 @@ section{
     /* padding: 50px 4%; */
 
     /* padding: 80px 4%; */
-    padding: 80px 2%;
+    /* padding: 80px 2%; */
+    padding: 60px 2%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -735,7 +736,7 @@ h5{
     .home-content{
         width: 80%;
     }
-    
+
     /* #about h3{
         margin-left: -0.8rem;
     } */
