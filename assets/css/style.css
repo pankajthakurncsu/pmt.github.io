@@ -439,6 +439,37 @@ section{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.project4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    color: var(--light-slate);
+    font-size: var(--fz-lg);
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+.show-more-less{
+    background-color: var(--light-navy) !important;
+    color: var(--bs-teal) !important;
+    border-radius: 4px;
+    border-color: var(--bs-gray) !important;
+}
+.show-more-less:hover{
+    border-color: var(--bs-teal) !important;
+}
 .bi-arrow-up-right{
     color: var(--bs-gray) !important;
 }
