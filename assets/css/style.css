@@ -472,9 +472,12 @@ section{
     border-color: var(--bs-teal) !important;
     transition: all 0.5s ease-in-out;
 }
-.high-light{
+.high_light{
     font-size: small;
-    padding-inline: 2px;
+}
+.high_light span{
+    margin: 8px;
+    border-bottom: 1px solid var(--bs-success);
 }
 .bi-arrow-up-right{
     color: var(--bs-gray) !important;
