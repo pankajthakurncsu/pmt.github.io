@@ -700,14 +700,14 @@ h5{
     /* color: #6c6c6c; */
     /* color: rgba(179, 179, 179, 0.813); */
     /* color: rgba(6, 156, 170, 0.813); */
-    color: var(--bs-gray);
+    color: #cfcfcf;
     line-height: 0.2rem;
 }
 .source-code{
    font-family: var(--bs-font-monospace);
     font-size: smaller;
-    color: var(--bs-gray);
-    border-bottom: 1px solid var(--bs-gray);
+    color: #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
     padding-bottom: 0;
 }
 .source-code:hover{
