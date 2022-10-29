@@ -714,9 +714,6 @@ h5{
     color: var(--bs-light);
     border-bottom: 1px solid var(--bs-light);
 }
-#email:hover{
-    color: var(--bs-white);
-}
 /* Back to top button */
 #myBtn {
     display: none;
