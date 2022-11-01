@@ -195,7 +195,9 @@ section{
 
     /* padding: 80px 4%; */
     /* padding: 80px 2%; */
-    padding: 60px 2%;
+
+    /* padding: 60px 2%; */
+    padding: 60px 1%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
