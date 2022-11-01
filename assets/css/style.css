@@ -560,6 +560,7 @@ h5{
 /* Blog First Post Page */
 #blog-first-post{
     padding-top: 8rem;
+    background-color: rgba(10, 25, 47, 0.995) !important;
 }
 #hr-post{
     color: #343a40;
@@ -598,10 +599,12 @@ h5{
 /* Second Post Page */
 #blog-second-post{
     padding-top: 8rem;
+    background-color: rgba(10, 25, 47, 0.995) !important;
 }
 /* Third Post Page */
 #blog-third-post{
     padding-top: 8rem;
+    background-color: rgba(10, 25, 47, 0.995) !important;
 }
 /* Contact  */
 #contact{
