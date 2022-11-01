@@ -2,7 +2,7 @@
 
 Hi there,
 
-This is my first personal website built using HTML, CSS, JavScript, Boostrap.
+This is my first personal website version 1.0 built using HTML, CSS, JavScript, Boostrap.
 
 ### Visit [My Portfolio Website](https://dnyaneshkolhe.in/)
 
