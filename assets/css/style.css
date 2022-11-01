@@ -17,7 +17,8 @@ body, html{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* background-color: #fff; */
-    background-color: rgba(10, 25, 47, 0.85) !important;
+    /* background-color: rgba(10, 25, 47, 0.85) !important; */
+    background-color: rgba(10, 25, 47, 0.995) !important;
     /* color: #444452; */
     color: #fff;
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
