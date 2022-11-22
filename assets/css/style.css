@@ -58,7 +58,8 @@ body, html{
 
     --navy-shadow: rgba(2,12,27,0.7);
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
-    --border-radius: 4px;
+    /* --border-radius: 4px; */
+    --border-radius: 10px;
     /* --light-navy: #112240;
     --light-navy: #2d333d; */
     --light-navy: #131921;
