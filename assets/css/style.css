@@ -71,8 +71,8 @@ body, html{
    font-weight: bold;
    /* font-size: large; */
    font-family: Verdana, Geneva, Tahoma, sans-serif;
-   border-radius: 2px;
-   padding-inline: 2px;
+   border-radius: 4px;
+   padding-inline: 4px;
 }
 .navbar-brand:hover{
     color: var(--bs-gray);
@@ -131,7 +131,7 @@ body, html{
     /* text-decoration: underline; */
     /* color: var(--bs-dark); */
     /* color: var(--bs-gray); */
-    color: var(--bs-gray);
+    color: aliceblue;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
 }
