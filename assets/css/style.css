@@ -275,10 +275,11 @@ section{
 }
 .img-fluid{
     /* border-radius: 50%; */
-    border-radius: 4px;
+    border-radius: 5px;
     /* height: 150px; */
-    height: 200px;
-    width: auto;
+    /* height: 200px; */
+    height: auto;
+    width: 200px;
 }
 .home-content{
     /* padding-top: 30px; */
@@ -973,7 +974,8 @@ h5{
         padding-bottom: auto;
     }
     .home-title-pic img{
-        padding-top: 1rem;
+        /* padding-top: 1rem; */
+        margin-top: 1rem;
     }
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: center;
