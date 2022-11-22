@@ -612,7 +612,8 @@ h5{
 #blog-first-post{
     padding-top: 8rem;
     /* background-color: rgba(10, 25, 47, 0.995) !important; */
-    background-color: #24262e !important;
+    /* background-color: #24262e !important; */
+    background-color: #020a13 !important;
 }
 #hr-post{
     color: #343a40;
@@ -620,29 +621,38 @@ h5{
 #blog-title{
     text-align: justify;
     font-family: 'Poppins', sans-serif; 
+    color: var(--bs-white);
 }
 .post-date{
     font-size: small;
     /* color: #7c7c7c; */
-    color: #b3b3b3d5;
+    /* color: #b3b3b3d5; */
+    color: #ecececf8;
 }
 .post-date span{
     border-bottom: 1px solid;
     /* color: #7c7c7c; */
-    color: #b3b3b3d5;
+    /* color: #b3b3b3d5; */
+    color: #ecececf8;
+}
+#post-content-head{
+    font-size: 20px;
 }
 #post-content{
     /* color: #5c5c5c; */
-    color: rgba(245, 245, 245, 0.683);
+    /* color: rgba(245, 245, 245, 0.683); */
+    color: #ececec;
 }
 #post-link{
     font-size: small;
     /* color: teal; */
-    color: rgb(1, 167, 167);
+    /* color: rgb(1, 167, 167); */
+    color: rgb(126, 245, 245);
 }
 #post-link:hover{
     transition: all 0.3s ease-in-out;
-    border-bottom: 1px solid teal;
+    /* border-bottom: 1px solid teal; */
+    border-bottom: 1px solid rgb(1, 167, 167);;
 }
 #post-content-head{
     /* color: #000; */
