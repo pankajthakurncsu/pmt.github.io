@@ -852,7 +852,8 @@ h5{
     /* background-color: rgba(10, 25, 47, 0.85) !important; */
     /* background-color: #fffdfc; */
     /* background-color: #24262e !important; */
-    background-color: #020a13;
+    /* background-color: #020a13; */
+    background-color: #141626 !important;
     display: flex;
     z-index: 999;
     justify-content: center;
