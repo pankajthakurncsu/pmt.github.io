@@ -630,11 +630,18 @@ h5{
 }
 .btn{
     font-size: small;
-    color: #f8f9fa;
-    background-color: rgb(7, 89, 161);
+    /* color: #f8f9fa; */
+    /* background-color: rgb(7, 89, 161); */
+    background-color: #141626;
     margin-bottom: 2rem;
-    border-color: #444452;
-    border-radius: 5px;
+    /* border-color: #f7f7f7; */
+    border: 1px solid whitesmoke;
+    border-radius: 60px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #25273b !important;
+    border: 1px solid rgba(245, 245, 245, 0.861) !important;
 }
 /* Blog First Post Page */
 #blog-first-post{
