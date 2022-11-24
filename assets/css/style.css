@@ -362,7 +362,7 @@ section{
     background-color: #292741d8;
     border-radius: 30%;
     padding-inline: 6px;
-    margin-inline: 2;
+    margin-inline: 3px;
 }
 #social-links a:hover{
     /* color: rgba(0, 0, 0, 0.664); */
