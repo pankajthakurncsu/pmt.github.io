@@ -148,7 +148,7 @@ body, html{
     color: aliceblue;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
-    border-bottom: 1px solid #d2d2d2e1;
+    border-bottom: 1px solid #efe148e8;
 }
 .nav-hr{
     color: #eaebeb;
