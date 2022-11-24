@@ -253,16 +253,6 @@ section{
 #container-width{
     width: 60%;
 }
-/* #about h3, #skill h3, #project h3, #blog h3, #contact h3{ */
-    /* color: #007bff; */
-    /* color: var(--bs-primary); */
-    /* color: var(--bs-orange); */
-    /* font-weight:400;
-} */
-#skill h6{
-    padding-bottom: 0.5rem;
-    color: var(--bs-light);
-}
 .title-underline{
     /* border-bottom: 1px solid var(--bs-primary); */
     /* font-family: 'Montserrat', sans-serif; */
@@ -420,6 +410,24 @@ section{
     /* margin-bottom: 1rem; */
     margin-bottom: 2rem;
 }
+.home-title-pic img{
+    opacity: 0.8;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	/* -webkit-transform: translate3d(-40px,0, 0);
+	transform: translate3d(-40px,0,0); */
+    -webkit-transform: translate3d(0,0, 0);
+	transform: translate3d(0,0,0);
+}
+.home-title-pic img:hover{
+    opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	/* -webkit-transform: translate3d(-40px,0, 0);
+	transform: translate3d(-40px,0,0); */
+    -webkit-transform: translate3d(0,-15px, 0);
+	transform: translate3d(0,-15px,0);
+}
 .skill{
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Poppins', sans-serif; */
@@ -442,6 +450,10 @@ section{
     margin-top: 1rem;
     /* margin-bottom: 1rem; */
     margin-bottom: 2rem;
+}
+#skill h6{
+    padding-bottom: 0.5rem;
+    color: var(--bs-light);
 }
 .badge{
     /* background: var(--bs-light);
@@ -802,6 +814,15 @@ h5{
     background-color: rgba(241, 241, 241, 0.9);
     transition: 0.3s all linear ;
 }
+#contact-form .name{
+    color: mediumaquamarine;
+}
+#contact-form .email{
+    color: mediumaquamarine;
+}
+#contact-form .message{
+    color: mediumaquamarine;
+}
 /* Footer */
 #footer{
     padding-top: 2rem;
@@ -891,30 +912,12 @@ h5{
 }
 /* Media Query */
 @media(max-width:992px){
-    /* ul{
-        text-align: center;
-    } */
     #container-width{
         width: 100%;
     }
     .home-content{
         width: 80%;
     }
-
-    /* #about h3{
-        margin-left: -0.8rem;
-    } */
-
-    /* #skill h3{
-        margin-left: -0.6rem;
-    } */
-
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
-        text-align: left;
-    }
-    .view-all{
-        font-size: small;
-    } */
     .footer p{
         text-align: center;
     }
@@ -980,43 +983,6 @@ h5{
     .footer p{
         text-align: center;
     }
-
-    /* .about{
-        padding-left: 0.8rem;
-    } */
-
-    /* .skill{
-        padding-left: 0.6rem;
-    } */
-
-    /* #about h3{
-        margin-left: -0.5rem;
-    }
-    #skill h3{
-        margin-left: -0.5rem;
-    }
-    #project h3{
-        margin-left: -0.2rem;
-    }
-    #blog h3{
-        margin-left: -0.2rem;
-    }
-    #contact h3{
-        margin-left: -0.2rem;
-    } */
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
-        text-align: left;
-    } */
-    /* .about{
-        margin-left: 1.1rem;
-    }
-    .skill{
-        margin-left: 1.1rem;
-    } */
-    /* .project, .blog, .contact{
-        margin-left: 0.8rem; */
-        /* margin-left: 1rem; */
-    /* } */
     ul{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -1042,45 +1008,4 @@ h5{
     }
 }
 
-/* .effect-lily img{
-	opacity: 0.7;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-40px,0,0);
-}
-.effect-lily:hover img{
-    opacity: 1;
-    -webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-} */
-
-.home-title-pic img{
-    opacity: 0.8;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	/* -webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-40px,0,0); */
-    -webkit-transform: translate3d(0,0, 0);
-	transform: translate3d(0,0,0);
-}
-.home-title-pic img:hover{
-    opacity: 1;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	/* -webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-40px,0,0); */
-    -webkit-transform: translate3d(0,-15px, 0);
-	transform: translate3d(0,-15px,0);
-}
-
-#contact-form .name{
-    color: mediumaquamarine;
-}
-#contact-form .email{
-    color: mediumaquamarine;
-}
-#contact-form .message{
-    color: mediumaquamarine;
-}
 
