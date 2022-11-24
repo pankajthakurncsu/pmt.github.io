@@ -931,6 +931,12 @@ h5{
 }
 
 @media(max-width:576px) {
+    ul{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
     #container-width{
         width: 95%;
     }
@@ -949,13 +955,17 @@ h5{
     #about h3{
         margin-left: 0;
     }
-    #skill h3{
-        margin-left: 0;
-    }
     .about{
         font-weight: 400;
         /* font-size: medium; */
         font-size: 1rem;
+    }
+    .home-title-pic img{
+        /* padding-top: 1rem; */
+        margin-top: 1rem;
+    }
+    #skill h3{
+        margin-left: 0;
     }
     .skill{
         font-weight: 400;
@@ -976,6 +986,9 @@ h5{
         font-weight: 400;
         font-size: small;
     }
+    #blog-first-post, #blog-second-post, #blog-third-post{
+        margin-right: 0rem;
+    }
     .contact{
         font-weight: 400;
         /* font-size: medium; */
@@ -984,22 +997,9 @@ h5{
     .footer p{
         text-align: center;
     }
-    ul{
-        margin-left: 1rem;
-        margin-right: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    #blog-first-post, #blog-second-post, #blog-third-post{
-        margin-right: 0rem;
-    }
     #error{
         padding-top: 6rem;
         padding-bottom: auto;
-    }
-    .home-title-pic img{
-        /* padding-top: 1rem; */
-        margin-top: 1rem;
     }
     #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: center;
