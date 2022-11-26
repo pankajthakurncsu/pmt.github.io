@@ -502,7 +502,6 @@ section{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
-
     border: 0.5px solid #a8b2d10e;
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     transition: var(--transition);
@@ -513,7 +512,6 @@ section{
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
-
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -521,7 +519,6 @@ section{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
-
     border: 0.5px solid #a8b2d10e;
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     transition: var(--transition);
@@ -532,7 +529,6 @@ section{
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
-
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -540,7 +536,6 @@ section{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
-
     border: 0.5px solid #a8b2d10e;
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     transition: var(--transition);
@@ -551,7 +546,6 @@ section{
     background-color: var(--light-navy);
     color: var(--light-slate);
     font-size: var(--fz-lg);
-
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -589,7 +583,6 @@ section{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
-
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     transition: var(--transition);
     position: relative;
@@ -600,7 +593,6 @@ section{
     background-color: var(--light-navy);
     /* color: var(--light-slate); */
     /* font-size: var(--fz-lg); */
-
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -674,7 +666,7 @@ h5{
     background-color: #141626 !important;
 }
 #hr-post{
-    color: #343a40;
+    color: #eaebeb;
 }
 #blog-title{
     text-align: justify;
@@ -705,7 +697,7 @@ h5{
     font-size: small;
     /* color: teal; */
     /* color: rgb(1, 167, 167); */
-    color: rgb(126, 245, 245);
+    color: rgb(110, 209, 209);
 }
 #post-link:hover{
     transition: all 0.3s ease-in-out;
