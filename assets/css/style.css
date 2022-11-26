@@ -711,12 +711,14 @@ h5{
 /* Second Post Page */
 #blog-second-post{
     padding-top: 8rem;
-    background-color: rgba(10, 25, 47, 0.995) !important;
+    /* background-color: rgba(10, 25, 47, 0.995) !important; */
+    background-color: #141626 !important;
 }
 /* Third Post Page */
 #blog-third-post{
     padding-top: 8rem;
-    background-color: rgba(10, 25, 47, 0.995) !important;
+    /* background-color: rgba(10, 25, 47, 0.995) !important; */
+    background-color: #141626 !important;
 }
 /* Contact  */
 #contact{
