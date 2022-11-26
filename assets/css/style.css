@@ -822,10 +822,6 @@ h5{
     padding-top: 0rem;
     padding-bottom: 0.5rem;
 }
-.fixed-bottom{
-    background-color: #141626f3 !important;
-    backdrop-filter: 4%;
-}
 .hr-footer{
     /* color: #000; */
     color: var(--bs-gray);
@@ -875,7 +871,7 @@ h5{
 #myBtn:hover {
     /* background-color: rgba(66, 65, 65, 0.977); */
     /* background-color: rgba(10, 25, 47, 0.664); */
-    background-color: rgba(1, 123, 125, 0.6);
+    background-color: rgba(107, 118, 134, 0.664);
 }
 /* Preloader */
 #Preloader {
