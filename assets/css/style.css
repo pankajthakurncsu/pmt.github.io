@@ -308,27 +308,28 @@ section{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.fa-hand-point-right{
+/* .fa-hand-point-right{
     color: rgb(219, 156, 74);
-}
-.wave:hover{
-    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
-    animation-iteration-count: infinite;  /* Never stop waving :) */
-    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+} */
+/* .wave:hover{
+    animation-name: wave-animation;
+    animation-duration: 2.5s; 
+    animation-iteration-count: infinite; 
+    transform-origin: 70% 70%;
     display: inline-block;
-}
+} */
 
-@keyframes wave-animation {
+/* @keyframes wave-animation {
     0% { transform: rotate( 0.0deg) }
-    10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+    10% { transform: rotate(14.0deg) }
     20% { transform: rotate(-8.0deg) }
     30% { transform: rotate(14.0deg) }
     40% { transform: rotate(-4.0deg) }
     50% { transform: rotate(10.0deg) }
-    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    60% { transform: rotate( 0.0deg) } 
     100% { transform: rotate( 0.0deg) }
-}
+} */
+
 .name{
     /* color: rgb(112, 112, 112); */
     /* color: var(--bs-gray-dark); */
@@ -564,6 +565,7 @@ section{
     font-weight: 600 !important;
 }
 .show-more-less:hover{
+    color: #0dcaf0 !important;
     border-color: var(--bs-teal) !important;
     transition: all 0.5s ease-in-out;
 }
@@ -598,7 +600,7 @@ section{
     margin-bottom: 1rem;
 }
 .lastest_post{
-   border-bottom: 0.5px solid #d4d4d4;
+    border-bottom: 0.5px solid #d4d4d4;
 }
 /* Index Blog Main Page */
 .view-all{
@@ -747,8 +749,20 @@ h5{
     /* margin-bottom: 1rem; */
     margin-bottom: 2rem;
 }
+.get_in_touch{
+    border-bottom: 0.5px solid #d4d4d4;
+}
 .fa-location-arrow{
     font-size: small;
+}
+.fa-envelope{
+    font-size: small;
+}
+.mailto:hover{
+    color: var(--bs-light);
+}
+.send_message{
+    border-bottom: 0.5px solid #d4d4d4;
 }
 #contact_form-content{
     padding-top: 0;
@@ -818,6 +832,14 @@ h5{
 }
 #contact-form .message{
     color: mediumaquamarine;
+}
+.go-home{
+    font-family: 'Cabin', sans-serif;
+    font-size: small;
+}
+.go-home span a:hover{
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 /* Footer */
 #footer{
