@@ -818,8 +818,13 @@ h5{
 }
 /* Footer */
 #footer{
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    padding-top: 0rem;
     padding-bottom: 0.5rem;
+}
+.fixed-bottom{
+    background-color: #141626f3 !important;
+    backdrop-filter: 4%;
 }
 .hr-footer{
     /* color: #000; */
