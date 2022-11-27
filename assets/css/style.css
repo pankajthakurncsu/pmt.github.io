@@ -372,7 +372,7 @@ section{
     /* background-color: var(--bs-dark); */
     background-color: var(--bs-light);
     color: var(--bs-primary);
-    border-radius: 5px;
+    border-radius: 40px;
     font-size: small;
     font-weight: 400;
     margin-top: 2rem;
@@ -749,20 +749,16 @@ h5{
     /* margin-bottom: 1rem; */
     margin-bottom: 2rem;
 }
-.get_in_touch{
-    border-bottom: 0.5px solid #d4d4d4;
-}
-.fa-location-arrow{
+/* .fa-location-arrow{
     font-size: small;
 }
 .fa-envelope{
     font-size: small;
-}
+} */
 .mailto:hover{
     color: var(--bs-light);
-}
-.send_message{
-    border-bottom: 0.5px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    font-style: italic;
 }
 #contact_form-content{
     padding-top: 0;
@@ -812,17 +808,25 @@ h5{
     background-color: var(--bs-light);
     color: var(--bs-primary);
     cursor: pointer;
-    border: 0.8px solid rgba(19, 19, 19, 0.763);
-    border-radius: 5px;;
+    /* border: 0.8px solid rgba(19, 19, 19, 0.763); */
+    border: 0.8px solid var(--bs-white);
+    /* border-radius: 5px; */
+    border-radius: 40px;
 }
 .contact-form .send-btn:hover{
     /* background: #546eff9a;
     transition: 0.3s all linear ; */
     /* color: #f8f8f8; */
-    color: var(--bs-blue);
+
+    /* color: var(--bs-blue); */
+    color: var(--bs-white);
+
     /* background: #0202029a; */
-    background-color: rgba(241, 241, 241, 0.9);
-    transition: 0.3s all linear ;
+    /* background-color: rgba(241, 241, 241, 0.9); */
+
+    background-color: var(--bs-dark);
+    /* transition: 0.3s all linear ; */
+    transition: all 0.5s ease-in-out;
 }
 #contact-form .name{
     color: mediumaquamarine;
@@ -833,13 +837,12 @@ h5{
 #contact-form .message{
     color: mediumaquamarine;
 }
-.go-home{
+.collab{
     font-family: 'Cabin', sans-serif;
-    font-size: small;
+    font-size: 12px;
 }
-.go-home span a:hover{
-    color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
+.collab:hover{
+    border-bottom: 1px solid gray;
 }
 /* Footer */
 #footer{
