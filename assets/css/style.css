@@ -876,6 +876,10 @@ h5{
     color: var(--bs-light);
     border-bottom: 1px solid var(--bs-light);
 }
+.update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+}
 /* Back to top button */
 #myBtn {
     display: none;
