@@ -373,7 +373,8 @@ section{
     background-color: var(--bs-light);
     color: var(--bs-primary);
     border-radius: 40px;
-    font-size: small;
+    /* font-size: small; */
+    font-size: smaller;
     font-weight: 400;
     margin-top: 2rem;
 }
