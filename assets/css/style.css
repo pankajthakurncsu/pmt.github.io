@@ -724,6 +724,9 @@ h5{
     background-color: #141626 !important;
 }
 /* Contact  */
+.contact_message{
+    text-align: justify;
+}
 #contact{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
