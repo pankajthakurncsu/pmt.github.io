@@ -238,7 +238,8 @@ section{
 
     /* padding: 60px 2%; */
     /* padding: 60px 1%; */
-    padding: 80px 1%;
+    /* padding: 80px 1%; */
+    padding: 80px 0.5%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -374,7 +375,7 @@ section{
     color: var(--bs-primary);
     border-radius: 40px;
     /* font-size: small; */
-    font-size: smaller;
+    font-size: small;
     font-weight: 400;
     margin-top: 2rem;
 }
@@ -566,7 +567,7 @@ section{
     font-weight: 600 !important;
 }
 .show-more-less:hover{
-    color: #0dcaf0 !important;
+    color: #4cf4c2 !important;
     border-color: var(--bs-teal) !important;
     transition: all 0.5s ease-in-out;
 }
@@ -738,7 +739,7 @@ h5{
     font-size: 1.2rem;
     font-weight: 300;
 
-    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    /* box-shadow: 0 10px 30px -15px var(--navy-shadow); */
     transition: var(--transition);
     position: relative;
     z-index: 2;
