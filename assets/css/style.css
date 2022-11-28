@@ -842,13 +842,6 @@ h5{
 #contact-form .message{
     color: mediumaquamarine;
 }
-.collab{
-    font-family: 'Cabin', sans-serif;
-    font-size: 12px;
-}
-.collab:hover{
-    border-bottom: 1px solid gray;
-}
 /* Footer */
 #footer{
     /* padding-top: 2rem; */
