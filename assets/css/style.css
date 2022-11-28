@@ -639,6 +639,7 @@ section{
 }
 .project_links_button a:hover{
     color: var(--bs-light);
+    border-bottom: none;
 }
 /* Blog */
 .blog{
