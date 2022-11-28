@@ -156,7 +156,8 @@ body, html{
 #p{
     /* color: #4b4b4b; */
     /* color: var(--bs-dark); */
-    color: #fff;
+    /* color: #fff; */
+    color: #D0D4E7;
     font-weight: 300;
 }
 a {
@@ -239,7 +240,7 @@ section{
     /* padding: 60px 2%; */
     /* padding: 60px 1%; */
     /* padding: 80px 1%; */
-    padding: 80px 0.5%;
+    padding: 80px 0.9%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -573,7 +574,8 @@ section{
 }
 .high_light{
     font-size: small;
-    color: #d9dade;
+    /* color: #d9dade; */
+    color: #D0D4E7;
     font-size: 300;
 }
 .high_light span{
@@ -727,6 +729,7 @@ h5{
 }
 /* Contact  */
 .contact_message{
+    color: #D0D4E7;
     text-align: justify;
 }
 #contact{
@@ -760,6 +763,12 @@ h5{
 .fa-envelope{
     font-size: small;
 } */
+.address-color{
+    color: #D0D4E7;
+}
+.mailto{
+    color: #D0D4E7;
+}
 .mailto:hover{
     color: var(--bs-light);
     border-bottom: 1px solid #d4d4d4;
