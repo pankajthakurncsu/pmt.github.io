@@ -479,6 +479,13 @@ section{
     border-radius: 10px;
 }
 /* Project */
+.links a{
+    margin-inline-end: 5px;
+}
+.links a:hover{
+    color: #20c997;
+    border-bottom: 1px solid #20c997;
+}
 .project{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
@@ -576,11 +583,14 @@ section{
     font-size: small;
     /* color: #d9dade; */
     color: #D0D4E7;
-    font-size: 300;
+    font-size: 400;
 }
 .high_light span{
+    background-color: #393a4b;
     margin-inline-end: 8px;
+    padding-inline: 4px;
     border-bottom: 1px solid var(--bs-success);
+    border-radius: 10px;
 }
 .bi-arrow-up-right{
     color: var(--bs-gray) !important;
