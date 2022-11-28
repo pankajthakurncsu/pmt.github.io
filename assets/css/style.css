@@ -585,6 +585,61 @@ section{
 .bi-arrow-up-right{
     color: var(--bs-gray) !important;
 }
+/* Project Deatils Pages */
+#project_details{
+    padding-top: 10rem;
+    line-height: 2;
+}
+.project_details_underline{
+    margin-bottom: 2rem;
+}
+.project_details_underline span{
+    border-bottom: 1px solid #e3e3e3;
+}
+.project_details-content{
+    border: 0.5px solid #a8b2d10e;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--light-navy);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.overview{
+    color: #84e6c9;
+    margin-top: 2rem;
+}
+.tech_used{
+    color: #84e6c9;
+    margin-top: 2rem;
+}
+.project_links{
+    color: #84e6c9;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.project_links_button{
+    font-size: small;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 18px;
+    background-color: rgba(235, 235, 235, 0.897);
+}
+.project_links_button a{
+    color: var(--bs-primary);
+}
+.project_links_button:hover{
+    background-color: #141626;
+    border: 1px solid var(--bs-light);
+}
+.project_links_button a:hover{
+    color: var(--bs-light);
+}
 /* Blog */
 .blog{
     font-family: 'Montserrat', sans-serif;
@@ -862,6 +917,7 @@ h5{
     color: var(--bs-gray);
 }
 .footer p{
+    text-align: center;
     font-family: 'Nunito', sans-serif;
     /* font-size: small; */
     font-size: 0.9rem;
@@ -883,7 +939,7 @@ h5{
     color: var(--bs-light);
     border-bottom: 1px solid var(--bs-light);
 }
-.update{
+.version{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-small;
 }
