@@ -77,8 +77,9 @@ body, html{
 .navbar-brand{
    /* color: black; */
    /* color: var(--bs-light); */
-   color: #212529f3;
-   background-color: #f8f9fae7;
+   /* color: #212529f3; */
+   /* background-color: #f8f9fae7; */
+   color: #f8f9fae7;
    font-weight: bold;
    /* font-size: large; */
    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
