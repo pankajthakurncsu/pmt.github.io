@@ -920,11 +920,11 @@ h5{
     color: mediumaquamarine;
 }
 /* Footer Social Links */
-.footer_social_title{
+.footer_social_links_title{
     color: #84e6c9;
+    margin-bottom: 2rem;
 }
 #footer_social_links{
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 #footer_social_links a{
@@ -940,7 +940,7 @@ h5{
     padding-inline: 6px;
     margin-inline: 3px;
 }
-#footer_social-links a:hover{
+#footer_social_links a:hover{
     /* color: rgba(0, 0, 0, 0.664); */
     /* color: var(--bs-gray); */
     background-color: #e0e0e0f5;
