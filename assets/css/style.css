@@ -920,10 +920,14 @@ h5{
     color: mediumaquamarine;
 }
 /* Footer Social Links */
-#footer_social-links{
+.footer_social_title{
+    color: #84e6c9;
+}
+#footer_social_links{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
-#footer_social-links a{
+#footer_social_links a{
     /* color: rgba(96, 96, 96, 0.986); */
     /* color: var(--bs-gray-dark); */
     /* color: #000; */
