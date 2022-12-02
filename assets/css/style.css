@@ -926,6 +926,7 @@ h5{
 }
 #footer_social_links{
     margin-bottom: 2rem;
+    padding-inline: 2rem;
 }
 #footer_social_links a{
     /* color: rgba(96, 96, 96, 0.986); */
@@ -963,7 +964,7 @@ h5{
     font-family: 'Nunito', sans-serif;
     /* font-size: small; */
     font-size: 0.9rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     /* color: #6c6c6c; */
     /* color: rgba(179, 179, 179, 0.813); */
     /* color: rgba(6, 156, 170, 0.813); */
