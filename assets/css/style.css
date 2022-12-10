@@ -365,11 +365,9 @@ section{
     background-color: var(--bs-light);
     color: var(--bs-primary);
     border-radius: 40px;
-    /* font-size: small; */
     font-size: small;
     font-weight: 400;
-    /* margin-top: 2rem; */
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 #get-in-touch:hover{
     /* background-color: var(--bs-orange); */
