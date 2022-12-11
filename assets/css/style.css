@@ -192,6 +192,7 @@ section{
 }
 .about{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     padding-left: 0;
     font-weight: 300;
     padding-top: 1rem;
@@ -228,6 +229,7 @@ section{
 }
 .skill{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     padding-left: 0;
     padding-top: 1rem;
     border: 0.5px solid #a8b2d10e;
@@ -292,26 +294,8 @@ section{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.project5{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 300;
-    border: 0.5px solid #a8b2d10e;
-    box-shadow: 0 10px 30px -15px var(--bg-shadow);
-    transition: var(--transition);
-    position: relative;
-    z-index: 2;
-    padding: 25px;
-    border-radius: var(--border-radius);
-    background-color: var(--bg-color);
-    color: var(--txt-color);
-    font-size: var(--font-size);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 .project3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
     font-weight: 300;
     border: 0.5px solid #a8b2d10e;
     box-shadow: 0 10px 30px -15px var(--bg-shadow);
@@ -324,11 +308,10 @@ section{
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .project4{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
     font-weight: 300;
     border: 0.5px solid #a8b2d10e;
     box-shadow: 0 10px 30px -15px var(--bg-shadow);
@@ -339,7 +322,24 @@ section{
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
-    margin-top: 2rem;
+    font-size: var(--font-size);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.project5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    border: 0.5px solid #a8b2d10e;
+    box-shadow: 0 10px 30px -15px var(--bg-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: 25px;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    font-size: var(--font-size);
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 [aria-expanded="false"] > .expanded,
@@ -386,7 +386,6 @@ section{
 /* Blog */
 .blog{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
     font-weight: 300;
     box-shadow: 0 10px 30px -15px var(--bg-shadow);
     transition: var(--transition);
@@ -418,7 +417,7 @@ section{
 }
 .card{
     margin-bottom: 2rem;
-    opacity: 90%;
+    opacity: 80%;
 }
 h5{
     color: #212529;
@@ -632,17 +631,6 @@ h5{
     font-weight: 500;
     color: #cfcfcf;
     line-height: 0.2rem;
-}
-.source-code{
-   font-family: var(--bs-font-monospace);
-    font-size: smaller;
-    color: #cfcfcf;
-    border-bottom: 1px solid #cfcfcf;
-    padding-bottom: 0;
-}
-.source-code:hover{
-    color: var(--bs-light);
-    border-bottom: 1px solid var(--bs-light);
 }
 .version{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
