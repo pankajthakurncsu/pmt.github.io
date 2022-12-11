@@ -729,15 +729,15 @@ h5{
         width: 96%;
         margin-left: 1rem;
     }
-    /* #about h3{
+    #about h3{
         margin-left: 0;
-    } */
+    }
     .home-title-pic img{
         margin-top: 1rem;
     }
-    /* #skill h3{
+    #skill h3{
         margin-left: 0;
-    } */
+    }
     .view-all a{
         font-weight: 400;
         font-size: small;
@@ -752,9 +752,9 @@ h5{
         padding-top: 6rem;
         padding-bottom: auto;
     }
-    /* #about h3, #skill h3, #project h3, #blog h3, #contact h3{
+    #about h3, #skill h3, #project h3, #blog h3, #contact h3{
         text-align: center;
-    } */
+    }
     .show-more-less{
         font-size: 0.8rem
     }
