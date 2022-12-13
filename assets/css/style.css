@@ -27,7 +27,6 @@ body, html{
     --bs-gray: #6c757d;
     --bs-dark: #212529;
     --bs-primary: #0d6efd;
-    --bs-indigo: #6610f2;
     --bs-success: #198754;
     --bg-shadow: rgba(2,12,27,0.7);
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -426,23 +425,31 @@ h5{
     color: #112240;
 }
 .card-body p > a{
-    color: var(--bs-indigo);
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--bs-dark);
+    font-size: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 14px;
+    border: 1px solid var(--bs-gray);
+}
+.card-body p > a:hover{
+    color: var(--bs-light);
+    background-color: var(--bs-dark);
+    transition: all 0.5sec ease-in-out;
 }
 #blog_list_img{
     height: 250px;
 }
-.fa-arrow-down{
-    font-size: small;
-    font-weight: 100;
-    color: #6610f2;
-}
 .first-blog-title{
     padding-top: 2rem;
 }
-  .second-blog-title{
+.second-blog-title{
     padding-top: 1rem;
 }
-  .third-blog-title{
+.third-blog-title{
     padding-top: 1rem;
     padding-bottom: 22rem;
 }
@@ -472,18 +479,23 @@ h5{
     color: var(--bs-white);
 }
 .post-date{
-    font-size: small;
     color: #ecececf8;
+    font-size: small;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .post-date span{
-    border-bottom: 1px solid;
     color: #ecececf8;
+    font-family: 'Nunito Sans', sans-serif;
+    border-bottom: 1px solid;
 }
 #post-content-head{
     font-size: 20px;
+    color: var(--bs-light);
+    font-family: 'Cabin', sans-serif;
 }
 #post-content{
-    color: #ececec;
+    color: var(--txt-color);
+    font-family: 'Montserrat', sans-serif;
 }
 #post-link{
     font-size: small;
@@ -492,9 +504,6 @@ h5{
 #post-link:hover{
     transition: all 0.3s ease-in-out;
     border-bottom: 1px solid rgb(1, 167, 167);;
-}
-#post-content-head{
-    color: #fff;
 }
 /* Second Post Page */
 #blog-second-post{
