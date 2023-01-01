@@ -641,6 +641,10 @@ h5{
     color: #cfcfcf;
     line-height: 0.2rem;
 }
+.version{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+}
 /* Back to top button */
 #myBtn {
     display: none;
@@ -705,6 +709,7 @@ h5{
         padding-bottom: 1rem;
     }
 }
+
 @media(max-width:576px) {
     ul{
         margin-left: 1rem;
