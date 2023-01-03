@@ -55,7 +55,7 @@ function validate() {
 validate();
 
 function sendmail(name,email,msg){
-  emailjs.send("service_m8bonqe","template_wtg6f5w",{
+  emailjs.send("service_4nsrzz9","template_wtg6f5w",{
       from_name: email,
       to_name: name,
       message: msg,
