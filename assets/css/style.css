@@ -627,7 +627,8 @@ h5{
 }
 /* Footer */
 #footer{
-    padding-top: 0rem;
+    /* padding-top: 0; */
+    padding: 0.5rem;
     padding-bottom: 0;
 }
 .hr-footer{
@@ -641,10 +642,10 @@ h5{
     color: #cfcfcf;
     line-height: 0.2rem;
 }
-.version{
+/* .version{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-small;
-}
+} */
 /* Back to top button */
 #myBtn {
     display: none;
