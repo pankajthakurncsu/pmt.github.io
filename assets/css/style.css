@@ -386,8 +386,17 @@ section{
 }
 /* Project Details Page */
 .project-details{
-    width: 60%;
-    padding-top: 5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 30px -15px var(--bg-shadow);
+    background-color: var(--bg-color);
+    border: 0.5px solid #a8b2d10e;
+    width: 80%;
+    transition: var(--transition);
+    position: relative;
+    z-index: 1;
+    padding: 25px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-size: 1.1rem;
 }
 .project-details-title{
@@ -407,7 +416,14 @@ section{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     margin-bottom: 2rem;
-    }
+}
+.learn{
+    color: #20c997;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .live-link{
     margin-right: 3px;
     margin-top: 1rem;
