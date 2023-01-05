@@ -393,10 +393,10 @@ section{
     width: 80%;
     transition: var(--transition);
     position: relative;
-    z-index: 1;
+    z-index: 2;
     padding: 25px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-size: 1.1rem;
 }
 .project-details-title{
