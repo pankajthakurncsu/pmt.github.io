@@ -366,6 +366,9 @@ section{
     margin-inline-end: 8px;
     border-bottom: 1px solid var(--bs-success);
 }
+.high_light_2{
+    border-bottom: none !important;
+}
 .bi-arrow-up-right{
     color: var(--bs-gray) !important;
 }
@@ -380,6 +383,57 @@ section{
 .overview{
     color: #84e6c9;
     margin-top: 2rem;
+}
+/* Project Details Page */
+.project-details{
+    width: 60%;
+    padding-top: 5rem;
+    font-size: 1.1rem;
+}
+.project-details-title{
+    /* padding-bottom: 2rem; */
+    color: whitesmoke;
+}
+.project-details-title-2{
+    padding-bottom: 2rem;
+    font-size: small;
+    font-style: italic;
+}
+.project-details-title span{
+    border-bottom: 1px solid var(--bs-gray);
+}
+.project-details-content-tittle{
+    color: #20c997;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    }
+.live-link{
+    margin-right: 3px;
+    margin-top: 1rem;
+    font-size: small;
+}
+.live-link:hover{
+    color: var(--bs-light) !important;
+}
+.github-link{
+    margin-left: 3px;
+    margin-top: 1rem;
+}
+.github-link:hover{
+    color: var(--bs-light) !important;
+}
+.backtohome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+.backtohome:hover{
+    color: var(--bs-white);
+    border-bottom: 0.5px solid var(--bs-gray);
+}
+.bi-arrow-left{
+    color: var(--bs-white);
+    font-size: small;
 }
 /* Blog */
 .blog{
@@ -715,6 +769,10 @@ h5{
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    .project-details{
+        width: 95%;
+        padding-top: 5rem;
+    }
 }
 
 @media(max-width:576px) {
@@ -761,6 +819,10 @@ h5{
     }
     .show-more-less{
         font-size: 0.8rem
+    }
+    .project-details{
+        width: 95%;
+        padding-top: 5rem;
     }
 }
 
