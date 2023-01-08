@@ -41,11 +41,12 @@ body, html{
 .navbar-brand{
    background-color: var(--bs-light);
    /* color: #f8f9fae7; */
-   color: var(--bs-dark);
+   color: rgba(0, 0, 0, 0.801);
    font-weight: bold;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    border-radius: 4px;
    padding-inline: 4px;
+   backdrop-filter: 10%;
 }
 .navbar-brand:hover{
     background-color: var(--bs-light);
