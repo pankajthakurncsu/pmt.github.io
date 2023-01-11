@@ -28,7 +28,6 @@ body, html{
     --bs-primary: #0d6efd;
     --bs-success: #198754;
     --bg-shadow: rgba(2,12,27,0.7);
-    --bg-shadow: rgba(58, 47, 85, 0.858);
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     --border-radius: 20px;
     --bg-color: #1b1e30;
