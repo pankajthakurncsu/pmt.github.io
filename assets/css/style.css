@@ -42,8 +42,7 @@ body, html{
    padding-inline: 4px;
 }
 .navbar-brand:hover{
-    background-color: var(--bs-light);
-    color: var(--bs-gray);
+    color: var(--bs-gray) !important;
     border-bottom: none;
 }
 .navbar-toggler{
@@ -742,8 +741,8 @@ h5{
 .hr-footer{
     color: var(--bs-gray);
     /* color: #141626 !important; */
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .footer p{
     text-align: center;
