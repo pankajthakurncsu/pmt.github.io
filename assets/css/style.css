@@ -62,7 +62,8 @@ body, html{
     background-color: #141626a8 !important;
     backdrop-filter: blur(10px) !important;
     /* box-shadow: 0 2px 2px -2px rgba(219, 219, 219, 0.452); */
-    box-shadow: 0 2px 2px -2px rgba(113, 113, 113, 0.267);
+
+    /* box-shadow: 0 2px 2px -2px rgba(113, 113, 113, 0.267); */
 }
 .nav-link {
     font-family: 'Poppins', sans-serif;
@@ -736,6 +737,8 @@ h5{
 .hr-footer{
     color: var(--bs-gray);
     /* color: #141626 !important; */
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .footer p{
     text-align: center;
