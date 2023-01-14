@@ -234,6 +234,11 @@ section{
     -webkit-transform: translate3d(0,-15px, 0);
 	transform: translate3d(0,-15px,0);
 }
+.resume{
+    margin-top: 2rem;
+    margin-bottom: 0 !important;
+    color: var(--bs-light);
+}
 .skill{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -855,6 +860,9 @@ h5{
     }
     .about_pic img{
         margin-top: 1rem;
+    }
+    #resume{
+        text-align: center !important;
     }
     #skill h3{
         margin-left: 0;
