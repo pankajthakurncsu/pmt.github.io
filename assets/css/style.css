@@ -32,7 +32,9 @@ body, html{
     --border-radius: 20px;
     --bg-color: #1b1e30;
     --txt-color: #D0D4E7;
-    --font-size: 17px;
+    /* --font-size: 17px; */
+    --font-size: 18px;
+    --font-weight: 400;
 }
 .navbar-brand{
    color: #f8f9fae7;
@@ -72,7 +74,8 @@ body, html{
 .nav-link {
     font-family: 'Poppins', sans-serif;
     font-size: large;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight);
     color: #d0d4e7;
 }
 .nav-link:hover{
@@ -86,13 +89,18 @@ body, html{
 .nav-hr{
     color: #eaebeb;
 }
+p{
+    font-weight: var(--font-weight);
+}
 #p{
     color: #D0D4E7;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight);
 }
 a {
     text-decoration: none;
     color: #e7ebed;
+    font-weight: var(--font-weight);
 }
 .link {
     position: relative;
@@ -168,10 +176,11 @@ section{
 }
 .hi{
     font-family: 'Montserrat', sans-serif;
+    font-weight: var(--font-weight) !important;
 }
 #name{
     font-family: 'Cabin', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -179,6 +188,7 @@ section{
 }
 .intro{
     font-family: 'Montserrat', sans-serif;
+    font-weight: var(--font-weight) !important;
 }
 .fa-laptop-code{
     color: var(--bs-gray);
@@ -197,10 +207,10 @@ section{
     transition: all 0.5s ease-in-out;
 }
 .about{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', san
+    s-serif;
     font-weight: 300;
     padding-left: 0;
-    font-weight: 300;
     padding-top: 1rem;
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
@@ -235,13 +245,15 @@ section{
 	transform: translate3d(0,-15px,0);
 }
 .resume{
+    font-family: 'Montserrat', sans-serif;
     margin-top: 2rem;
     margin-bottom: 0 !important;
     color: var(--bs-light);
 }
 .skill{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     padding-left: 0;
     padding-top: 1rem;
     /* border: 0.5px solid #a8b2d10e; */
@@ -262,9 +274,11 @@ section{
 #skill h6{
     padding-bottom: 0.5rem;
     color: var(--bs-light);
+    font-weight: var(--font-weight) !important;
 }
 .badge{
     color: var(--txt-color);
+    font-weight: var(--font-weight) !important;
     margin: 1px;
     border: 1px solid rgb(52, 124, 163);
     border-radius: 10px;
@@ -274,11 +288,13 @@ section{
     font-family: 'Montserrat', sans-serif;
     font-size: var(--font-size);
     color: var(--txt-color);
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
 }
 .project1{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight);
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
@@ -296,7 +312,8 @@ section{
 }
 .project2{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
@@ -314,7 +331,8 @@ section{
 }
 .project3{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
@@ -332,7 +350,8 @@ section{
 }
 .project4{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
@@ -350,7 +369,8 @@ section{
 }
 .project5{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
@@ -411,6 +431,10 @@ section{
     margin-top: 2rem;
 }
 /* Project Details Page */
+#project-details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: var(--font-weight) !important;
+}
 .project-details{
     border-radius: var(--border-radius);
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
@@ -490,7 +514,8 @@ section{
 /* Blog */
 .blog{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
@@ -625,11 +650,13 @@ h5{
 /* Contact  */
 #contact{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight);
 }
 .contact{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: var(--font-weight) !important;
     /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
