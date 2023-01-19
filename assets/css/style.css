@@ -880,7 +880,7 @@ h5{
     font-weight: bold;
     color: var(--bs-light);
     font-size: small;
-    margin-left: 2rem;
+    margin-left: 1rem;
     border-bottom: 1px solid var(--bs-gray);
 }
 #privacy-link span a:hover{
