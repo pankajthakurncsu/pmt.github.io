@@ -866,8 +866,11 @@ h5{
 }
 #visitor{
     color: #cfcfcf;
-    font-family: monospace;
-    font-size: x-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+#visitor:hover{
+    color: var(--bs-white);
 }
 #visitor-page{
     margin-top: 4rem;
