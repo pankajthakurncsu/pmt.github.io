@@ -864,6 +864,14 @@ h5{
     padding-bottom: 28rem;
     color: var(--bs-light);
 }
+#visitor{
+    color: #cfcfcf;
+    font-family: monospace;
+    font-size: x-small;
+}
+#visitor-page{
+    margin-top: 4rem;
+}
 /* Media Query */
 @media(max-width:992px){
     #container-width{
