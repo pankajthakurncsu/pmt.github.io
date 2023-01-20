@@ -733,7 +733,7 @@ h5{
     border: 0.8px solid rgba(19, 19, 19, 0.763);
     /* border: 0.8px solid rgba(89, 89, 89, 0.824); */
     /* border-radius: 0px; */
-    border-radius: 10px;
+    border-radius: 6px;
 }
 .contact-form .send-btn{
     width: 80px;
