@@ -33,7 +33,7 @@ body, html{
     --bg-color: #1b1e30;
     --txt-color: #D0D4E7;
     /* --font-size: 17px; */
-    --font-size: 18px;
+    --font-size: 17px;
     --font-weight: 400;
 }
 .navbar-brand{
@@ -178,7 +178,8 @@ section{
 }
 .home-content{
     font-size: 20px;
-    width: 50%;
+    /* width: 50%; */
+    width: 90%;
     font-weight: 400;
 }
 .hi{
@@ -250,6 +251,7 @@ section{
     margin-bottom: 2rem;
 }
 .about_pic img{
+    margin-top: 2rem;
     opacity: 0.8;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
@@ -796,8 +798,10 @@ h5{
 .hr-footer{
     color: var(--bs-gray);
     /* color: #141626 !important; */
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    /* margin-left: 2.5rem;
+    margin-right: 2.5rem; */
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 .footer p{
     text-align: center;
@@ -901,7 +905,8 @@ h5{
     }
     .home-content{
         font-weight: 400;
-        font-size: 1rem;
+        /* font-size: 1rem; */
+        font-size: 1.1rem;
         width: 96%;
         margin-left: 1rem;
     }
