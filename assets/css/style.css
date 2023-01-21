@@ -35,7 +35,8 @@ body, html{
     --txt-color: #D0D4E7;
     --font-size: 17px;
     --font-weight: 400;
-    --bg-padding: 16px;
+    /* --bg-padding: 16px; */
+    --bg-padding: 18px;
 }
 .navbar-brand{
    color: #f8f9fae7;
@@ -828,7 +829,8 @@ h5{
 .footer a{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
+    font-size: 1rem;
     font-weight: 500;
     color: #cfcfcf;
     line-height: 0.99rem;
