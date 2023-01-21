@@ -837,14 +837,12 @@ h5{
     color: #84e6c9;;
     transition: all 0.5s ease-in-out;
 }
-#counter{
+#bg{
     font-family: 'Nunito Sans', sans-serif;
     font-size: small;
     border-radius: 2px;
-    margin-top: 0.1rem;
-    margin-bottom: 0.1rem;
-    padding-inline: 1px;
-    margin-inline: 1px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 #counter:hover{
     color: none;
