@@ -240,7 +240,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     /* border: 0.5px solid #eaebef0e; */
     border: 0.8px solid #eaebef10;
     border-radius: var(--border-radius);
@@ -288,7 +289,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -327,7 +329,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -346,7 +349,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -365,7 +369,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -384,7 +389,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -403,7 +409,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
@@ -471,7 +478,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
@@ -546,7 +554,8 @@ section{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     border-radius: var(--border-radius);
@@ -687,7 +696,8 @@ h5{
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    padding: 25px;
+    /* padding: 25px; */
+    padding: 15px;
     /* border: 0.5px solid #a8b2d10e; */
     border: 0.8px solid #eaebef10;
     border-radius: var(--border-radius);
@@ -892,6 +902,10 @@ h5{
 }
 
 @media(max-width:576px) {
+    body, html{
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
     ul{
         /* margin-left: 1rem;
         margin-right: 1rem; */
@@ -900,9 +914,9 @@ h5{
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    #container-width{
+    /* #container-width{
         width: 95%;
-    }
+    } */
     .home-content{
         font-weight: 400;
         /* font-size: 1rem; */
