@@ -111,8 +111,8 @@ body, html{
     /* color: orange; */
     border: 0.5px solid #20c997;
     border-radius: 5px;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-size: small;
 }
 #nav-link-resume:hover{
