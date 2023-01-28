@@ -75,7 +75,7 @@ body, html{
 
         /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 200, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
 
-        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 200, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 200, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
 }
 .navbar{
     --bs-navbar-toggler-font-size: 1rem;
@@ -88,6 +88,7 @@ body, html{
     /* box-shadow: 0 2px 2px -2px rgba(113, 113, 113, 0.267); */
 
     --bs-navbar-toggler-focus-width: 0.1rem;
+    margin-right: 1rem;
 }
 .nav-link {
     /* font-family: 'Poppins', sans-serif; */
@@ -98,12 +99,26 @@ body, html{
     color: #d0d4e7;
 }
 .nav-link:hover{
-    font-size: medium;
+    /* font-size: medium; */
     font-weight: 400;
     color: aliceblue;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
-    border-bottom: 1px solid #efe148e8;
+    /* border-bottom: 1px solid #efe148e8; */
+}
+#nav-link-resume{
+    color: #20c997;
+    /* color: orange; */
+    border: 0.5px solid #20c997;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: small;
+}
+#nav-link-resume:hover{
+    color: #4beaba;
+    border: 0.5px solid #4beaba;
+    transition: all 0.5s ease-in-out;
 }
 .nav-hr{
     color: #eaebeb;
@@ -984,10 +999,15 @@ h5{
     ul{
         /* margin-left: 1rem;
         margin-right: 1rem; */
-        margin-left: 2rem;
-        margin-right: 2rem;
+
+        /* margin-left: 2rem;
+        margin-right: 2rem; */
+        text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
+    }
+    #nav-link-resume{
+        text-align: center !important;
     }
     /* #container-width{
         width: 99%;
