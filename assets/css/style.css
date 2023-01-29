@@ -20,6 +20,7 @@ body, html{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #141626 !important;
+    /* background-color: rgb(21, 21, 21) !important; */
     color: #d0d4e7;
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     line-height: 1.5;
@@ -37,14 +38,15 @@ body, html{
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     --border-radius: 20px;
     /* --bg-color: #1b1e30; */
-    --bg-color: #161829e0;
+    /* --bg-color: #161829e0; */
+    --bg-color: #1d1f32e0;
+    /* --bg-color: #202022; */
     --txt-color: #D0D4E7;
     /* --font-size: 17px; */
     --font-size: 18px;
     --font-weight: 400;
     /* --bg-padding: 16px; */
     --bg-padding: 17px;
-    
 }
 .navbar-brand{
    color: #f8f9fae7;
@@ -234,15 +236,31 @@ section{
 .fa-laptop-code{
     color: var(--bs-gray);
 }
+.hero-social-links{
+    margin-top: 2rem;
+}
+#hero-social-links a{
+    color: #fafaff;
+    padding: 0.2rem;
+    font-size: small;
+    font-weight: 400;
+}
+#hero-social-links a:hover{  
+    color: plum;
+    border-bottom: 1px solid var(--bs-gray);
+    transition: all 0.5s ease-in-out;
+}
+#right{
+    margin-left: 0.4rem;
+    margin-right: 0.1rem;
+}
 #get-in-touch{
     font-family: 'Roboto', sans-serif;
     background-color: var(--bs-light);
     color: var(--bs-dark);
     border-radius: 40px;
-    /* font-size: x-small; */
     font-size: small;
     font-weight: 400;
-    /* margin-top: 2rem; */
     margin-top: 1rem;
     margin-right: 1rem;
 }
@@ -251,19 +269,17 @@ section{
     color: var(--bs-white);
     transition: all 0.5s ease-in-out;
 }
-#more-about-me{
+/* #more-about-me{
     font-size: 12px;
-    /* margin-left: 0.3rem; */
     border-bottom: 1px solid var(--bs-gray);
 }
 #more-about-me:hover{
-    color: var(--bs-teal);
+    color: mediumaquamarine;
     font-size: 13px;
-    /* border-bottom: 1px solid var(--bs-gray); */
     border-bottom: 1.2px solid var(--bs-gray);
     transition: all 0.5s ease-in-out;
-    margin-left: 0.6rem;
-}
+    margin-left: 0.2rem;
+} */
 #more-about-me-2{
     font-family: 'Roboto', sans-serif;
     font-size: small;
@@ -292,7 +308,7 @@ section{
     font-weight: var(--font-weight);
     padding-left: 0;
     padding-top: 1rem;
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow); */
     transition: var(--transition);
     position: relative;
     z-index: 2;
@@ -300,9 +316,11 @@ section{
     /* padding: 15px; */
     padding: var(--bg-padding);
     /* border: 0.5px solid #eaebef0e; */
-    border: 0.8px solid #eaebef10;
+
+    /* border: 0.8px solid #eaebef10; */
     border-radius: var(--border-radius);
-    background-color: var(--bg-color);
+    
+    /* background-color: var(--bg-color); */
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
@@ -658,6 +676,18 @@ section{
 .blog_home_page_title{
     color: #ffffff;
 }
+#medium-blog{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#medium-blog-link{
+    color: pink;
+    border-bottom: 1px solid var(--bs-gray);
+}
+#medium-blog-link:hover{
+    color: plum;
+    transition: all 0.5s ease-out;
+}
 .card{
     margin-bottom: 2rem;
     opacity: 80%;
@@ -761,7 +791,8 @@ h5{
 }
 /* Contact  */
 #contact{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     /* font-weight: 300; */
     font-weight: var(--font-weight);
 }
@@ -779,15 +810,40 @@ h5{
     /* padding: 15px; */
     padding: var(--bg-padding);
     /* border: 0.5px solid #a8b2d10e; */
-    border: 0.8px solid #eaebef10;
+
+    /* border: 0.8px solid #eaebef10; */
     border-radius: var(--border-radius);
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.my_address{
+#container-width-2{
+    width: 85%;
+}
+.sayhi{
+    margin-top: 2rem;
+}
+#sayhi{
+    color: mediumaquamarine;
+    border: 2px solid mediumaquamarine;
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 300;
+}
+#sayhi:hover{
+    font-size: 16px;
+    color: #20c997;
+    border: 1px solid #20c997;
+    transition: all 0.5s ease-in-out;
+}
+#connect-me{
+    border-bottom: 1px solid var(--bs-gray);
+}
+
+/* .my_address{
     color: #F8F9FA;
 }
 .email_me{
@@ -821,10 +877,8 @@ h5{
     font-size: 0.8rem;
     padding: 10px;
     background: #f8f8f82c;
-    /* background: #2d303cb6; */
     border: 0.8px solid rgba(19, 19, 19, 0.763);
-    /* border: 0.8px solid rgba(89, 89, 89, 0.824); */
-    /* border-radius: 0px; */
+    border-radius: 0px;
     border-radius: 2px;
 }
 .contact-form .send-btn{
@@ -852,9 +906,10 @@ h5{
 }
 #contact-form .message{
     color: mediumaquamarine;
-}
+} */
+
 /* Footer Social Links */
-.footer_social_links_title{
+/* .footer_social_links_title{
     color: #84e6c9;
     margin-bottom: 2rem;
 }
@@ -871,6 +926,7 @@ h5{
     border-radius: 30%;
     padding-inline: 6px;
     margin-inline: 3px;
+    padding-bottom: 0;
 }
 #footer_social_links a:hover{
     background-color: #e0e0e0f5;
@@ -878,7 +934,7 @@ h5{
     border-bottom: none;
     transition: all 0.5s ease-in-out;
     margin-right: 1px;
-}
+} */
 /* Footer */
 #footer{
     /* padding-top: 0; */
@@ -887,6 +943,7 @@ h5{
     /* padding-bottom: 0.1rem; */
     padding-bottom: 0.8rem;
     margin-bottom: 0.2rem;
+    /* margin-bottom: 0.8rem; */
 }
 .hr-footer{
     color: var(--bs-gray);
@@ -910,6 +967,30 @@ h5{
 .footer a:hover{
     color: #84e6c9;;
     transition: all 0.5s ease-in-out;
+}
+#update-stat{
+    margin-top: 0.5rem;
+    font-size: small;
+    font-weight: 400;
+    font-family: monospace;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+#update-stat a:hover{
+    color: var(--bs-gray);
+    transition: all 0.6s ease-in-out;
+    border-bottom: 1px solid var(--bs-gray);
+}
+/* Update Stat Page */
+.update-stat-title{
+    border-bottom: 1px solid var(--bs-gray);
+}
+.update-stat{
+    margin-top: 5rem;
+    padding: 1rem;
+    background-color: var(--bs-light);
+    color: var(--bs-dark);
+    border-radius: 10px;
 }
 /* #credit a{
     color: var(--bs-light);
@@ -1007,6 +1088,8 @@ h5{
         padding-bottom: 1rem;
     }
     #nav-link-resume{
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
         text-align: center !important;
     }
     /* #container-width{
