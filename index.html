@@ -453,6 +453,7 @@
   <!-- <div>
     <p class="text-center version">v 1.0</p>
   </div> -->
+
   <div class="text-center" id="update-stat">
     <p><a href="./update.html" target="_blank">update stat</a></p>
   </div>
@@ -491,6 +492,13 @@
     emailjs.init("aySqTldZMDGeHRjgY");
   })();
 </script> -->
+
+<script>
+  function cb(response) {
+      document.getElementById('visits').innerText = response.value;
+  }
+  </script>
+  <script async src="https://api.countapi.xyz/hit/dnyaneshkolhe.in/visits?callback=cb"></script>
 
 </body>
 </html>
