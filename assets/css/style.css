@@ -822,6 +822,9 @@ h5{
 #container-width-2{
     width: 85%;
 }
+#p-justify{
+    text-align: justify;
+}
 .sayhi{
     margin-top: 2rem;
 }
@@ -838,6 +841,9 @@ h5{
     color: #20c997;
     border: 1px solid #20c997;
     transition: all 0.5s ease-in-out;
+}
+.connect-me{
+    margin-top: 4rem;
 }
 #connect-me{
     border-bottom: 1px solid var(--bs-gray);
