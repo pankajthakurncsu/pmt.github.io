@@ -422,7 +422,8 @@ section{
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.project1:hover, .project:active{
+.project1:hover:focus:active{
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
     transform: scale(1.1);
 }
