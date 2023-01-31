@@ -400,12 +400,6 @@ section{
     /* font-weight: 300; */
     font-weight: var(--font-weight) !important;
 }
-.stretched-link:hover{
-    color: #20c997;
-    text-decoration: underline;
-    text-decoration-color: var(--bs-gray);
-    transition: all 0.5s ease-in-out;
-}
 .project1{
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -427,6 +421,10 @@ section{
     font-size: var(--font-size);
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+.project1:hover, .project:active{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
 .project2{
     /* font-family: 'Montserrat', sans-serif; */
