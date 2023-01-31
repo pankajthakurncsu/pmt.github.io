@@ -425,9 +425,13 @@ section{
 .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover{
     box-shadow: none;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.1);
-    background-color: #141626;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+.stretched-link:hover{
+    pointer-events: pointer;
+    border-bottom: 1px solid var(--bs-gray);
+    color: #4beaba;
 }
 .project2{
     /* font-family: 'Montserrat', sans-serif; */
