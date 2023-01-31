@@ -400,6 +400,12 @@ section{
     /* font-weight: 300; */
     font-weight: var(--font-weight) !important;
 }
+.stretched-link:hover{
+    color: #20c997;
+    text-decoration: underline;
+    text-decoration-color: var(--bs-gray);
+    transition: all 0.5s ease-in-out;
+}
 .project1{
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -822,6 +828,9 @@ h5{
 #container-width-2{
     width: 85%;
 }
+#p-justify{
+    text-align: justify;
+}
 .sayhi{
     margin-top: 2rem;
 }
@@ -841,6 +850,7 @@ h5{
 }
 .connect-me{
     margin-top: 4rem;
+    font-size: 15px;
 }
 #connect-me{
     border-bottom: 1px solid var(--bs-gray);
