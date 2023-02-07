@@ -17,7 +17,7 @@
 body, html{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth !important;
+    /* scroll-behavior: smooth !important; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #141626 !important;
@@ -61,13 +61,15 @@ body, html{
     --bs-dark: #212529;
 
     --bg-shadow: rgba(2,12,27,0.7);
+    /* --bg-shadow: #c7c7c1be; */
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     /* border: 0.8px solid #eaebef10; */
     --border-border: 0.8px solid #eaebef10;
+    /* --border-border: 0.8px solid #ababab33; */
     --border-radius: 20px;
-    /* --bg-color: #1b1e30; */
-    /* --bg-color: #161829e0; */
+
     --bg-color: #1d1f32e0;
+    /* --bg-color: #ffffffa3; */
     /* --bg-color: #202022; */
     --txt-color: #D0D4E7;
     /* --font-size: 17px; */
@@ -75,10 +77,12 @@ body, html{
     --font-weight: 400;
     /* padding: 25px; */
     /* --bg-padding: 16px; */
-    --bg-padding: 17px;
+    /* --bg-padding: 17px; */
+    --bg-padding: 15px;
 }
 .navbar-brand{
    color: #f8f9fae7;
+   /* color: #000; */
    font-weight: bold;
    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
    border-radius: 4px;
@@ -91,6 +95,7 @@ body, html{
 .navbar-toggler{
     color: rgba(161, 161, 161, 0.13);
     /* border: 1px solid rgba(223, 223, 223, 0.847); */
+    border: 1px solid rgba(223, 223, 223, 0);
     /* border: 2px solid rgba(223, 223, 223, 0.847); */
     
     border-radius: 4px;
@@ -113,6 +118,7 @@ body, html{
     --bs-navbar-toggler-border-radius: 0rem;
     /* background-color: #141626d4 !important; */
     background-color: #141626a8 !important;
+    /* background-color: #ffffff86; */
     backdrop-filter: blur(10px) !important;
     /* box-shadow: 0 2px 2px -2px rgba(219, 219, 219, 0.452); */
 
@@ -139,7 +145,6 @@ body, html{
 }
 #nav-link-resume{
     color: #20c997;
-    /* color: orange; */
     border: 0.5px solid #20c997;
     border-radius: 5px;
     margin-left: 1rem;
@@ -152,14 +157,17 @@ body, html{
     transition: all 0.5s ease-in-out;
 }
 .nav-hr{
-    color: #eaebeb;
+    /* color: #eaebeb; */
+    color: var(--bs-gray-600);
 }
 p{
     /* color: #25273b; */
+    /* color: var(--bs-gray-800); */
     font-weight: var(--font-weight);
 }
 #p{
     color: #D0D4E7;
+    /* color: var(--bs-gray-800); */
     /* color: #25273b; */
     /* font-weight: 300; */
     font-weight: var(--font-weight);
@@ -167,6 +175,7 @@ p{
 a {
     text-decoration: none;
     color: #e7ebed;
+    /* color: #000; */
     font-weight: var(--font-weight);
 }
 .link {
@@ -281,6 +290,9 @@ section{
     border-bottom: 1px solid var(--bs-gray);
     transition: all 0.5s ease-in-out;
 }
+/* .bi .bi-box-arrow-up-right{
+    color: var(--bs-gray-900);
+} */
 #right{
     margin-left: 0.4rem;
     margin-right: 0.1rem;
@@ -288,7 +300,9 @@ section{
 #get-in-touch{
     font-family: 'Roboto', sans-serif;
     background-color: var(--bs-light);
+    /* background-color: var(--bs-dark); */
     color: var(--bs-dark);
+    /* color: var(--bs-light); */
     border-radius: 40px;
     font-size: small;
     font-weight: 400;
@@ -297,7 +311,10 @@ section{
 }
 #get-in-touch:hover{
     background-color: var(--bs-dark);
+    /* background-color: #fff !important; */
     color: var(--bs-white);
+    /* color: var(--bs-dark); */
+    border: 1px solid var(--bs-light) !important;
     transition: all 0.5s ease-in-out;
 }
 /* #more-about-me{
@@ -928,33 +945,6 @@ h5{
 .footer a:hover{
     color: #84e6c9;;
     transition: all 0.5s ease-in-out;
-}
-#update-stat{
-    margin-top: 0.5rem;
-    font-size: small;
-    font-weight: 400;
-    font-family: monospace;
-    margin-bottom: 0 !important;
-    padding-bottom: 0;
-}
-#update-stat a:hover{
-    color: var(--bs-gray);
-    transition: all 0.6s ease-in-out;
-    border-bottom: 1px solid var(--bs-gray);
-}
-/* Update Stat Page */
-#container-update{
-    width: 90%;
-}
-.update-stat-title{
-    border-bottom: 1px solid var(--bs-gray);
-}
-.update-stat{
-    margin-top: 5rem;
-    padding: 1rem;
-    background-color: #ffffffed;
-    color: var(--bs-dark);
-    border-radius: 16px;
 }
 /* Back to top button */
 #myBtn {
