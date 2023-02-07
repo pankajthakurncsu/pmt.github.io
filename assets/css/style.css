@@ -17,6 +17,7 @@
 body, html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-color: #141626 !important;
@@ -36,6 +37,8 @@ body, html{
     --bs-success: #198754;
     --bg-shadow: rgba(2,12,27,0.7);
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    /* border: 0.8px solid #eaebef10; */
+    --border-border: 0.8px solid #eaebef10;
     --border-radius: 20px;
     /* --bg-color: #1b1e30; */
     /* --bg-color: #161829e0; */
@@ -306,12 +309,12 @@ section{
     font-weight: var(--font-weight);
     padding-left: 0;
     padding-top: 1rem;
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow); */
     transition: var(--transition);
     position: relative;
     z-index: 2;
     padding: var(--bg-padding);
-    border: 0.8px solid #eaebef10;
+    /* border: 0.8px solid #eaebef10; */
     border-radius: var(--border-radius);
     /* background-color: var(--bg-color); */
     color: var(--txt-color);
@@ -324,8 +327,6 @@ section{
     opacity: 0.8;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	/* -webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-40px,0,0); */
     -webkit-transform: translate3d(0,0, 0);
 	transform: translate3d(0,0,0);
 }
@@ -333,8 +334,6 @@ section{
     opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	/* -webkit-transform: translate3d(-40px,0, 0);
-	transform: translate3d(-40px,0,0); */
     -webkit-transform: translate3d(0,-15px, 0);
 	transform: translate3d(0,-15px,0);
 }
@@ -345,21 +344,15 @@ section{
     color: var(--bs-light);
 }
 .skill{
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto', sans-serif;
-    /* font-weight: 300; */
     font-weight: var(--font-weight) !important;
     padding-left: 0;
     padding-top: 1rem;
-    /* border: 0.5px solid #a8b2d10e; */
-    border: 0.8px solid #eaebef10;
-    /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
+    border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
     z-index: 2;
-    /* padding: 25px; */
-    /* padding: 15px; */
     padding: var(--bg-padding);
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
@@ -394,7 +387,7 @@ section{
 .project1{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight);
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
@@ -421,7 +414,7 @@ section{
 .project2{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight) !important;
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
@@ -437,7 +430,7 @@ section{
 .project3{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight) !important;
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
@@ -453,7 +446,7 @@ section{
 .project4{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight) !important;
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
@@ -469,7 +462,7 @@ section{
 .project5{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight) !important;
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
@@ -535,7 +528,7 @@ section{
     border-radius: var(--border-radius);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     background-color: var(--bg-color);
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     width: 65%;
     transition: var(--transition);
     position: relative;
@@ -601,13 +594,13 @@ section{
 .blog{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight) !important;
-    box-shadow: 0 10px 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
     z-index: 2;
     padding: var(--bg-padding);
-    border: 0.8px solid #eaebef10;
+    border: var(--border-border);
     border-radius: var(--border-radius);
     /* background-color: var(--bg-color); */
     color: var(--txt-color);
@@ -1015,11 +1008,6 @@ h5{
         font-weight: 300;
     }
     ul{
-        /* margin-left: 1rem;
-        margin-right: 1rem; */
-
-        /* margin-left: 2rem;
-        margin-right: 2rem; */
         text-align: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -1029,13 +1017,8 @@ h5{
         margin-bottom: 0.8rem;
         text-align: center !important;
     }
-    /* #container-width{
-        width: 99%;
-    } */
     .home-content{
         font-weight: 400;
-        /* font-size: 1rem; */
-        /* font-size: 1.1rem; */
         width: 96%;
         margin-left: 1rem;
     }
@@ -1085,5 +1068,3 @@ h5{
         width: 96%;
     }
 }
-
-/* <!-- Last Update 28/1/23--> */
