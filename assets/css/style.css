@@ -594,13 +594,12 @@ section{
 .blog{
     font-family: 'Roboto', sans-serif;
     font-weight: var(--font-weight) !important;
-    /* box-shadow: 0 10px 30px -15px var(--bg-shadow); */
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow); */
     transition: var(--transition);
     position: relative;
     z-index: 2;
     padding: var(--bg-padding);
-    border: var(--border-border);
+    /* border: var(--border-border); */
     border-radius: var(--border-radius);
     /* background-color: var(--bg-color); */
     color: var(--txt-color);
