@@ -873,6 +873,7 @@ h5{
     margin-top: 2rem;
 }
 #sayhi{
+    font-family: cursive;
     /* color: mediumaquamarine; */
     color: var(--bs-purple);
     /* border: 2px solid mediumaquamarine; */
