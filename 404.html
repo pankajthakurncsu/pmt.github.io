@@ -59,6 +59,7 @@
         </div>
       </div>
     </nav>
+    <!-- End Navbar -->
 
   <!-- Back to Top Button -->
   <button onclick="topFunction()" id="myBtn" title="Go to top">
@@ -66,14 +67,20 @@
   </button>
 
         <section id="error">
-          <div class="container">
+          <div class="container" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
             <div class="row">
               <div class="col-lg-12">
-                <!-- Home Back -->
-                <a class="btn btn-primary btn-sm" href="./index.html" role="button"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
-                <!--End Home Back -->
-                <h1 class="text-center text-danger">404 !</h1>
-                <h6 class="text-center text-danger">Page Not Found</h6>
+               
+                <div class="text-center">
+                  <!-- <img src="./assets/img/404 Error Page not Found with people connecting a plug.gif" alt=""> -->
+                  <iframe src="https://embed.lottiefiles.com/animation/80698"></iframe>
+                </div>
+
+                <!-- <h1 class="text-center text-danger">404 !</h1>
+                <h6 class="text-center text-danger">Page Not Found</h6> -->
               </div>
               <div class="text-center">
                 <br>
@@ -82,10 +89,21 @@
               </div>
             </div>
           </div>
+
+          <div class="text-center" id="error-back-button" data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0">
+            <!-- Home Back -->
+           <a class="btn btn-primary btn-sm" href="./index.html" role="button"><i class="fa-solid fa-arrow-left"></i> Back to Home</a>
+
+           <!--End Home Back -->
+         </div>
         </section>
         <!-- End Blog - Second-Post -->
       
       <!-- Footer -->
+
       <section id="footer">
         <hr class="hr-footer">
         <div class="footer">
@@ -95,6 +113,7 @@
           </a>
       </div>
     </section>
+
     <!-- End Footer -->
 
     <!-- Preloader -->
@@ -110,6 +129,13 @@
     <script src="./assets/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
     <!-- Main Js -->
     <script src="./assets/js/main.js"></script>
+
+    <!-- Aos Libraray -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Aos Intialize -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
 
