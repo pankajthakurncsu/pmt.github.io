@@ -817,7 +817,8 @@ h5{
     background-color: var(--bs-gray-100) !important;
 }
 #hr-post{
-    color: #eaebeb;
+    /* color: #eaebeb; */
+    color: var(--bs-dark);
 }
 #blog-title{
     text-align: justify;
@@ -825,18 +826,21 @@ h5{
     color: var(--bs-white);
 }
 .post-date{
-    color: #ecececf8;
+    /* color: #ecececf8; */
+    color: var(--bs-gray);
     font-size: small;
     font-family: 'Nunito Sans', sans-serif;
 }
 .post-date span{
-    color: #ecececf8;
+    /* color: #ecececf8; */
+    color: var(--bs-gray);
     font-family: 'Nunito Sans', sans-serif;
     border-bottom: 1px solid;
 }
 #post-content-head{
     font-size: 20px;
-    color: var(--bs-light);
+    /* color: var(--bs-light); */
+    color: var(--bs-dark);
     font-family: 'Cabin', sans-serif;
 }
 #post-content{
@@ -845,11 +849,13 @@ h5{
 }
 #post-link{
     font-size: small;
-    color: rgb(110, 209, 209);
+    /* color: rgb(110, 209, 209); */
+    color: var(--bs-dark);
 }
 #post-link:hover{
     transition: all 0.3s ease-in-out;
-    border-bottom: 1px solid rgb(1, 167, 167);;
+    /* border-bottom: 1px solid rgb(1, 167, 167); */
+    border-bottom: 1px solid var(--bs-gray);
 }
 /* Second Post Page */
 #blog-second-post{
