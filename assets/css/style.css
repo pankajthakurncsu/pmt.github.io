@@ -72,7 +72,7 @@ body, html{
     --border-border: 0.8px solid rgba(193, 192, 255, 0.47);
 
     /* --border-radius: 20px; */
-    --border-radius: 10px;
+    --border-radius: 12px;
 
     /* --bg-color: #1d1f32e0; */
     --bg-color: #f8f9faa5;
@@ -265,11 +265,16 @@ section{
     /* background-color: #211f2989; */
     background-color: var(--bs-gray-100);
     padding-inline: 5px;
-    border-bottom: 1px solid var(--bs-gray);
+    /* border-bottom: 3px solid var(--bs-gray); */
+    border-top: 0.1px solid var(--bs-purple);
+    border-right: 5px solid var(--bs-purple);
+    border-bottom: 5px solid var(--bs-purple);
+    border-left: 0.1px solid var(--bs-purple);
+    /* border-radius: 4px; */
+    border-radius: 6px;
     /* font-weight: 400; */
     font-weight: bold;
-    /* border-radius: 4px; */
-    font-size: 24px;
+    font-size: 21px;
 }
 #home{
     padding-top: 10rem;
@@ -718,7 +723,7 @@ section{
     position: relative;
     z-index: 2;
     padding: var(--bg-padding);
-    border: var(--border-border);
+    /* border: var(--border-border); */
     border-radius: var(--border-radius);
     /* background-color: var(--bg-color); */
     color: var(--txt-color);
@@ -1033,9 +1038,12 @@ h5{
 } */
 /* Footer */
 #footer{
-    padding-top: 0.1rem;
-    padding-bottom: 0.8rem;
-    margin-bottom: 0.2rem;
+    /* padding-top: 0.1rem;
+    padding-bottom: 0.8rem; */
+    /* margin-bottom: 0.2rem; */
+    background-color: #291140;
+    margin: 0;
+    padding: 0;
 }
 .hr-footer{
     /* color: var(--bs-gray); */
@@ -1049,12 +1057,13 @@ h5{
     font-size: 1rem;
     font-weight: 500;
     /* color: #cfcfcf; */
-    color: var(--bs-dark);
+    color: var(--bs-light);
     line-height: 0.99rem;
 }
 .footer a:hover{
     /* color: #84e6c9; */
-    color: var(--bs-gray);
+    /* color: var(--bs-gray); */
+    color: var(--bs-gray-200);
     transition: all 0.5s ease-in-out;
 }
 /* Back to top button */
