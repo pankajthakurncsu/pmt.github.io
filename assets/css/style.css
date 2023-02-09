@@ -661,9 +661,9 @@ section{
 .project-details-title span{
     border-bottom: 1px solid var(--bs-gray);
 }
-/* .img-fluid{
+.img-fluid{
     border: 1px solid var(--bs-gray);
-} */
+}
 .project-details-content-tittle{
     /* color: #78e8c6; */
     color: var(--bs-gray-dark);
