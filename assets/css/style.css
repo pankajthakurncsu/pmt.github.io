@@ -76,7 +76,10 @@ body, html{
 
     /* --bg-color: #1d1f32e0; */
     --bg-color: #f8f9faa5;
-    --txt-color: #D0D4E7;
+
+    /* --txt-color: #D0D4E7; */
+    --txt-color: #495057;;
+
     /* --font-size: 17px; */
     --font-size: 18px;
     --font-weight: 400;
@@ -95,7 +98,8 @@ body, html{
    padding-inline: 4px;
    text-decoration: underline;
    text-decoration-color: var(--bs-gray);
-   font-size: 24px;
+   /* font-size: 24px; */
+   font-size: 22px;
 }
 .navbar-brand:hover{
     color: var(--bs-gray) !important;
@@ -369,8 +373,8 @@ section{
     /* border-radius: 0 !important; */
     /* border: 0 !important; */
     border: 1.5px solid var(--bs-gray-dark);
-    border-right: 2px solid var(--bs-dark) !important;
-    border-bottom: 2px solid var(--bs-dark) !important;
+    border-right: 3px solid var(--bs-dark) !important;
+    border-bottom: 3px solid var(--bs-dark) !important;
     /* border-bottom: 1px solid var(--bs-gray) !important; */
     /* color: var(--bs-teal); */
     color: var(--bs-dark);
@@ -387,8 +391,8 @@ section{
     font-weight: 500;
     transition: all 0.5s ease-in-out !important;
     border: 1px solid var(--bs-gray-800) !important;
-    border-right: 2px solid var(--bs-dark) !important;
-    border-bottom: 2px solid var(--bs-dark) !important;
+    border-right: 3px solid var(--bs-dark) !important;
+    border-bottom: 3px solid var(--bs-dark) !important;
     /* border-bottom: 1.5px solid var(--bs-light) !important; */
 }
 .about{
@@ -764,6 +768,7 @@ h5{
     color: #212529;
 }
 .card-text{
+    font-size: medium;
     color: #112240;
 }
 .card-body p > a{
@@ -900,7 +905,7 @@ h5{
     margin-top: 2rem;
 }
 #sayhi{
-    font-family: cursive;
+    font-family: 'Montserrat', sans-serif;
     /* color: mediumaquamarine; */
     /* color: var(--bs-purple); */
     color: #643dae;
@@ -910,7 +915,8 @@ h5{
     padding: 0.4rem;
     border-radius: 5px;
     font-size: 15px;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-weight: 500;
 }
 #sayhi:hover{
     font-size: 16px;
@@ -1192,7 +1198,7 @@ h5{
     #container-width-2{
         width: 96%;
     }
-    /* #container-width-3{
-
-    } */
+    #container-width-3{
+        width: 96%;
+    }
 }
