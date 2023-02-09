@@ -457,7 +457,8 @@ section{
 }
 #skill h6{
     padding-bottom: 0.5rem;
-    color: var(--bs-light);
+    /* color: var(--bs-light); */
+    color: var(--bs-gray-dark);
     font-weight: var(--font-weight) !important;
     font-size: var(--font-size);
 }
