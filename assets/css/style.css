@@ -475,7 +475,8 @@ section{
     border-radius: 10px;
 }
 .bi-arrow-right-short{
-    color: #20c997;
+    /* color: #20c997; */
+    color: var(--bs-indigo);
 }
 /* Project */
 .project{
