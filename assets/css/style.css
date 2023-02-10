@@ -97,13 +97,16 @@ body, html{
    border-radius: 4px;
    padding-inline: 4px;
    text-decoration: underline;
-   text-decoration-color: var(--bs-gray);
+   text-decoration-color: palevioletred;
    /* font-size: 24px; */
    font-size: 22px;
 }
 .navbar-brand:hover{
     color: var(--bs-gray) !important;
+    text-decoration: underline;
+    text-decoration-color: var(--bs-gray);
     border-bottom: none;
+    transition: all 0.5s ease-in-out;
 }
 .navbar-toggler{
     color: rgba(161, 161, 161, 0.13);
@@ -124,11 +127,13 @@ body, html{
 
         /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 200, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
 
-        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 42, 64, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
 }
 .navbar{
     /* --bs-navbar-toggler-font-size: 1rem; */
-    --bs-navbar-toggler-font-size: 1.1rem;
+    /* --bs-navbar-toggler-font-size: 1.1rem; */
+
+    --bs-navbar-toggler-font-size: 1.4rem;
     --bs-navbar-toggler-border-radius: 0rem;
     /* background-color: #141626d4 !important; */
     /* background-color: #141626a8 !important; */
@@ -896,6 +901,7 @@ h5{
 }
 /* Contact  */
 #contact{
+    background-color: var(--bs-gray-200);
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: var(--font-weight);
@@ -1064,6 +1070,7 @@ h5{
 .hr-footer{
     /* color: var(--bs-gray); */
     color: var(--bs-gray-700);
+    margin-top: 0;
     margin-left: 1rem;
     margin-right: 1rem;
 }
