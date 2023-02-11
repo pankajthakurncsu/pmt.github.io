@@ -753,6 +753,7 @@ section{
 }
 /* Blog Page Home */
 #blog-home{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 8rem;
     padding-bottom: auto;
 }
