@@ -298,8 +298,7 @@ section{
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
     font-weight: var(--font-weight) !important;
-    /* font-size: var(--font-size); */
-    font-size: 20px;
+    font-size: var(--font-size);
 }
 #name{
     /* font-family: 'Roboto', sans-serif; */
@@ -311,7 +310,7 @@ section{
     /* color: mediumaquamarine; */
     color: palevioletred;
     /* color: darkmagenta; */
-    font-size: 32px;
+    font-size: 26px;
 }
 .intro{
     /* font-family: 'Montserrat', sans-serif; */
@@ -319,7 +318,7 @@ section{
     font-family: 'Poppins', sans-serif;
     font-weight: var(--font-weight) !important;
     /* font-size: var(--font-size); */
-    font-size: 22px;
+    font-size: 21px;
 }
 .fa-laptop-code{
     color: var(--bs-gray);
