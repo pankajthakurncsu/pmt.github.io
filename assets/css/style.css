@@ -733,7 +733,7 @@ section{
     position: relative;
     z-index: 2;
     padding: var(--bg-padding);
-    /* border: var(--border-border); */
+    border: var(--border-border);
     border-radius: var(--border-radius);
     /* background-color: var(--bg-color); */
     color: var(--txt-color);
@@ -754,6 +754,7 @@ section{
 /* Blog Page Home */
 #blog-home{
     padding-top: 8rem;
+    padding-bottom: auto;
 }
 #container-width-3{
     width: 40%;
@@ -783,6 +784,13 @@ section{
 h5{
     color: #212529;
 }
+.card-body > h5 > a {
+    color: palevioletred;
+    font-weight: bold;
+}
+.card-body > h5 > a:hover {
+    color: peru;
+}
 .card-text{
     font-size: medium;
     color: #112240;
@@ -806,17 +814,20 @@ h5{
 #blog_list_img{
     height: 250px;
 }
-.post-link a{
-    border: 0 !important;
-    border-radius: 0 !important;
-    border-bottom: 1px solid var(--bs-dark) !important;
+#blog-back-home{
+    color: #dc3545;
 }
-.post-link a:hover{
-    color: var(--bs-pink) !important;
-    background-color: #ffffff !important;
-    margin-left: 2px;
-    border-bottom: 1px solid var(--bs-pink) !important;
-    transition: all 0.5s ease-in-out;
+#blog-back-home:hover{
+    color: #be3947;
+    border-bottom: 1px solid #be3947;
+    transition: all 0.3s ease-in-out;
+}
+#read-more{
+   color: var(--bs-dark);
+}
+#read-more:hover{
+    color: var(--bs-gray);
+    border-bottom: 1px solid var(--bs-gray);
 }
 .first-blog-title{
     padding-top: 2rem;
@@ -1081,15 +1092,17 @@ h5{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     /* color: #cfcfcf; */
-    color: var(--bs-light);
+    /* color: var(--bs-light); */
+    color: var(--bs-white);
     line-height: 0.99rem;
 }
 .footer a:hover{
     /* color: #84e6c9; */
     /* color: var(--bs-gray); */
-    color: var(--bs-gray-200);
+    /* color: var(--bs-gray-200); */
+    color: var(--bs-gray);
     transition: all 0.5s ease-in-out;
 }
 /* Back to top button */
@@ -1138,9 +1151,9 @@ h5{
 /* 404 Html Page */
 #error{
     /* padding-top: 8rem; */
-    padding-top: 12rem;
+    padding-top: 14rem;
     /* padding-bottom: 28rem; */
-    padding-bottom: 12rem;
+    padding-bottom: 14rem;
     color: var(--bs-light);
 }
 #error-back-button{
