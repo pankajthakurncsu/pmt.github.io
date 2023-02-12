@@ -98,8 +98,8 @@ body, html{
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    border-radius: 4px;
    padding-inline: 4px;
-   text-decoration: underline;
-   text-decoration-color: palevioletred;
+   /* text-decoration: underline;
+   text-decoration-color: palevioletred; */
    /* font-size: 24px; */
    font-size: 22px;
 }
@@ -273,10 +273,17 @@ section{
     background-color: var(--bs-gray-100);
     padding-inline: 5px;
     /* border-bottom: 3px solid var(--bs-gray); */
-    border-top: 0.1px solid var(--bs-purple);
+
+    /* border-top: 0.1px solid var(--bs-purple);
     border-right: 5px solid var(--bs-purple);
     border-bottom: 5px solid var(--bs-purple);
-    border-left: 0.1px solid var(--bs-purple);
+    border-left: 0.1px solid var(--bs-purple); */
+
+    border-top: 0.1px solid var(--bs-gray);
+    border-right: 3px solid var(--bs-dark);
+    border-bottom: 3px solid var(--bs-dark);
+    border-left: 0.1px solid var(--bs-gray);
+
     /* border-radius: 4px; */
     border-radius: 6px;
     /* font-weight: 400; */
@@ -304,21 +311,18 @@ section{
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 24px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     /* color: mediumaquamarine; */
     color: palevioletred;
-    /* color: darkmagenta; */
-    font-size: 26px;
 }
 .intro{
     /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
     font-weight: var(--font-weight) !important;
-    /* font-size: var(--font-size); */
-    font-size: 21px;
+    font-size: var(--font-size);
 }
 .fa-laptop-code{
     color: var(--bs-gray);
@@ -757,8 +761,8 @@ section{
     padding-top: 8rem;
     padding-bottom: auto;
 }
-#container-width-3{
-    width: 40%;
+#container-width-4{
+    width: 50%;
 }
 .blog_home_page_title{
     /* color: #ffffff; */
@@ -1152,13 +1156,19 @@ h5{
 /* 404 Html Page */
 #error{
     /* padding-top: 8rem; */
-    padding-top: 14rem;
+    margin-top: 6rem;
     /* padding-bottom: 28rem; */
-    padding-bottom: 14rem;
+    padding-bottom: 16rem;
     color: var(--bs-light);
 }
-#error-back-button{
+/* #error-back-button{
     margin-top: 2rem;
+} */
+#error-p{
+    color: darkslateblue;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
 /* Media Query */
 @media(max-width:992px){
@@ -1250,5 +1260,8 @@ h5{
     }
     #container-width-3{
         width: 96%;
+    }
+    #container-width-4{
+        width: 100%;
     }
 }
