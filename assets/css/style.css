@@ -1090,7 +1090,6 @@ h5{
     /* padding-top: 0.1rem;
     padding-bottom: 0.8rem; */
     /* margin-bottom: 0.2rem; */
-    background-color: #291140;
     margin: 0;
     padding: 0;
 }
@@ -1108,7 +1107,8 @@ h5{
     font-weight: 600;
     /* color: #cfcfcf; */
     /* color: var(--bs-light); */
-    color: var(--bs-white);
+    /* color: var(--bs-white); */
+    color: var(--bs-gray-dark);
     line-height: 0.99rem;
 }
 .footer a:hover{
