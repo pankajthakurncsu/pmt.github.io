@@ -1105,6 +1105,28 @@ h5{
 #photography-back-home:hover{
     border-bottom: 1px solid var(--bs-dark);
 }
+/* Privacy Page */
+#privacy-home{
+    margin-top: 6rem;
+    margin-bottom: 20rem;
+}
+#container-privacy{
+    width: 75%;
+}
+.privacy-content{
+    border: 1px solid var(--bs-gray);
+    border-radius: 5px;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#privacy a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-bottom: 1px solid var(--bs-gray);
+}
+#privacy a:hover{
+    transition: all 0.5s ease-in-out;
+}
 /* Footer */
 #footer{
     /* padding-top: 0.1rem;
@@ -1291,5 +1313,8 @@ h5{
     }
     #container-width-4{
         width: 100%;
+    }
+    #container-privacy{
+        width: 96%;
     }
 }
