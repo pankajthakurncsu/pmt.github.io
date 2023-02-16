@@ -1088,19 +1088,26 @@ h5{
 /* Photography Page */
 #photography{
     margin-top: 2rem;
-    background-color: aliceblue;
-    color: var(--bs-white);
+    background-color: var(--bs-light);
+    /* color: var(--bs-white); */
 }
 #photography-title span{
     border-bottom: 2px solid var(--bs-gray);
 }
 .photography{
-    background-color: var(--bs-gray-300);
+    background-color: var(--bs-gray-200);
 }
 #last-update{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+#photography-back-home:hover{
+    border-bottom: 1px solid var(--bs-dark);
+}
+.photography-comment{
+    background-color: var(--bs-gray-200);
+    border-radius: 10px;
 }
 /* Footer */
 #footer{
