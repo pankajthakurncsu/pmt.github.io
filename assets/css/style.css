@@ -1108,8 +1108,8 @@ h5{
 }
 /* Privacy Page */
 #privacy-home{
-    margin-top: 6rem;
-    margin-bottom: 20rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 #container-privacy{
     width: 75%;
@@ -1125,6 +1125,12 @@ h5{
 }
 #privacy-link{
     border-bottom: 1.5px solid var(--bs-gray);
+}
+#privacy-update span{
+    font-size: small;
+    font-family: monospace;
+    font-weight: bold;
+    border-bottom: 1px solid var(--bs-gray);
 }
 #privacy a{
     font-family: Arial, Helvetica, sans-serif;
@@ -1325,6 +1331,6 @@ h5{
         width: 96%;
     }
     #ul-start > ul > li{
-        text-align: start;
+        text-align: start !important;
     }
 }
