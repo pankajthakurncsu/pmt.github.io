@@ -796,7 +796,8 @@ h5{
 }
 .card-body > h5 > a {
     /* color: palevioletred; */
-    color: var(--bs-purple);
+    /* color: var(--bs-purple); */
+    color: var(--bs-dark);
     font-weight: bold;
 }
 .card-body > h5 > a:hover {
