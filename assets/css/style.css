@@ -729,7 +729,7 @@ section{
 }
 .bi-arrow-left{
     /* color: var(--bs-white); */
-    color: var(--bs-gray);
+    /* color: var(--bs-gray); */
     font-size: small;
 }
 /* Blog */
@@ -1147,6 +1147,7 @@ h5{
     /* margin-bottom: 0.2rem; */
     margin: 0;
     padding: 0;
+    margin-bottom: 0.8rem;
 }
 .hr-footer{
     /* color: var(--bs-gray); */
