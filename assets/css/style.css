@@ -1252,6 +1252,8 @@ h5{
 }
 #privacy a:hover{
     transition: all 0.5s ease-in-out;
+    color: pink;
+    border-bottom: 1px solid pink;
 }
 /* Footer */
 #footer{
