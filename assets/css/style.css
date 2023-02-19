@@ -567,7 +567,8 @@ section{
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1rem;
 }
 .project1:hover, .project2:hover, .project3:hover, .project4:hover, .project5:hover{
     box-shadow: none;
@@ -600,7 +601,8 @@ section{
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1rem;
 }
 .project3{
     /* font-family: 'Roboto', sans-serif; */
@@ -618,7 +620,8 @@ section{
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1rem;
 }
 .project4{
     /* font-family: 'Roboto', sans-serif; */
@@ -636,7 +639,8 @@ section{
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1rem;
 }
 .project5{
     /* font-family: 'Roboto', sans-serif; */
@@ -654,7 +658,8 @@ section{
     color: var(--txt-color);
     font-size: var(--font-size);
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 1rem;
 }
 [aria-expanded="false"] > .expanded,
 [aria-expanded="true"] > .collapsed {
