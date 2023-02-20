@@ -1316,11 +1316,9 @@ h5{
 #myBtn {
     display: none;
     position: fixed;
-    /* bottom: 20px; */
-    bottom: 90px;
+    bottom: 20px;
     /* right: 30px; */
-    /* right: 45px; */
-    right: 40px;
+    right: 45px;
     z-index: 99;
     font-size: 12px;
     border: none;
