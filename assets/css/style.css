@@ -152,11 +152,11 @@ body, html{
         
         /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 188, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
 
-        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 200, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+        /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(23, 255, 200, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
 
         /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 42, 64, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
 
-        /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
+        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
 }
 .navbar{
     /* --bs-navbar-toggler-font-size: 1rem; */
@@ -352,9 +352,10 @@ section{
     font-size: 32px;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: mediumaquamarine;
+    /* color: mediumaquamarine; */
     /* color: palevioletred; */
     /* color: pink; */
+    color: #e189a7;
 }
 .intro{
     font-family: 'Montserrat', sans-serif;
@@ -1315,9 +1316,11 @@ h5{
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
-    right: 45px;
+    /* bottom: 20px; */
+    bottom: 90px;
+    /* right: 30px; */
+    /* right: 45px; */
+    right: 40px;
     z-index: 99;
     font-size: 12px;
     border: none;
@@ -1473,5 +1476,8 @@ h5{
     }
     #ul-start > ul > li{
         text-align: start !important;
+    }
+    #myBtn{
+        right: 44px;
     }
 }
