@@ -1323,6 +1323,7 @@ h5{
 #page-insight a:hover{
     color: #20c997;
     border-bottom: 1px solid var(--bs-gray);
+    transition: all 0.5s ease-in-out;
 }
 #stat_page_title span{
     border-bottom: 1px solid var(--bs-gray);
