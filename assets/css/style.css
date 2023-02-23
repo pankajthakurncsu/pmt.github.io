@@ -1084,13 +1084,16 @@ h5{
 }
 #sayhello{
     font-family: 'Montserrat', sans-serif;
-    color: mediumaquamarine;
+    /* color: mediumaquamarine; */
     /* color: pink; */
     /* color: var(--bs-purple); */
     /* color: #643dae; */
+    /* color: pink; */
+    color: plum;
 
-    border: 2px solid mediumaquamarine;
+    /* border: 2px solid mediumaquamarine; */
     /* border: 2px solid pink; */
+    border: 2px solid plum;
     /* border: 2px solid var(--bs-purple); */
 
     /* border: 2px solid #643dae; */
@@ -1102,16 +1105,20 @@ h5{
 }
 #sayhello:hover{
     font-size: 16px;
-    color: #20c997;
+    /* color: #20c997; */
+
     /* color: var(--bs-green); */
     /* color: var(--bs-pink); */
 
     /* color: plum; */
 
+    color: pink;
+
     border: 1px solid #20c997;
     /* border: 1px solid var(--bs-green); */
     /* border: 1px solid var(--bs-pink); */
     /* border: 1px solid plum; */
+    border: 1px solid pink;
     transition: all 0.5s ease-in-out;
 }
 .connect-me{
@@ -1336,7 +1343,8 @@ h5{
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
+    /* bottom: 20px; */
+    bottom: 100px;
     /* right: 30px; */
     right: 45px;
     z-index: 99;
