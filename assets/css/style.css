@@ -1324,6 +1324,9 @@ h5{
     color: #20c997;
     border-bottom: 1px solid var(--bs-gray);
 }
+#stat_page_title span{
+    border-bottom: 1px solid var(--bs-gray);
+}
 /* Back to top button */
 #myBtn {
     display: none;
