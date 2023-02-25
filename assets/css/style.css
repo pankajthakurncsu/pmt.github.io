@@ -1088,12 +1088,11 @@ h5{
     /* color: pink; */
     /* color: var(--bs-purple); */
     /* color: #643dae; */
-    /* color: pink; */
-    color: plum;
+    color: pink;
 
     /* border: 2px solid mediumaquamarine; */
-    /* border: 2px solid pink; */
-    border: 2px solid plum;
+    border: 2px solid pink;
+
     /* border: 2px solid var(--bs-purple); */
 
     /* border: 2px solid #643dae; */
@@ -1110,15 +1109,13 @@ h5{
     /* color: var(--bs-green); */
     /* color: var(--bs-pink); */
 
-    /* color: plum; */
-
-    color: pink;
+    color: plum;
 
     border: 1px solid #20c997;
     /* border: 1px solid var(--bs-green); */
     /* border: 1px solid var(--bs-pink); */
-    /* border: 1px solid plum; */
-    border: 1px solid pink;
+    border: 1px solid plum;
+
     transition: all 0.5s ease-in-out;
 }
 .connect-me{
@@ -1346,7 +1343,8 @@ h5{
     /* bottom: 20px; */
     bottom: 100px;
     /* right: 30px; */
-    right: 45px;
+    right: 41px;
+    /* right: 45px; */
     z-index: 99;
     font-size: 12px;
     border: none;
@@ -1502,8 +1500,5 @@ h5{
     }
     #ul-start > ul > li{
         text-align: start !important;
-    }
-    #myBtn{
-        right: 44px;
     }
 }
