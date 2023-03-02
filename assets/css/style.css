@@ -368,9 +368,10 @@ section{
     color: #e189a7;
 }
 .intro{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Poppins', sans-serif; */
+    font-family: var(--font-family1);
     font-weight: var(--font-weight) !important;
     font-size: var(--font-size);
 }
@@ -514,7 +515,8 @@ section{
 	transform: translate3d(0,-15px,0);
 }
 .resume{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: var(--font-family1);
     margin-top: 2rem;
     margin-bottom: 0 !important;
     color: var(--bs-light) !important;
