@@ -93,19 +93,34 @@ function topFunction() {
 //     },500);
 //   })
 
+
 // preloader
+// $(document).ready(function() {
+//   setTimeout(()=>{
+//       $('#Preloader').addClass('loader');
+//   },300);
+//   setTimeout(()=>{
+//       $('#Preloader').remove('loader');
+//   },150);
+// })
+
+// $('.navbar-nav>li>a').on('click', function(){
+//   $('.navbar-collapse').collapse('hide');
+// });
+
 $(document).ready(function() {
   setTimeout(()=>{
       $('#Preloader').addClass('loader');
-  },300);
+  },500);
   setTimeout(()=>{
       $('#Preloader').remove('loader');
-  },150);
+  },250);
 })
 
 $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
+// End preloader
 
 
 // function email() {
