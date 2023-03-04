@@ -277,7 +277,8 @@ section{
 .title-underline{
     font-family: var(--font-family2);
     /* color: var(--bs-gray-300); */
-    color: #000;
+    /* color: #000; */
+    color: var(--bs-gray);
     padding-inline: 5px;
     border-bottom: 2px solid var(--bs-gray);
     /* border-radius: 4px; */
@@ -813,6 +814,11 @@ section{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+#visit-blog span a:hover{
+    color: var(--bs-dark);
+    border-bottom: 1px solid var(--bs-dark);
+    transition: all 0.5s ease-in-out;
+}
 .lastest_post{
     /* color: var(--bs-gray-200); */
     color: #000;
@@ -1096,9 +1102,11 @@ h5{
 #sayhello{
     font-family: 'Montserrat', sans-serif;
     /* color: mediumaquamarine; */
-    color: palevioletred;
+    /* color: palevioletred; */
+    color: var(--bs-dark);
     /* border: 2px solid mediumaquamarine; */
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
+    border: 2px solid var(--bs-dark);
     padding: 0.4rem;
     border-radius: 5px;
     font-size: 15px;
@@ -1109,12 +1117,17 @@ h5{
     font-size: 16px;
     /* color: #20c997; */
     /* color: var(--bs-green); */
-    color: peru;
+    /* color: peru; */
+    color: palevioletred;
     /* border: 1px solid #20c997; */
     /* border: 1px solid var(--bs-green); */
     /* border: 1px solid var(--bs-pink); */
-    border: 1px solid peru;
+    /* border: 1px solid peru; */
+
+    /* border: 1px solid palevioletred; */
+    border: 3px solid palevioletred;
     transition: all 0.5s ease-in-out;
+    font-weight: 600;
 }
 .connect-me{
     font-weight: bold;
