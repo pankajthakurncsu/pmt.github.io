@@ -1459,15 +1459,18 @@ h5{
     }
     .navbar-collapse{
         background-color: #ffffff86 !important;
-        backdrop-filter: blur(10px) !important;
-        border: 1px solid rgba(212, 212, 212, 0.454);
-        border-radius: 10px;
+        /* backdrop-filter: blur(10px) !important; */
+        /* border: 1px solid rgba(212, 212, 212, 0.454); */
+        border: 0.5px solid rgba(224, 223, 223, 0.454);
+        border-radius: 5px;
         margin-top: 1rem;
     }
     ul{
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     /* #nav-link-resume{
         margin-top: 0.8rem;
