@@ -13,6 +13,8 @@
 font-family: 'Raleway', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Noto Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+/* font-family: 'DM Sans', sans-serif; */
 *{
     padding: 0;
     margin: 0;
@@ -86,7 +88,7 @@ body, html{
     /* --font-family1: 'Open Sans', sans-serif;
     --font-family2: 'Raleway', sans-serif; */
     /* --font-family1: 'Montserrat', sans-serif; */
-    --font-family1: 'Noto Sans', sans-serif;
+    --font-family1: 'DM Sans', sans-serif;
     --font-family2: 'Poppins', sans-serif;
 
 }
@@ -341,7 +343,7 @@ section{
     /* color: var(--bs-gray-900); */
     /* color: var(--bs-gray-200); */
     padding: 0.2rem;
-    font-size: small;
+    font-size: medium;
     font-weight: 400;
 }
 #hero-social-links a:hover{  
@@ -467,14 +469,16 @@ section{
 }
 .about_pic img{
     margin-top: 2rem;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    opacity: 0.9;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(0,0, 0);
 	transform: translate3d(0,0,0);
 }
 .about_pic img:hover{
-    opacity: 1;
+    /* opacity: 1; */
+     opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(0,-15px, 0);
@@ -707,9 +711,8 @@ section{
 }
 .overview{
     /* color: #84e6c9; */
-    /* color: var(--bs-gray-700); */
+    color: var(--bs-gray-700);
     /* color: var(--bs-gray-400); */
-    color: darkblue;
     margin-top: 2rem;
 }
 /* Project Details Page */
@@ -1115,12 +1118,14 @@ h5{
     border: 2px solid var(--bs-dark);
     padding: 0.4rem;
     border-radius: 5px;
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 14px;
     /* font-weight: 300; */
     font-weight: 500;
 }
 #sayhello:hover{
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 15px;
     /* color: #20c997; */
     /* color: var(--bs-green); */
     /* color: peru; */
@@ -1266,14 +1271,28 @@ h5{
     /* border-bottom: 1px solid var(--bs-dark); */
     /* border-bottom: 1px solid plum; */
     border-bottom: 1px solid teal;
+} 
+/* Privacy Modal */
+.privacy_policy_info{
+    background-color: var(--bs-success) !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 /* Privacy Page */
 #privacy-home{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 #container-privacy{
     width: 75%;
+}
+#hr-privacy{
+    color: var(--bs-gray-dark);
 }
 #privacy-policy-title span{
     border-bottom: 1px solid var(--bs-gray-dark);
@@ -1410,8 +1429,8 @@ h5{
     color: white;
     cursor: pointer;
     /* padding: 10px; */
-    /* padding: 6px; */
-    padding: 8px;
+    padding: 6px;
+    /* padding: 8px; */
     /* border-radius: 10px; */
     border-radius: 4px;
 }
@@ -1511,6 +1530,7 @@ h5{
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+
     /* #nav-link-resume{
         margin-top: 0.8rem;
         margin-bottom: 0.8rem;
@@ -1576,7 +1596,8 @@ h5{
         width: 100%;
     }
     #container-privacy{
-        width: 96%;
+        /* width: 96%; */
+        width: 100%;
     }
     #ul-start > ul > li{
         text-align: start !important;
