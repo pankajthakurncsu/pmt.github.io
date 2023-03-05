@@ -734,8 +734,8 @@ section{
 }
 .project-details{
     border-radius: var(--border-radius);
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
-    background-color: var(--bg-color);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow);
+    background-color: var(--bg-color); */
     border: var(--border-border);
     width: 65%;
     transition: var(--transition);
@@ -1598,7 +1598,8 @@ h5{
         font-size: 0.8rem
     }
     .project-details{
-        width: 92%;
+        /* width: 92%; */
+        width: 95%;
         padding-top: 2;
     }
     #container-width-2{
