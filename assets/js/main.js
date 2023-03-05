@@ -108,18 +108,35 @@ function topFunction() {
 //   $('.navbar-collapse').collapse('hide');
 // });
 
+
+
+// $(document).ready(function() {
+//   setTimeout(()=>{
+//       $('#Preloader').addClass('loader');
+//   },500);
+//   setTimeout(()=>{
+//       $('#Preloader').remove('loader');
+//   },250);
+// })
+
+// $('.navbar-nav>li>a').on('click', function(){
+//   $('.navbar-collapse').collapse('hide');
+// });
+
+
 $(document).ready(function() {
   setTimeout(()=>{
       $('#Preloader').addClass('loader');
-  },500);
+  },220);
   setTimeout(()=>{
       $('#Preloader').remove('loader');
-  },250);
+  },110);
 })
 
 $('.navbar-nav>li>a').on('click', function(){
   $('.navbar-collapse').collapse('hide');
 });
+
 // End preloader
 
 

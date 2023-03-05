@@ -332,6 +332,7 @@ section{
     /* color: pink; */
     /* color: #e189a7; */
     /* color: palevioletred; */
+    color: var(--bs-secondary);
 }
 .intro{
     /* font-family: 'Montserrat', sans-serif; */
