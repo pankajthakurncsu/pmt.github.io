@@ -92,6 +92,8 @@ body, html{
     /* --font-family1: 'Montserrat', sans-serif; */
 
     /* --font-family1: 'DM Sans', sans-serif; */
+
+    /* --font-family1: 'Inter', sans-serif; */
     --font-family1: 'Inter', sans-serif;
     --font-family2: 'Poppins', sans-serif;
 
@@ -291,7 +293,9 @@ section{
     /* color: var(--bs-gray-300); */
     /* color: #000; */
     /* color: var(--bs-gray); */
-    color: var(--bs-gray-dark);
+
+    /* color: var(--bs-gray-dark); */
+    color: #007BFF;
     padding-inline: 5px;
     border-bottom: 2px solid var(--bs-gray);
     /* border-radius: 4px; */
@@ -333,8 +337,8 @@ section{
     /* color: palevioletred; */
     /* color: pink; */
     /* color: #e189a7; */
-    /* color: palevioletred; */
-    color: var(--bs-dark);
+    color: palevioletred;
+    /* color: var(--bs-dark); */
 }
 .intro{
     /* font-family: 'Montserrat', sans-serif; */
@@ -735,8 +739,8 @@ section{
 .project-details{
     border-radius: var(--border-radius);
     /* box-shadow: 0 0 30px -15px var(--bg-shadow);
-    background-color: var(--bg-color); */
-    border: var(--border-border);
+    background-color: var(--bg-color);
+    border: var(--border-border); */
     width: 65%;
     transition: var(--transition);
     position: relative;
@@ -760,7 +764,8 @@ section{
     border-bottom: 1px solid var(--bs-gray);
 }
 .img-fluid{
-    border: 1px solid var(--bs-gray);
+    /* border: 1px solid var(--bs-gray); */
+    border: 1px solid var(--bs-gray-500);
 }
 .project-details-content-tittle{
     /* color: #78e8c6; */
@@ -1400,6 +1405,9 @@ h5{
     color: #000000cf;
     font-weight: 500;
 }
+#stats a:hover{
+    border-bottom: 1px solid var(--bs-gray);
+}
 #page-insight{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -1411,7 +1419,8 @@ h5{
     transition: all 0.5s ease-in-out;
 }
 #stat_page_title span{
-    color: var(--bs-dark);
+    /* color: var(--bs-dark); */
+    color: var(--bs-pink);
     border-bottom: 1px solid var(--bs-gray);
 }
 #hr-stats{
@@ -1446,8 +1455,9 @@ h5{
     padding: 10px;
     /* padding: 6px; */
     /* padding: 8px; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* border-radius: 4px; */
+    border-radius: 6px;
 }
 #myBtn:hover {
     /* background-color: rgba(107, 118, 134, 0.664); */
