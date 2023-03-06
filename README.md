@@ -6,5 +6,5 @@ This is my first personal website version 1.0 built using HTML, CSS, JavScript, 
 
 ### Visit [My Portfolio Website](https://dnyaneshkolhe.in/)
 
-> Dnyanesh Kolhe | Last Update 25/02/2023
+> Dnyanesh Kolhe | Last Update 6/03/2023
 
