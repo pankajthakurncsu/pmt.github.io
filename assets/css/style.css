@@ -443,6 +443,7 @@ section{
     /* color: var(--bs-teal); */
     /* color: var(--bs-dark); */
     color: var(--bs-light);
+    border: 3px solid rgb(21, 21, 21);
 }
 #more-about-me-2:hover{
     /* background-color: #141626 !important; */
@@ -464,7 +465,9 @@ section{
     border-bottom: 3px solid var(--bs-dark) !important; */
 
     /* border-bottom: 1.5px solid var(--bs-light) !important; */
-    border: 1px solid var(--bs-gray-800) !important;
+
+    /* border: 1px solid var(--bs-gray-800) !important; */
+    border: 2px solid var(--bs-gray-800) !important;
 }
 .about{
     text-align: justify;
@@ -1604,7 +1607,9 @@ h5{
         font-size: x-small;
     }
     #more-about-me-2{
-        font-size: x-small;
+        /* font-size: x-small; */
+    
+        font-size: 11.5px;
     }
     #about h3{
         margin-left: 0;
