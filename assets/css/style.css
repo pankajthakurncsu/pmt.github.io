@@ -1148,10 +1148,10 @@ h5{
     margin-top: 2rem;
 }
 #sayhello{
-    background-color: #20c997;
+    /* background-color: #dc3545; */
     /* font-family: 'Montserrat', sans-serif; */
     font-family: var(--font-family1);
-    /* color: mediumaquamarine; */
+    color: mediumaquamarine;
     /* color: palevioletred; */
 
     color: var(--bs-dark);
