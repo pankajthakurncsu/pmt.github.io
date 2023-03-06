@@ -1348,8 +1348,8 @@ h5{
     border-bottom: 1px solid var(--bs-gray-dark);
 }
 .privacy-content{
-    border: 1px solid var(--bs-gray);
-    border-radius: 5px;
+    /* border: 1px solid var(--bs-gray);
+    border-radius: 5px; */
     padding: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
