@@ -945,8 +945,11 @@ h5{
     /* color: peru; */
     /* color: var(--bs-indigo); */
     /* color: pink; */
-    color: var(--bs-indigo);
-    border-bottom: 2px solid var(--bs-indigo);
+
+    /* color: var(--bs-indigo);
+    border-bottom: 2px solid var(--bs-indigo); */
+    color: var(--bs-pink);
+    border-bottom: 2px solid var(--bs-pink);
     transition: all 0.5s ease-in-out;
 }
 .card-text{
