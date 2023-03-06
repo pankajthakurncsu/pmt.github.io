@@ -1103,7 +1103,8 @@ h5{
 }
 #blog-title h4{
     font-family: var(--font-family2);
-    font-size: 36px;
+    /* font-size: 36px; */
+    font-size: 24px;
 }
 .post-date{
     /* color: #ecececf8; */
@@ -1121,7 +1122,8 @@ h5{
 }
 #post-content-head{
     /* font-size: 20px; */
-    font-size: 32px;
+    font-size: 21px;
+    /* font-size: 32px; */
     /* color: var(--bs-light); */
     /* color: var(--bs-dark); */
     /* color: var(--bs-light); */
