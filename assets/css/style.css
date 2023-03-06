@@ -274,7 +274,8 @@ a {
 section{
     scroll-margin-top: 80px;
     min-height: 5em;
-    padding: 100px 0.9%;
+    /* padding: 100px 0.9%; */
+    padding: 100px 2%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -1153,9 +1154,10 @@ h5{
 }
 #sayhello{
     /* background-color: #dc3545; */
+    background-color: mediumaquamarine;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: var(--font-family1);
-    color: mediumaquamarine;
+    /* color: mediumaquamarine; */
     /* color: palevioletred; */
 
     color: var(--bs-dark);
