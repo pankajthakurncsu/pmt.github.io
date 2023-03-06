@@ -108,7 +108,8 @@ body, html{
    border-radius: 4px;
    padding-inline: 4px;
    text-decoration-color: var(--bs-light);
-   font-size: 22px;
+   /* font-size: 22px; */
+   font-size: 20px;
 }
 .navbar-brand:hover{
     color: var(--bs-gray) !important;
