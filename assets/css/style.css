@@ -1190,13 +1190,12 @@ h5{
     border-radius: 5px;
     /* border-radius: 3px; */
     /* font-size: 15px; */
-    font-size: 14px;
+    font-size: 15px;
     /* font-weight: 300; */
     font-weight: 500;
 }
 #sayhello:hover{
-    /* font-size: 16px; */
-    font-size: 15px;
+    font-size: 16px;
     /* color: #20c997; */
     /* color: var(--bs-green); */
     /* color: peru; */

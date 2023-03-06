@@ -127,10 +127,10 @@ function topFunction() {
 $(document).ready(function() {
   setTimeout(()=>{
       $('#Preloader').addClass('loader');
-  },100);
+  },220);
   setTimeout(()=>{
       $('#Preloader').remove('loader');
-  },50);
+  },110);
 })
 
 $('.navbar-nav>li>a').on('click', function(){
