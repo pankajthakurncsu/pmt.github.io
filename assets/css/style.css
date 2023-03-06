@@ -1094,7 +1094,8 @@ h5{
     /* color: var(--bs-white); */
 }
 #blog-title{
-    text-align: justify;
+    /* text-align: justify; */
+
     /* font-family: 'Poppins', sans-serif;  */
     font-family: var(--font-family2);
     /* color: var(--bs-white); */
@@ -1104,7 +1105,8 @@ h5{
 #blog-title h4{
     font-family: var(--font-family2);
     /* font-size: 36px; */
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 21px;
 }
 .post-date{
     /* color: #ecececf8; */
@@ -1122,7 +1124,8 @@ h5{
 }
 #post-content-head{
     /* font-size: 20px; */
-    font-size: 21px;
+    /* font-size: 21px; */
+    font-size: 18px;
     /* font-size: 32px; */
     /* color: var(--bs-light); */
     /* color: var(--bs-dark); */
