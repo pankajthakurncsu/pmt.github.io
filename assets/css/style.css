@@ -1654,7 +1654,9 @@ h5{
         font-weight: 400;
         /* width: 96%; */
         width: 98%;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
     #get-in-touch{
         font-size: x-small;
