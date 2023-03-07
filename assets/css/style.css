@@ -109,8 +109,7 @@ body, html{
    border-radius: 4px;
    padding-inline: 4px;
    text-decoration-color: var(--bs-light);
-   /* font-size: 22px; */
-   font-size: 20px;
+   font-size: 22px;
 }
 .navbar-brand:hover{
     color: var(--bs-gray) !important;
@@ -329,14 +328,15 @@ section{
     font-size: 21px;
 }
 #home{
-    padding-top: 10rem;
+    /* padding-top: 10rem; */
+    /* padding-top: 14rem; */
+    padding-top: 16rem;
 }
 .home-content{
     font-size: 20px;
     /* width: 50%; */
-    width: 90%;
-    /* width: 94%; */
     /* width: 100%; */
+    width: 99%;
     font-weight: 400;
 }
 .hi{
@@ -348,7 +348,8 @@ section{
     /* font-weight: var(--font-weight) !important; */
     font-weight: bold;
     /* font-size: var(--font-size); */
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: 30px;
     /* color: var(--bs-gray-200); */
     /* color: #000000cf */
     /* color: var(--bs-gray-dark); */
@@ -361,7 +362,6 @@ section{
     font-family: var(--font-family2);
     font-weight: 600;
      /* font-size: var(--font-size); */
-    /* font-size: 32px; */
     font-size: 28px;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -384,8 +384,6 @@ section{
     font-family: var(--font-family1);
     /* font-weight: var(--font-weight) !important; */
     /* font-size: var(--font-size); */
-    /* font-size: 24px; */
-    /* font-size: 26px; */
     font-size: 28px;
     font-weight: bold !important;
     color: var(--bs-gray-darkdark);
@@ -1666,11 +1664,15 @@ h5{
         margin-bottom: 0.8rem;
         text-align: center !important;
     } */
+    #home{
+        padding-top: 10rem;
+    }
     .home-content{
+        text-align: start !important;
         font-weight: 400;
         /* width: 96%; */
-        /* width: 98%; */
-        width: 99%;
+        width: 98%;
+        /* width: 99%; */
         /* margin-left: 1rem; */
         margin-left: 0.5rem;
         margin-right: 0.5rem;
