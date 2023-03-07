@@ -935,7 +935,7 @@ section{
     color: var(--bs-dark);
 }
 #blog-intro{
-    /* color: darkgreen; */
+    /* color: darkgreen; 
     color: var(--bs-gray-dark);
 }
 #medium-blog{
@@ -1660,7 +1660,8 @@ h5{
     .home-content{
         font-weight: 400;
         /* width: 96%; */
-        width: 98%;
+        /* width: 98%; */
+        width: 99%;
         /* margin-left: 1rem; */
         margin-left: 0.5rem;
         margin-right: 0.5rem;
