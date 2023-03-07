@@ -40,7 +40,7 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Feedback
 Feedback is Welcome. 
-You can directly email me at [`dnyaneshkolhe1@gmail.com`](dnyaneshkolhe1@gmail.coml) or visit the contact page [`Link`](https://dnyaneshkolhe.in/#contact). Or 
+You can directly email me at [`dnyaneshkolhe1@gmail.com`](mailto:"dnyaneshkolhe1@gmail.com") or visit the contact page [`Link`](https://dnyaneshkolhe.in/#contact). Or 
 If you need any help feel free to contact me.
 
 # Update
