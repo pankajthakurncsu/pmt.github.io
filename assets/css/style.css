@@ -889,7 +889,12 @@ section{
 #visit-blog{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* font-size: smaller; */
-    font-size: small;
+    font-size: medium;
+}
+#visit-blog span{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 8px;
 }
 #visit-blog span a:hover{
     /* color: var(--bs-dark);
