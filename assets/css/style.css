@@ -1484,10 +1484,10 @@ h5{
 }
 #source a{
     /* font-size: small; */
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #source a:hover{
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
     border-bottom: 1px solid #000;
 }
