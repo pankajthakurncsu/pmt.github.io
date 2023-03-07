@@ -891,11 +891,6 @@ section{
     /* font-size: smaller; */
     font-size: medium;
 }
-#visit-blog span{
-    background-color: aliceblue;
-    padding: 5px;
-    border-radius: 8px;
-}
 #visit-blog span a:hover{
     /* color: var(--bs-dark);
     border-bottom: 1px solid var(--bs-dark); */
