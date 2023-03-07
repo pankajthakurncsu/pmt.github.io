@@ -30,12 +30,6 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 **If you decide to use my code, I kindly request that you provide appropriate attribution in your project to give credit to my work**.
 
-Thank you for your attention to these important details. I hope our code will be helpful for your project.
-
-Sincerely,
-
-[Dnyanesh Kolhe](https://dnyaneshkolhe.in/)
-
 # Live
 
 **Visit Portfolio [Website](https://dnyaneshkolhe.in/)**
@@ -51,4 +45,4 @@ If you need any help feel free to contact me.
 
 # Update
 
-The last Update was on 7/03/2023  by **Dnyanesh Kolhe**.
+The last Update was on 7/03/2023  by **Dnyanesh Kolhe**
