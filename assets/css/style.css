@@ -349,7 +349,8 @@ section{
     /* font-size: var(--font-size); */
 
     /* font-size: 32px; */
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: large;
     /* color: var(--bs-gray-200); */
     /* color: #000000cf */
     /* color: var(--bs-gray-dark); */
@@ -361,8 +362,9 @@ section{
     /* font-family: 'Poppins', sans-serif; */
     font-family: var(--font-family2);
     font-weight: 600;
-    /* font-size: 24px; */
-    font-size: 26px;
+    /* font-size: 22px; */
+    font-size: 24px;
+    /* font-size: 26px; */
     /* font-size: 32px; */
     /* font-size: var(--font-size); */
     margin-top: 2rem;
@@ -386,10 +388,10 @@ section{
     font-family: var(--font-family1);
     /* font-weight: var(--font-weight) !important; */
     /* font-size: var(--font-size); */
-    /* font-size: 24px; */
-    font-size: 26px;
+    font-size: 24px;
+    /* font-size: 26px; */
     font-weight: bold !important;
-    color: var(--bs-dark);
+    color: var(--bs-gray-darkdark);
 }
 .fa-laptop-code{
     color: var(--bs-gray);
