@@ -23,7 +23,7 @@
 
 **Installation Process**
 
-You can download this template from the above on this Repo page. You can see the green code button after clicking you can see the first tab button that is "Local" at the bottom click on `"Download ZIP"`. After downloading the completed extract first load it in your preferred IDE or in [VS Code](https://code.visualstudio.com/) and makes necessary changes at your convienient.
+You can download this template from the above on this Repo page. You can see the green code button after clicking you can see the first tab button that is "Local" at the bottom click on `"Download ZIP"`. After downloading the completed extract first load it in your preferred IDE or in [VS Code](https://code.visualstudio.com/) and makes necessary changes at your convenience.
 
 **Note:**
 I am happy to freely share my code with the community, the beginner-level developer, and hope it will be helpful for your project, But before using or distributing my code remove the `Contents`, `Images`, `Links`, and `Other Assets` that will not be helpful in your project.
@@ -46,7 +46,7 @@ Sincerely,
 
 # Feedback
 Feedback is Welcome. 
-You can directly email me at `dnyaneshkolhe1@gmail.com` or visit the contact page [Link](https://dnyaneshkolhe.in/#contact). Or 
+You can directly email me at [`dnyaneshkolhe1@gmail.com`](dnyaneshkolhe1@gmail.coml) or visit the contact page [`Link`](https://dnyaneshkolhe.in/#contact). Or 
 If you need any help feel free to contact me.
 
 
