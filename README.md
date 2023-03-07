@@ -32,7 +32,7 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Live
 
-**Visit Portfolio [Website](https://dnyaneshkolhe.in/)**
+**Visit Portfolio [Website](http://bit.ly/3ZMNTZC)**
 
 # Screenshot
 
@@ -40,9 +40,9 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Feedback
 Feedback is Welcome. 
-You can directly email me at [`dnyaneshkolhe1@gmail.com`](mailto:"dnyaneshkolhe1@gmail.com") or visit the contact page [`Link`](https://dnyaneshkolhe.in/#contact). Or 
+You can directly email me at [`dnyaneshkolhe1@gmail.com`](mailto:"dnyaneshkolhe1@gmail.com") or visit the contact [`link`](http://bit.ly/41TtlQM). Or 
 If you need any help feel free to contact me.
 
 # Update
 
-The last Update was on 7/03/2023  by  **[`Dnyanesh Kolhe`](https://dnyaneshkolhe.in/)**
+The last Update was on 7/03/2023  by  **[`Dnyanesh Kolhe`](http://bit.ly/3ZMNTZC)**
