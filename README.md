@@ -42,13 +42,12 @@ Sincerely,
 
 # Screenshot
 
-![portfolio collage](https://user-images.githubusercontent.com/61074868/223389106-66f72ced-a286-4e90-867b-fd5f4b276d7a.jpg)
+![portfolio screenshot](https://user-images.githubusercontent.com/61074868/223399635-8696ba08-8d34-47f5-934b-a3c382177e97.png)
 
 # Feedback
 Feedback is Welcome. 
 You can directly email me at [`dnyaneshkolhe1@gmail.com`](dnyaneshkolhe1@gmail.coml) or visit the contact page [`Link`](https://dnyaneshkolhe.in/#contact). Or 
 If you need any help feel free to contact me.
-
 
 # Update
 
