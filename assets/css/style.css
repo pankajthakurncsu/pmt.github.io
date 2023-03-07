@@ -1652,7 +1652,8 @@ h5{
     } */
     .home-content{
         font-weight: 400;
-        width: 96%;
+        /* width: 96%; */
+        width: 98%;
         margin-left: 1rem;
     }
     #get-in-touch{
