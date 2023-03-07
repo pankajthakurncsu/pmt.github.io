@@ -51,4 +51,4 @@ If you need any help feel free to contact me.
 
 # Update
 
-The last Update was on 7/03/2023  by **Dnyanesh Kolhe**
+The last Update was on 7/03/2023  by **Dnyanesh Kolhe**.
