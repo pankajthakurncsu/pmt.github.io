@@ -933,7 +933,6 @@ section{
     color: var(--bs-dark);
 }
 #blog-intro{
-    /* color: darkgreen; 
     color: var(--bs-gray-dark);
 }
 #medium-blog{
@@ -942,22 +941,13 @@ section{
 }
 #medium-blog-link{
     font-size: small;
-    /* color: pink; */
-    /* color: purple; */
-    /* color: pink; */
-
-    /* color: #2b026c; */
-    color: var(--bs-gray-dark);
-
-    /* border-bottom: 1px solid var(--bs-gray-600); */
-    /* border-bottom: 1px solid #2b026c; */
     border-bottom: 1px solid var(--bs-gray-dark);
 }
 #medium-blog-link:hover{
-    /* color: plum; */
-    /* color: var(--bs-purple); */
-    color: var(--bs-primary);
-    border-bottom: 1px solid var(--bs-primary);
+    /* color: var(--bs-primary);
+    border-bottom: 1px solid var(--bs-primary); */
+    color: var(--bs-pink);
+    border-bottom: 1px solid var(--bs-pink);
     transition: all 0.5s ease-out;
 }
 #hr-blog{
