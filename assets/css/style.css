@@ -132,9 +132,6 @@ body, html{
     padding: 2px 3px 2px 3px;
 }
 #mobile-menu{
-    /* font-size: 1.1rem; */
-    /* font-weight: bold; */
-    font-size: smaller;
     font-family: Arial, Helvetica, sans-serif;
     /* color: var(--bs-gray-800) !important; */
     /* color: var(--bs-gray-600) !important; */
@@ -151,7 +148,7 @@ body, html{
 
         /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>"); */
 
-        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
+        background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='3' stroke-linecap='square' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg>");
 }
 .navbar-toggler-icon:hover{
     transition: all 0.5s ease-in-out;
@@ -195,13 +192,13 @@ body, html{
     /* color: var(--bs-light); */
 }
 .nav-link:hover{
+     /* color: aliceblue; */
+    /* color: var(--bs-gray); */
+    color: olivedrab;
     text-decoration: underline;
     text-decoration-color: olivedrab;
     /* font-size: medium; */
     font-weight: 400;
-    /* color: aliceblue; */
-    /* color: var(--bs-gray); */
-    color: olivedrab;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
     /* border-bottom: 1px solid #efe148e8; */
@@ -891,8 +888,7 @@ section{
 }
 #visit-blog{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    transition: background-color 0.5s ease;
+    font-size: smaller;
 }
 #visit-blog span a:hover{
     /* color: var(--bs-dark);
@@ -1178,6 +1174,14 @@ h5{
 }
 #p-justify{
     text-align: justify;
+}
+#contact-linkedin{
+    border-bottom: 1px solid var(--bs-gray);
+}
+#contact-linkedin:hover{
+    color: cadetblue;
+    border-bottom: 1px solid cadetblue;
+    transition: border-bottom 0.5s ease;
 }
 .sayhello{
     margin-top: 2rem;
@@ -1636,7 +1640,7 @@ h5{
     }
     .navbar-collapse{
         /* background-color: #ffffff86 !important; */
-        background: linear-gradient(#f9f9f9ea, #ebebebbd) !important;
+        /* background: linear-gradient(#f9f9f9ea, #ebebebbd) !important; */
         /* border: 1px solid rgba(212, 212, 212, 0.454); */
         border: 0.5px solid rgba(224, 223, 223, 0.454);
         border-radius: 5px;
@@ -1645,10 +1649,13 @@ h5{
     }
     ul{
         text-align: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
+        /* padding-top: 0.5rem;
+        padding-bottom: 0.5rem; */
         /* padding-top: 2rem;
         padding-bottom: 2rem; */
+        padding: auto;
     }
     /* #nav-link-resume{
         margin-top: 0.8rem;
