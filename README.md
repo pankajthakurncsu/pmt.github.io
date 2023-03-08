@@ -36,8 +36,7 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Screenshot
 
-![portfolio screenshot](https://user-images.githubusercontent.com/61074868/223448213-001db11d-a507-435d-a50d-0ef9f7b61a19.png)
-
+![portfolio screenshot](https://user-images.githubusercontent.com/61074868/223459621-a3142103-dee6-48c3-8b51-c297e81b0c3c.png)
 
 # Feedback
 Feedback is Welcome. 
