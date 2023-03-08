@@ -17,6 +17,8 @@ font-family: 'Raleway', sans-serif; */
 /* font-family: 'DM Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* font-family: 'Inter', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+/* font-family: 'Cedarville Cursive', cursive; */
 *{
     padding: 0;
     margin: 0;
@@ -99,16 +101,21 @@ body, html{
     --font-family2: 'Poppins', sans-serif;
 }
 .navbar-brand{
-   color: #000;
+   /* color: #000; */
    /* color: var(--bs-light); */
    /* color: #000; */
    font-weight: bold;
    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+   font-family: 'Cedarville Cursive', cursive;
    border-radius: 4px;
    padding-inline: 4px;
    text-decoration-color: var(--bs-light);
-   font-size: 22px;
+   /* font-size: 22px; */
+   /* font-size: 26px; */
+   font-size: 28px;
+   color: var(--bs-gray-dark);
 }
 .navbar-brand:hover{
     color: var(--bs-gray) !important;
