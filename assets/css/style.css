@@ -1447,7 +1447,7 @@ h5{
 }
 /* Footer */
 #footer{
-    background-color: #000;
+    /* background-color: #000; */
     background-color: #004346 !important;;
     /* padding-top: 0.1rem;
     padding-bottom: 0.8rem; */
@@ -1455,6 +1455,7 @@ h5{
     margin: 0;
     padding: 0;
     /* margin-bottom: 0.8rem; */
+    padding-bottom: 0.8rem;
 }
 .hr-footer{
     /* color: var(--bs-gray-200); */
