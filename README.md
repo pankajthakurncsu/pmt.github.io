@@ -12,10 +12,7 @@
 - It is responsive and mobile-friendly and works without lagging.
 - Fast Loading.
 - Used SEO.
-- Available on Google Search Engine.
-- Hosted on GitHub and directed toward the custom domain.
-- Used Google Analytics for performance monitoring.
-- Cookie consent form for the users.
+- Available on Google an Bing Search Engine.
 - 95% Performance, 94% Accessibility, 100% Best Practices, 100% SEO for the Desktop, and 64% Performance, Accessibility, 100% Best 
   Practices, 100% SEO on Mobile. This report asses using "PageSpeed Insight" tools provided by Google.
 
