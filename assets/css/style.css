@@ -536,7 +536,7 @@ section{
     border: 2px solid var(--bs-gray-800) !important;
 }
 #about{
-    background-color: aliceblue;
+    background-color: rgb(244, 248, 252);
 }
 .about{
     text-align: justify;
@@ -635,7 +635,7 @@ section{
 }
 /* Project */
 #project{
-    background-color: aliceblue;
+    background-color: rgb(244, 248, 252);
 }
 .project{
     /* font-family: 'Roboto', sans-serif; */
