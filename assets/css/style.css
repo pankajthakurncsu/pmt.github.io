@@ -1021,8 +1021,10 @@ h5{
 
     /* color: var(--bs-indigo);
     border-bottom: 2px solid var(--bs-indigo); */
-    color: var(--bs-pink);
-    border-bottom: 2px solid var(--bs-pink);
+    /* color: var(--bs-pink);
+    border-bottom: 2px solid var(--bs-pink); */
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
     transition: all 0.5s ease-in-out;
 }
 .card-text{
