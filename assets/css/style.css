@@ -538,9 +538,9 @@ section{
     /* border: 1px solid var(--bs-gray-800) !important; */
     border: 2px solid var(--bs-gray-800) !important;
 }
-#about{
+/* #about{
     background-color: rgb(244, 248, 252);
-}
+} */
 .about{
     text-align: justify;
     /* font-family: 'Roboto', sans-serif; */
@@ -637,9 +637,9 @@ section{
     color: #000;
 }
 /* Project */
-#project{
+/* #project{
     background-color: rgb(244, 248, 252);
-}
+} */
 .project{
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Poppins', sans-serif; */
