@@ -724,7 +724,8 @@ section{
 }
 #post-content{
     color: var(--txt-color) !important;
-    font-family: var(--font-family1);
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-2);
 }
 #post-link{
     font-size: small;
@@ -915,7 +916,7 @@ section{
     border: none;
     outline: none;
     /* background-color: #242424cf; */
-    background-color: #18182ae4;
+    background-color: #18182ac5;
     backdrop-filter: blur(10px) !important;
     color: white;
     cursor: pointer;
@@ -924,7 +925,7 @@ section{
 }
 #myBtn:hover {
     /* background-color: #2d2d2dcf; */
-    background-color: #1f1f32e4;
+    background-color: #1f1f3296;
     backdrop-filter: blur(10px) !important;
 }
 .bi-hand-index-thumb-fill{
