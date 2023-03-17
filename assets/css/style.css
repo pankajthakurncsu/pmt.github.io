@@ -914,7 +914,8 @@ section{
     font-size: 12px;
     border: none;
     outline: none;
-    background-color: #242424cf;
+    /* background-color: #242424cf; */
+    background-color: #18182ae4;
     backdrop-filter: blur(10px) !important;
     color: white;
     cursor: pointer;
@@ -922,7 +923,8 @@ section{
     border-radius: 6px;
 }
 #myBtn:hover {
-    background-color: #2d2d2dcf;
+    /* background-color: #2d2d2dcf; */
+    background-color: #1f1f32e4;
     backdrop-filter: blur(10px) !important;
 }
 .bi-hand-index-thumb-fill{
