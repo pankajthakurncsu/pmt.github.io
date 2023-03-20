@@ -59,13 +59,13 @@ body, html{
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
     /* End Booostrap Variable */
-    --bg-shadow: ##13131e;
+    --bg-shadow: #161621;
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     --border-border: 0.8px solid #151521;
     /* --border-radius: 6px; */
     --border-radius: 4px;
     /* --bg-color: #13131e; */
-    --bg-color: #171724;
+    --bg-color: #161621;
     --txt-color: var(--bs-gray-500);
     --font-size: 18px;
     --font-size-2: 16px;
@@ -321,14 +321,14 @@ section{
 }
 .about_pic img{
     margin-top: 2rem;
-    opacity: 0.5;
+    opacity: 0.9;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(0,0, 0);
 	transform: translate3d(0,0,0);
 }
 .about_pic img:hover{
-     opacity: 0.8;
+     opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(0,-15px, 0);
@@ -528,9 +528,10 @@ section{
 .project-details-title span{
     border-bottom: 1px solid var(--bs-gray-500);
 }
-.img-fluid{
+/* .img-fluid{
     border: 1px solid var(--bs-gray-500);
-}
+    border: 4px solid  orange;
+} */
 .project-details-content-tittle{
     color: var(--bs-gray-500);
     font-weight: bold;
@@ -799,7 +800,21 @@ section{
     color: var(--bs-gray-500);
     border-bottom: 2px solid var(--bs-gray-500);
 }
-
+#img-photo-blog{
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-border);
+    border-radius: var(--border-radius);
+}
+#img-photo-blog .img-fluid{
+    border: 2px solid var(--bs-gray-500);
+    border-radius: 1rem;
+    width: 600px;
+    height: auto;
+}
+.blog-img-item{
+    margin: 1rem;
+    padding: 1rem;
+}
 #last-update{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
