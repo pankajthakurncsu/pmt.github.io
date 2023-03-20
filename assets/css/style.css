@@ -802,8 +802,6 @@ section{
 }
 #img-photo-blog{
     background-color: var(--bg-color);
-    border: 1px solid var(--border-border);
-    border-radius: var(--border-radius);
 }
 #img-photo-blog .img-fluid{
     border: 2px solid var(--bs-gray-500);
@@ -813,7 +811,6 @@ section{
 }
 .blog-img-item{
     margin: 1rem;
-    padding: 1rem;
 }
 #last-update{
     font-size: small;
