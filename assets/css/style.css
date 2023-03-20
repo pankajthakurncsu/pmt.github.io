@@ -804,13 +804,7 @@ section{
     background-color: var(--bg-color);
 }
 #img-photo-blog .img-fluid{
-    border: 2px solid var(--bs-gray-500);
-    border-radius: 1rem;
-    width: 600px;
-    height: auto;
-}
-.blog-img-item{
-    margin: 1rem;
+    border: 1px solid var(--bs-gray-500);
 }
 #last-update{
     font-size: small;
