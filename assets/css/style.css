@@ -20,7 +20,7 @@ body, html{
     /* background-color: #141626 !important; */
     background-color: #0b0b15;
     /* color: #d0d4e7; */
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     line-height: 1.5;
     width: 100%;
@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
     --border-radius: 4px;
     /* --bg-color: #13131e; */
     --bg-color: #161621;
-    --txt-color: var(--bs-gray-500);
+    --txt-color: var(--bs-gray-400);
     --font-size: 18px;
     --font-size-2: 16px;
     --font-weight: 400;
@@ -140,9 +140,12 @@ body::-webkit-scrollbar-thumb {
     color: var(--bs-gray-400);
 }
 .nav-link:hover{
-    color: var(--bs-gray-600);
+    /* color: var(--bs-gray-500); */
+    /* color: mediumaquamarine; */
+    color: plum;
     text-decoration: underline;
-    text-decoration-color: var(--bs-gray-600);
+    /* text-decoration-color: var(--bs-gray-500); */
+    text-decoration-color: plum;
     font-weight: 400;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
@@ -164,19 +167,19 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.3s ease-in-out;
 } */
 .nav-hr{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 p{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-weight: var(--font-weight);
 }
 #p{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-weight: var(--font-weight);
 }
 a {
     text-decoration: none;
-    color: var(--bs-gray-400);
+    color: var(--bs-gray-300);
     font-weight: var(--font-weight);
 }
 .link {
@@ -256,7 +259,7 @@ section{
     font-family: var(--font-family1);
     font-weight: bold;
     font-size: 30px;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 #name{
     font-family: var(--font-family2);
@@ -273,7 +276,7 @@ section{
     font-family: var(--font-family1);
     font-size: 28px;
     font-weight: bold !important;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 .fa-laptop-code{
     color: var(--bs-gray);
@@ -282,7 +285,7 @@ section{
     margin-top: 2rem;
 }
 #hero-social-links a{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     padding: 0.2rem;
     font-size: medium;
     font-weight: 500;
@@ -298,9 +301,9 @@ section{
     font-size: small;
     font-weight: 500;
     margin-top: 1rem;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     background-color: #070b1b ;
-    border: 2px solid var(--bs-gray-500);
+    border: 2px solid var(--bs-gray-400);
 }
 #more-about-me-2:hover{
     color: var(--bs-dark);
@@ -309,7 +312,7 @@ section{
     border: 0 !important;
     font-weight: 600;
     transition: all 0.5s ease-in-out !important;
-    border: 2px solid var(--bs-gray-500) !important;
+    border: 2px solid var(--bs-gray-200) !important;
 }
 #about{
     background-color: #0e0e19ef;
@@ -371,7 +374,7 @@ section{
 }
 #skill h6{
     padding-bottom: 0.5rem;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-weight: var(--font-weight) !important;
     font-size: var(--font-size);
 }
@@ -412,8 +415,10 @@ section{
 }
 .stretched-link:hover{
     pointer-events: pointer;
-    border-bottom: 1px solid palevioletred;
-    color: palevioletred;
+    /* border-bottom: 1px solid palevioletred;
+    color: palevioletred; */
+    border-bottom: 1px solid plum;
+    color: plum;
 }
 /* .project2{
     font-family: var(--font-family1);
@@ -499,7 +504,7 @@ section{
 }
 .high_light{
     font-size: small;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-size: 300;
 }
 .high_light span{
@@ -510,7 +515,7 @@ section{
     border-bottom: none !important;
 }
 .overview{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     margin-top: 2rem;
 }
 /* Project Details Page */
@@ -530,7 +535,7 @@ section{
     font-size: 1.1rem;
 }
 .project-details-title{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 .project-details-title-2{
     padding-bottom: 1rem;
@@ -538,19 +543,19 @@ section{
     font-style: italic;
 }
 .project-details-title span{
-    border-bottom: 1px solid var(--bs-gray-500);
+    border-bottom: 1px solid var(--bs-gray-400);
 }
 /* .img-fluid{
     border: 1px solid var(--bs-gray-500);
     border: 4px solid  orange;
 } */
 .project-details-content-tittle{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-weight: bold;
     margin-bottom: 2rem;
 }
 .learn{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -589,10 +594,10 @@ section{
     width: 50%;
 }
 .blog_home_page_title{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 #blog-intro{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-size: medium;
 }
 #medium-blog{
@@ -601,24 +606,21 @@ section{
 }
 #medium-blog-link{
     font-size: small;
-    border-bottom: 1px solid var(--bs-gray-500);;
+    border-bottom: 1px solid var(--bs-gray-400);
 
 }
 #medium-blog-link:hover{
-    color: var(--bs-pink);
-    border-bottom: 1px solid var(--bs-pink);
+    color: plum;
+    border-bottom: 1px solid plum;
     transition: all 0.5s ease-out;
 }
-#hr-blog{
-    color: var(--bs-gray-200);
-}
-#blog-list-name{
+/* #blog-list-name{
     font-weight: bold;
     color: var(--bs-gray-500);
 }
 #blog-list-name span{
     border-bottom: 1px solid var(--bs-gray);
-}
+} */
 .card{
     background-color: #0b0b15;
     margin-bottom: 2rem;
@@ -629,19 +631,19 @@ section{
     padding-bottom: 0;
 }
 .card-body > h5 > a {
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-weight: bold;
 }
 .card-body > h5 > a:hover {
-    color: darkcyan;
-    border-bottom: 2px solid darkcyan;
+    color: mediumaquamarine;
+    border-bottom: 2px solid mediumaquamarine;
     transition: all 0.5s ease-in-out;
 }
 .card-text{
     font-size: medium;
 }
 .card-text p{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 .card-body p > a{
     font-family: 'Nunito Sans', sans-serif;
@@ -651,7 +653,7 @@ section{
     padding-left: 8px;
     padding-right: 8px;
     border-radius: 14px;
-    border: 1px solid var(--bs-gray-500);
+    border: 1px solid var(--bs-gray-400);
 }
 #blog_list_img{
     height: 250px;
@@ -667,13 +669,15 @@ section{
     color: var(--bs-pink);
 }
 #read-more{
-   color: var(--bs-gray-500);
+   color: var(--bs-gray-400);
    font-family: var(--font-family1);
    font-size: small;
 }
 #read-more:hover{
-    color: var(--bs-pink);
-    border-bottom: 1px solid var(--bs-pink);
+    margin-left: 0.4rem;
+    color: plum;
+    border-bottom: 1px solid plum;
+    transition: all 0.5s ease-in-out;
 }
 .first-blog-title{
     padding-top: 2rem;
@@ -688,7 +692,7 @@ section{
 .btn{
     font-size: small;
     color: var(--bs-dark);
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     background-color: #0b0b15;
     margin-bottom: 2rem;
     border: 1px solid var(--bs-gray);
@@ -708,26 +712,28 @@ section{
     color: var(--bs-gray-200);
 }
 .breadcrumb-item a:hover{
-    color: var(--bs-pink);
+    /* color: var(--bs-pink); */
+    color: plum;
 }
 .breadcrumb-item.active {
-    color: #60cfa2;
+    /* color: #60cfa2; */
+    color: mediumaquamarine;
 }
 #blog-title{
     font-family: var(--font-family2);
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 #blog-title h4{
     font-family: var(--font-family2);
     font-size: 21px;
 }
 .post-date{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-size: small;
     font-family: 'Nunito Sans', sans-serif;
 }
 .post-date span{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-family: 'Nunito Sans', sans-serif;
     border-bottom: 1px solid;
 }
@@ -743,12 +749,16 @@ section{
 }
 #post-link{
     font-size: small;
-    color: var(--bs-pink);
-    border-bottom: 0.5px solid var(--bs-pink);
+    /* color: var(--bs-pink);
+    border-bottom: 0.5px solid var(--bs-pink); */
+    color: plum;
+    border-bottom: 0.5px solid plum;
 }
 #post-link:hover{
-    color: rgb(1, 167, 167);
-    border-bottom: 1px solid rgb(1, 167, 167);
+    /* color: rgb(1, 167, 167);
+    border-bottom: 1px solid rgb(1, 167, 167); */
+    color: pink;
+    border-bottom: 1px solid pink;
     transition: all 0.3s ease-in-out;
 }
 /* Contact  */
@@ -788,8 +798,11 @@ section{
 }
 #sayhello{
     font-family: var(--font-family1);
-    color: var(--bs-dark-500);
-    border: 1px solid var(--bs-gray-500);
+    /* color: var(--bs-dark-500); */
+    color: #000;
+    background-color: mediumseagreen;
+    /* border: 1px solid var(--bs-gray-400); */
+    border: 1px solid mediumseagreen;
     padding: 0.4rem;
     border-radius: 4px;
     font-size: 15px;
@@ -797,7 +810,7 @@ section{
 }
 #sayhello:hover{
     font-size: 16px;
-    color: var(--bs-dark);
+    /* color: var(--bs-dark); */
     background-color: var(--bs-teal);
     border: 2px solid var(--bs-teal);
     transition: all 0.3s ease-in-out;
@@ -809,8 +822,8 @@ section{
     margin-top: 2rem;
 }
 #photography-title span{
-    color: var(--bs-gray-500);
-    border-bottom: 2px solid var(--bs-gray-500);
+    color: var(--bs-gray-400);
+    border-bottom: 2px solid var(--bs-gray-400);
 }
 #img-photo-blog .img-fluid{
     border: 1px solid var(--bs-gray-200);
@@ -879,7 +892,7 @@ section{
     padding-bottom: 0.8rem;
 }
 .hr-footer{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     margin-top: 0;
     margin-left: 1rem;
     margin-right: 1rem;
@@ -902,7 +915,7 @@ section{
     font-size: 0.9rem;
     font-weight: 500;
     line-height: 0.99rem;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
 }
 .footer a:hover{
     color: var(--bs-light);
@@ -910,7 +923,7 @@ section{
 }
 #credit p{
     line-height: 0.1rem;
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-size: medium;
 }
 #source a{
@@ -978,7 +991,7 @@ section{
     color: var(--bs-light);
 }
 #error-p{
-    color: var(--bs-gray-500);
+    color: var(--bs-gray-400);
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bold;
     font-size: 14px;
