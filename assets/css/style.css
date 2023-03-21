@@ -248,7 +248,8 @@ section{
     font-size: 21px;
 }
 #home{
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    padding-top: 18rem;
 }
 .home-content{
     font-size: 20px;
