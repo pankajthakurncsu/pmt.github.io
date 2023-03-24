@@ -77,13 +77,17 @@ body::-webkit-scrollbar-thumb {
     --bs-dark: #212529;
     /* End Booostrap Variable */
     --bg-shadow: #161621;
+    --bg-shadow-light: #cbcbcbf5;
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     --border-border: 0.8px solid #151521;
+    --border-border-light: 0.8px solid #e8e8e8;
     /* --border-radius: 6px; */
     --border-radius: 4px;
     /* --bg-color: #13131e; */
     --bg-color: #161621;
+    --bg-color-light: #f8f9f9f7;
     --txt-color: var(--bs-gray-400);
+    --txt-color-light: var(--bs-gray-dark);
     --font-size: 18px;
     --font-size-2: 16px;
     --font-weight: 400;
@@ -91,6 +95,175 @@ body::-webkit-scrollbar-thumb {
     --font-family1: 'Inter', sans-serif;
     --font-family2: 'Poppins', sans-serif;
 }
+/* Dark & Light Mode */
+.dark-mode {
+    background-color: var(--bs-gray-100);
+    color: #000;
+}
+.dark-mode a {
+    color: #000 !important;
+}
+.dark-mode p{
+    color: var(--bs-gray-dark) !important;
+}
+.dark-mode #p{
+    color: var(--bs-gray-dark) !important;
+}
+.dark-mode #about{
+    background-color: var(--bs-gray-100) !important;
+}
+.dark-mode .resume{
+    color: var(--bs-dark) !important;
+    background-color: var(--bs-gray-100) !important;
+}
+.dark-mode .resume:hover{
+    color: var(--bs-light) !important;
+    background-color: var(--bs-dark) !important;
+}
+.dark-mode .navbar {
+    background-color: #f8f9faac !important;
+}
+.dark-mode .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>");  
+}
+.dark-mode .nav-hr{
+    color: var(--bs-gray-800);
+}
+.dark-mode #mobile-menu{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+.dark-mode .nav-link{
+    color: var(--bs-dark);
+}
+.dark-mode .nav-link:hover{
+    color: purple !important;
+    text-decoration: underline;
+}
+.dark-mode .navbar-brand{
+    color: var(--bs-gray-dark);
+}
+.dark-mode .hi{
+    color: var(--bs-gray-dark);
+}
+.dark-mode .intro{
+    color: var(--bs-gray-dark) !important;
+}
+.dark-mode #more-about-me-2{
+    color: var(--bs-gray-dark);
+    background-color: var(--bs-gray-100);
+    font-family: var(--font-family1);
+    font-size: small;
+    font-weight: 500;
+    margin-top: 1rem;
+    border: 2px solid var(--bs-gray-dark);
+}
+.dark-mode #more-about-me-2:hover{
+    color: var(--bs-light) !important;
+    background-color: var(--bs-dark) !important;
+    margin-left: 5px;
+    border: 0 !important;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out !important;
+    border: 2px solid var(--bs-dark) !important;
+}
+.dark-mode .img-fluid{
+    border: 1px solid var(--bs-gray-500);
+}
+.dark-mode .skill{
+    border: var(--border-border-light);
+    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    background-color: var(--bg-color-light);
+    color: var(--txt-color-light);
+}
+.dark-mode .skill h6{
+    color: var(--bs-gray-dark) !important;
+}
+.dark-mode #project {
+    background-color: var(--bs-gray-100);
+}
+.dark-mode .project-item {
+    border: var(--border-border-light);
+    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    background-color: var(--bg-color-light);
+    color: var(--txt-color-light);
+}
+.dark-mode .overview{
+    color: var(--bs-gray-dark);
+}
+.dark-mode .stretched-link{
+    border-bottom: 1px solid #000 !important;
+}
+.dark-mode .stretched-link:hover{
+    color: darkcyan !important;
+    border-bottom: 1px solid darkcyan !important;
+}
+.dark-mode .show-more-less{
+    background-color: var(--bs-gray-100) !important;
+    color: var(--bs-gray-dark-dark) !important;
+    border-color: var(--bs-gray-dark) !important;
+}
+.dark-mode .show-more-less:hover{
+    color: var(--bs-light) !important;
+    background-color: var(--bs-dark) !important;
+    border-color: var(--bs-dark) !important;
+    transition: all 0.5s ease-in-out;
+}
+.bi-moon-fill{
+    color: #0d6efd;
+}
+.dark-mode .hr-footer{
+    color: var(--bs-gray-600) !important;
+}
+.dark-mode #hero-social-links a{
+    color: var(--bs-gray-dark);
+}
+.dark-mode #hero-social-links a:hover{  
+    font-weight: bold;
+    color: purple !important;
+}
+.dark-mode #credit p{
+    color: var(--bs-gray-dark) !important;
+}
+.dark-mode #source a{
+    color: var(--bs-gray-dark) !important;
+}
+#source a:hover{
+    color: purple !important;
+    border-bottom: 1px solid purple !important;
+}
+.dark-mode #sayhello{
+    font-family: var(--font-family1);
+    /* color: var(--bs-dark-500); */
+    color: var(--bs-dark);
+    background-color: var(--bs-gray-100);
+    /* border: 1px solid var(--bs-gray-400); */
+    border: 1px solid var(--bs-dark);
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.dark-mode .card{
+    background-color: var(--bs-gray-100) !important;
+}
+.dark-mode #medium-blog-link{
+    font-size: small;
+    border-bottom: 1px solid var(--bs-gray-900) !important;
+}
+.dark-mode #medium-blog-link:hover{
+    color: purple !important;
+    border-bottom: 1px solid purple !important;
+}
+.card-body > h5 > a:hover {
+    color: purple !important;
+    border-bottom: 1px solid purple !important;
+}
+ #read-more:hover{
+    color: purple !important;
+    border-bottom: 1px solid purple !important;
+ }
+/* End Dark & Light Mode */
 .navbar-brand{
    color: var(--bs-gray-400);
    font-weight: bold;
@@ -248,8 +421,7 @@ section{
     font-size: 21px;
 }
 #home{
-    /* padding-top: 16rem; */
-    padding-top: 18rem;
+    padding-top: 16rem;
 }
 .home-content{
     font-size: 20px;
@@ -607,7 +779,6 @@ section{
 #medium-blog-link{
     font-size: small;
     border-bottom: 1px solid var(--bs-gray-400);
-
 }
 #medium-blog-link:hover{
     color: plum;
@@ -1027,9 +1198,12 @@ section{
         font-weight: 300;
     }
     .navbar-collapse{
-        border: 0.5px solid #171723df ;
+        border: 0.5px solid #171723df;
         border-radius: 5px;
         margin-top: 0.2rem;
+    }
+    .dark-mode .navbar-collapse{
+        border: 0.5px solid #eaeaeadf;
     }
     ul{
         text-align: center;

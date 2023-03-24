@@ -144,6 +144,11 @@ $('.navbar-nav>li>a').on('click', function(){
 //   window.location.href ='mailto:dnyaneshkolhe1@gmail.com';
 // }
 
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 // =========================================================
 
 // <!-- Last Update 20/3/23-->
