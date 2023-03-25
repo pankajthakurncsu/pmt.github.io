@@ -209,8 +209,12 @@ body::-webkit-scrollbar-thumb {
     border-color: var(--bs-dark) !important;
     transition: all 0.5s ease-in-out;
 }
-.bi-moon-fill{
-    color: #0d6efd;
+.dark-mode .bi-moon-fill{
+    color: var(--bs-dark);
+}
+.dark-mode .bi-moon-fill:hover{
+    color: palevioletred !important;
+    transition: all 0.5s ease-in-out;
 }
 .dark-mode .hr-footer{
     color: var(--bs-gray-600) !important;
@@ -255,14 +259,17 @@ body::-webkit-scrollbar-thumb {
     color: purple !important;
     border-bottom: 1px solid purple !important;
 }
-.card-body > h5 > a:hover {
+.dark-mode .card-body > h5 > a:hover {
     color: purple !important;
     border-bottom: 1px solid purple !important;
 }
- #read-more:hover{
+.dark-mode #read-more:hover{
     color: purple !important;
     border-bottom: 1px solid purple !important;
  }
+ .dark-mode #Preloader {
+    background-color: var(--bs-gray-100);
+}
 /* End Dark & Light Mode */
 .navbar-brand{
    color: var(--bs-gray-400);
@@ -341,6 +348,9 @@ body::-webkit-scrollbar-thumb {
 } */
 .nav-hr{
     color: var(--bs-gray-400);
+}
+.bi-moon-fill {
+    color: var(--bs-primary);
 }
 p{
     color: var(--bs-gray-400);

@@ -144,11 +144,35 @@ $('.navbar-nav>li>a').on('click', function(){
 //   window.location.href ='mailto:dnyaneshkolhe1@gmail.com';
 // }
 
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-}
+// function myFunction() {
+//   var element = document.body;
+//   element.classList.toggle("dark-mode");
+// }
 
+function darkmode(){
+  var SetTheme = document.body;
+
+  SetTheme.classList.toggle("dark-mode");
+
+  var theme;
+
+  if(SetTheme.classList.contains("dark-mode")){
+    console.log("Dark mode");
+    theme = "DARK";
+  } else {
+    console.log("Light mode");
+    theme = "LIGHT";
+  }
+
+  // save to localstorage
+  localStorage.setItem("PageTheme", JSON.stringify(theme));
+}
+let GetTheme = JSON.parse(localStorage.getItem("PageTheme"))
+console.log(GetTheme);
+
+if(GetTheme == "DARK"){
+  document.body.classList = "dark-mode";
+}
 // =========================================================
 
 // <!-- Last Update 20/3/23-->
