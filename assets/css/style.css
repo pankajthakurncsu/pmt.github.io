@@ -267,6 +267,10 @@ body::-webkit-scrollbar-thumb {
     color: purple !important;
     border-bottom: 1px solid purple !important;
  }
+ .dark-mode #hr-blog-item{
+    color:rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+}
  .dark-mode #Preloader {
     background-color: var(--bs-gray-100);
 }
@@ -802,6 +806,12 @@ section{
 #blog-list-name span{
     border-bottom: 1px solid var(--bs-gray);
 } */
+#hr-blog-item{
+    height: 1.5px;
+    border-width:0;
+    color:rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+}
 .card{
     background-color: #0b0b15;
     margin-bottom: 2rem;
