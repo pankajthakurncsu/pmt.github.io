@@ -35,6 +35,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <link rel="stylesheet" href="./assets/css/switch.css">
+
      <!-- Aos Libraray -->
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -88,12 +90,21 @@
               <a class="nav-link" aria-current="page" href="#contact">Contact</a>
               <!-- <a class="nav-link" aria-current="page" href="#contact" id="nav-contact">Contact Me</a> -->
             </li>
-            <li class="nav-item">
+
+            <!-- <li class="nav-item">
               <a class="nav-link" aria-current="page" type="button" onclick="darkmode()" id="myBtn2">
                 <i class="bi bi-moon-fill"></i>
               </a>
-            </li>
+            </li> -->
 
+            <li class="nav-item">
+                <label class="toggle">
+                  <input class="toggle-checkbox" type="checkbox" type="button" onclick="darkmode()" id="myBtn2">
+                  <div class="toggle-switch"></div>
+                   <!-- <span class="toggle-label"></span> -->
+                </label>
+            </li>
+           
             <!-- <button id="myBtn2" onclick="darkmode()">Dark</button> -->
 
             <hr class="nav-hr">
