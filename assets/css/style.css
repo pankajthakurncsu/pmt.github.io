@@ -923,10 +923,13 @@ section{
     border-bottom: 1px solid var(--bs-gray);
 } */
 #hr-blog-item{
-    height: 1.5px;
+    height: 1px;
     border-width:0;
     color:rgb(255, 255, 255);
     background-color:rgb(255, 255, 255);
+}
+.bi-caret-right{
+    color: var(--bs-red);
 }
 .card{
     background-color: #0b0b15;
@@ -1016,7 +1019,13 @@ section{
     padding-top: 8rem;
 }
 #hr-post{
-    color: var(--bs-gray-200);
+    color: var(--bs-light);
+}
+.dark-mode #hr-post{
+    color: var(--bs-dark);
+}
+.breadcrumb-item{
+    font-weight: bold;
 }
 .breadcrumb-item a:hover{
     /* color: var(--bs-pink); */
