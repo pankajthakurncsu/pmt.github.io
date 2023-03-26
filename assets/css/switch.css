@@ -2,12 +2,11 @@
     cursor: pointer;
     display: inline-block;
   }
-  
   .toggle-switch {
     display: inline-block;
     background: #ccc;
     border-radius: 16px;
-    border: 1px solid #000;
+    border: 1px solid #6c757d;
     /* width: 58px; */
     width: 29px;
     /* height: 32px; */

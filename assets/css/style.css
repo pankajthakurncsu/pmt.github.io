@@ -228,12 +228,18 @@ body::-webkit-scrollbar-thumb {
     color: darkcyan !important;
     border-bottom: 0.5px solid darkcyan !important;
 }
-.dark-mode .bi-moon-fill{
+/* .dark-mode .bi-moon-fill{
     color: var(--bs-dark);
 }
 .dark-mode .bi-moon-fill:hover{
     color: palevioletred !important;
     transition: all 0.5s ease-in-out;
+} */
+.dark-mode .bi-brightness-high{
+    color: var(--bs-orange);
+}
+.dark-mode .bi-brightness-high:hover{
+    color: palevioletred;
 }
 .dark-mode .hr-footer{
     color: var(--bs-gray-600) !important;
@@ -360,8 +366,11 @@ body::-webkit-scrollbar-thumb {
     margin-top: 0;
 }
 .dark-mode #animation-light{
-    margin-top: 5rem;
+    margin-top: 3.5rem;
     padding: 0.5rem;
+}
+.dark-mode #error-p-2 {
+    color: var(--bs-primary) !important;
 }
 /* End Dark & Light Mode */
 .navbar-brand{
@@ -442,8 +451,14 @@ body::-webkit-scrollbar-thumb {
 .nav-hr{
     color: var(--bs-gray-400);
 }
-.bi-moon-fill {
+/* .bi-moon-fill {
     color: var(--bs-primary);
+} */
+.bi-brightness-high{
+    color: var(--bs-info);
+}
+.bi-brightness-high:hover{
+    color: palevioletred;
 }
 p{
     color: var(--bs-gray-400);
