@@ -109,8 +109,12 @@ body::-webkit-scrollbar-thumb {
 .dark-mode #p{
     color: var(--bs-gray-dark) !important;
 }
+#myBtn2{
+    margin-top: 0.2rem;
+   font-size: 14px;
+}
 .dark-mode .bi-brightness-high{
-    color: var(--bs-orange);
+    color: orangered;
 }
 .dark-mode #mode::before{
     content: "Light";
