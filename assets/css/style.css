@@ -423,7 +423,7 @@ body::-webkit-scrollbar-thumb {
     scroll-behavior: smooth !important;
 }
 .nav-item{
-    padding: 0.5rem;
+    padding: 0.1rem;
 }
 .nav-link {
     font-family: 'Poppins', sans-serif;
@@ -1349,7 +1349,7 @@ section{
     .navbar-collapse{
         border: 0.5px solid #171723df;
         border-radius: 5px;
-        margin-top: 0.2rem;
+        /* margin-top: 0.2rem; */
     }
     .dark-mode .navbar-collapse{
         border: 0.5px solid #eaeaeadf;
