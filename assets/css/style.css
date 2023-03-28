@@ -1366,8 +1366,7 @@ section{
         padding: auto;
     }
     #home{
-        /* padding-top: 10rem; */
-        padding-top: 6rem;
+        padding-top: 10rem;
     }
     .home-content{
         text-align: start !important;
