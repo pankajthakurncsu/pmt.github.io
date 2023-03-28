@@ -24,8 +24,6 @@ body, html{
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     line-height: 1.5;
     width: 100%;
-    --scrollbarBG: #0b0b15;
-    --thumbBG: #2c2c3fdb;
 }
 body::-webkit-scrollbar {
     width: 11px;
@@ -94,6 +92,9 @@ body::-webkit-scrollbar-thumb {
     --bg-padding: 14px;
     --font-family1: 'Inter', sans-serif;
     --font-family2: 'Poppins', sans-serif;
+    --scrollbarBG: #0b0b15;
+    /* --thumbBG: #2c2c3fdb; */
+    --thumbBG: var(--bs-secondary);
 }
 /* Dark & Light Mode */
 .dark-mode {
@@ -111,7 +112,7 @@ body::-webkit-scrollbar-thumb {
 }
 #myBtn2{
     margin-top: 0.2rem;
-   font-size: 14px;
+    font-size: 14px;
 }
 .dark-mode .bi-brightness-high{
     color: orangered;
@@ -182,9 +183,6 @@ body::-webkit-scrollbar-thumb {
     font-weight: 600;
     transition: all 0.5s ease-in-out !important;
     border: 2px solid var(--bs-dark) !important;
-}
-.dark-mode .img-fluid{
-    border: 1px solid var(--bs-gray-500);
 }
 .dark-mode .skill{
     border: var(--border-border-light);
@@ -555,7 +553,9 @@ section{
     font-size: 21px;
 }
 #home{
-    padding-top: 16rem;
+    /* padding-top: 16rem; */
+    /* padding-top: 14rem; */
+    padding-top: 10rem;
 }
 .home-content{
     font-size: 20px;
@@ -571,7 +571,9 @@ section{
 #name{
     font-family: var(--font-family2);
     font-weight: 600;
-    font-size: 28px;
+    /* font-size: 28px; */
+    /* font-size: 24px; */
+    font-size: 26px;
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: cadetblue;
@@ -581,7 +583,9 @@ section{
 }
 .intro{
     font-family: var(--font-family1);
-    font-size: 28px;
+    /* font-size: 28px; */
+    /* font-size: 24px; */
+    font-size: 26px;
     font-weight: bold !important;
     color: var(--bs-gray-400);
 }
@@ -852,9 +856,9 @@ section{
 .project-details-title span{
     border-bottom: 1px solid var(--bs-gray-400);
 }
-/* .img-fluid{
+.img-fluid{
     border: 1px solid var(--bs-gray-500);
-} */
+}
 .project-details-content-tittle{
     color: var(--bs-gray-400);
     font-weight: bold;
@@ -1263,7 +1267,8 @@ section{
     bottom: 20px;
     right: 30px;
     z-index: 99;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 8px;
     border: none;
     outline: none;
     /* background-color: #242424cf; */
@@ -1361,7 +1366,8 @@ section{
         padding: auto;
     }
     #home{
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
+        padding-top: 6rem;
     }
     .home-content{
         text-align: start !important;
@@ -1428,10 +1434,3 @@ section{
         text-align: start !important;
     }
 }
-
-.scrolled-down{
-    transform:translateY(-100%); transition: all 0.3s ease-in-out;
-  }
-  .scrolled-up{
-    transform:translateY(0); transition: all 0.3s ease-in-out;
-  }
