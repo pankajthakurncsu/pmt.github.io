@@ -118,13 +118,13 @@ body::-webkit-scrollbar-thumb {
     color: orangered;
 }
 .dark-mode #mode::before{
-    content: "Light";
+    content: "Light Mode";
 }
 .dark-mode #mode::after{
     content: "";
 }
 #mode::after{
-    content: "Dark";
+    content: "Dark Mode";
 }
 .dark-mode #about{
     background-color: var(--bs-gray-100) !important;
