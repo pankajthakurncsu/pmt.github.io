@@ -553,9 +553,7 @@ section{
     font-size: 21px;
 }
 #home{
-    /* padding-top: 16rem; */
-    /* padding-top: 14rem; */
-    padding-top: 10rem;
+    padding-top: 16rem;
 }
 .home-content{
     font-size: 20px;
@@ -571,8 +569,7 @@ section{
 #name{
     font-family: var(--font-family2);
     font-weight: 600;
-    /* font-size: 28px; */
-    /* font-size: 24px; */
+    font-size: 28px;
     font-size: 26px;
     margin-top: 2rem;
     margin-bottom: 2rem;
