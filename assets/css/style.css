@@ -251,8 +251,7 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.5s ease-in-out;
 } */
 .dark-mode .hr-footer{
-    /* color: var(--bs-gray-600) !important; */
-    color: var(--bs-gray-200) !important;
+    color: var(--bs-gray-600) !important;
 }
 .dark-mode #hero-social-links a{
     color: var(--bs-gray-dark);
@@ -1219,8 +1218,7 @@ section{
     padding-bottom: 0.8rem;
 }
 .hr-footer{
-    /* color: var(--bs-gray-400); */
-    color: #0b0b15;
+    color: var(--bs-gray-400);
     margin-top: 0;
     margin-left: 1rem;
     margin-right: 1rem;
