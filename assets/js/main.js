@@ -174,6 +174,3 @@ if(GetTheme == "DARK"){
   document.body.classList = "dark-mode";
 }
 // =========================================================
-
-// <!-- Last Update 20/3/23-->
-
