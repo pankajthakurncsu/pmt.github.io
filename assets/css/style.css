@@ -1368,12 +1368,12 @@ section{
         padding-bottom: 0.1rem; */
         /* padding-top: 2.4rem;
         padding-bottom: 2.4rem; */
-        padding-top: 4rem;
-        padding-bottom: 4rem;
+        padding-top: 3.5rem;
+        padding-bottom: 3.5rem;
         padding: auto;
     }
     .nav-item{
-        padding: 0.4rem;
+        padding: 0.3rem;
     }
     #home{
         padding-top: 10rem;
