@@ -419,8 +419,7 @@ body::-webkit-scrollbar-thumb {
 .navbar{
     --bs-navbar-toggler-font-size: 1rem;
     --bs-navbar-toggler-border-radius: 0rem;
-    /* background-color: #0b0b15df !important; */
-    background-color: #0b0b1584 !important;
+    background-color: #0b0b15df !important;
     backdrop-filter: blur(10px) !important;
     --bs-navbar-toggler-focus-width: 0.1rem;
     scroll-behavior: smooth !important;
@@ -1354,23 +1353,25 @@ section{
         font-weight: 300;
     }
     .navbar-collapse{
-        border: 0.5px solid #171723df;
+        /* border: 0.5px solid #171723df; */
+        border: 0.5px solid #232331df;
         border-radius: 5px;
         /* margin-top: 0.2rem; */
     }
     .dark-mode .navbar-collapse{
-        border: 0.5px solid #eaeaeadf;
+        /* border: 0.5px solid #eaeaeadf; */
+        border: 0.5px solid #e0e0e0df;
     }
     ul{
         text-align: center;
         /* padding-top: 0.1rem;
         padding-bottom: 0.1rem; */
-        padding-top: 3rem;
-        padding-bottom: 3rem;
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
         padding: auto;
     }
     .nav-item{
-        padding: 0.5rem;
+        padding: 0.3rem;
     }
     #home{
         padding-top: 10rem;
