@@ -1363,9 +1363,14 @@ section{
     }
     ul{
         text-align: center;
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
+        /* padding-top: 0.1rem;
+        padding-bottom: 0.1rem; */
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         padding: auto;
+    }
+    .nav-item{
+        padding: 0.5rem;
     }
     #home{
         padding-top: 10rem;
