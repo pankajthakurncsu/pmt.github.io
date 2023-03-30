@@ -124,13 +124,26 @@ function topFunction() {
 // });
 
 
+// $(document).ready(function() {
+//   setTimeout(()=>{
+//       $('#Preloader').addClass('loader');
+//   },220);
+//   setTimeout(()=>{
+//       $('#Preloader').remove('loader');
+//   },110);
+// })
+
+// $('.navbar-nav>li>a').on('click', function(){
+//   $('.navbar-collapse').collapse('hide');
+// });
+
 $(document).ready(function() {
   setTimeout(()=>{
       $('#Preloader').addClass('loader');
-  },220);
+  },400);
   setTimeout(()=>{
       $('#Preloader').remove('loader');
-  },110);
+  },200);
 })
 
 $('.navbar-nav>li>a').on('click', function(){
