@@ -1430,6 +1430,9 @@ section{
     #blog-intro{
         text-align: justify;
     }
+    #post-content{
+        font-size: 14.5px;
+    }
     .footer p{
         text-align: center;
     }
