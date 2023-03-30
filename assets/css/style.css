@@ -75,12 +75,14 @@ body::-webkit-scrollbar-thumb {
     --bs-dark: #212529;
     /* End Booostrap Variable */
     --bg-shadow: #161621;
+    /* --bg-shadow-light: #cbcbcbf5; */
     --bg-shadow-light: #cbcbcbf5;
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
     --border-border: 0.8px solid #151521;
     --border-border-light: 0.8px solid #e8e8e8;
     /* --border-radius: 6px; */
-    --border-radius: 4px;
+    /* --border-radius: 4px; */
+    --border-radius: 10px;
     /* --bg-color: #13131e; */
     --bg-color: #161621;
     --bg-color-light: #f8f9f9f7;
@@ -267,7 +269,7 @@ body::-webkit-scrollbar-thumb {
 .dark-mode #source a{
     color: var(--bs-gray-dark) !important;
 }
-#source a:hover{
+.dark-mode #source a:hover{
     color: purple !important;
     border-bottom: 1px solid purple !important;
 }
@@ -1275,12 +1277,14 @@ section{
     font-size: medium;
 }
 #source a{
+    font-size: 10.5px;
+    border-bottom: 1px solid var(--bs-gray);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #source a:hover{
     font-weight: 500;
-    color: pink;
-    border-bottom: 1px solid pink;
+    color: pink !important;
+    border-bottom: 1px solid pink !important;
 }
 /* Back to top button */
 #myBtn {
