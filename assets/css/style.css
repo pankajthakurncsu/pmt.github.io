@@ -1401,7 +1401,8 @@ section{
         padding: 0.3rem;
     }
     #home{
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
+        padding-top: 11rem;
     }
     .home-content{
         text-align: start !important;
