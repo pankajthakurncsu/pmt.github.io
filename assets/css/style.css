@@ -1386,10 +1386,10 @@ section{
         border: 0.5px solid #232331df;
         /* border-radius: 5px; */
         border-radius: 10px;
-        transition: all 0.5s ease-in;
+        transition: all 0.3s ease-in;
     }
     .dark-mode .navbar-collapse{
-        background-color: #e6e8f49d;
+        background-color: #ededf39d;
         border: 0.5px solid #e0e0e0df;
     }
     ul{
