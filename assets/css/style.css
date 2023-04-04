@@ -1389,19 +1389,19 @@ section{
         transition: all 0.5s ease-in;
     }
     .dark-mode .navbar-collapse{
-        background-color: #f7f7f7bd;
+        background-color: #e6e8f49d;
         border: 0.5px solid #e0e0e0df;
     }
     ul{
         text-align: center;
         /* padding-top: 0.1rem;
         padding-bottom: 0.1rem; */
-        padding-top: 0.3rem;
-        padding-bottom: 0.2rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
     }
     .nav-item{
         /* padding: 0; */
-        padding: 0.3rem;
+        padding: 0.4rem;
     }
     .nav-link{
         font-size: 16px;
