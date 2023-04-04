@@ -418,8 +418,7 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.5s ease-in-out;
 }
 .navbar{
-    /* --bs-navbar-toggler-font-size: 1rem; */
-    --bs-navbar-toggler-font-size: 1.1rem;
+    --bs-navbar-toggler-font-size: 1rem;
     --bs-navbar-toggler-border-radius: 0rem;
     background-color: #0b0b15df !important;
     backdrop-filter: blur(10px) !important;
@@ -1379,34 +1378,23 @@ section{
         font-weight: 300;
     }
     .navbar-collapse{
-        /* border: 0.5px solid #171723df; */
         border: 0.5px solid #232331df;
         border-radius: 5px;
-        /* margin-top: 0.2rem; */
+        transition: all 0.3s ease-in;
     }
     .dark-mode .navbar-collapse{
-        /* border: 0.5px solid #eaeaeadf; */
         border: 0.5px solid #e0e0e0df;
     }
     ul{
         text-align: center;
-
         /* padding-top: 0.1rem;
         padding-bottom: 0.1rem; */
-        /* padding-top: 2.4rem;
-        padding-bottom: 2.4rem; */
-
-        /* padding-top: 2.5rem;
-        padding-bottom: 2.5rem; */
-
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-
-        padding: auto;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
     }
     .nav-item{
-        /* padding: 0.3rem; */
-        padding: 0.2rem;
+        /* padding: 0; */
+        padding: 0.5rem;
     }
     .nav-link{
         font-size: 16px;
