@@ -7,6 +7,14 @@
 /* font-family: 'Inter', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 /* font-family: 'Cedarville Cursive', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+/* font-family: 'Rouge Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+/* font-family: 'Arizonia', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+/* font-family: 'Croissant One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
 *{
     padding: 0;
     margin: 0;
@@ -388,10 +396,16 @@ body::-webkit-scrollbar-thumb {
 /* End Dark & Light Mode */
 .navbar-brand{
    color: var(--bs-gray-400);
-   font-weight: bold;
-   font-family: 'Cedarville Cursive', cursive;
+   /* font-weight: bold; */
+   /* font-family: 'Cedarville Cursive', cursive; */
+   font-family: 'Croissant One', cursive;
+   /* font-family: 'Courgette', cursive; */
    padding-inline: 4px;
-   font-size: 28px;
+   /* font-size: 28px; */
+   /* font-size: 21px; */
+   /* font-size: 18px; */
+   font-size: 16.5px;
+   line-height: 0.9em;
 }
 .navbar-brand:hover{
     color: var(--bs-gray-500);
