@@ -614,7 +614,8 @@ section{
 }
 #hero-social-links a{
     color: var(--bs-gray-400);
-    padding: 0.2rem;
+    /* padding: 0.2rem; */
+    padding: 0.1rem;
     font-size: medium;
     font-weight: 500;
 }
@@ -1259,6 +1260,7 @@ section{
 .hr-footer{
     color: var(--bs-gray-400);
     margin-top: 0;
+    margin-bottom: 1.8rem;
     /* margin-left: 1rem;
     margin-right: 1rem; */
     margin-left: 0.5rem;
@@ -1277,7 +1279,7 @@ section{
     padding: 0.3rem;
 }
 .footer a{
-    text-align: center;
+    /* text-align: center; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
     font-weight: 500;
@@ -1289,7 +1291,8 @@ section{
     transition: all 0.5s ease-in-out;
 }
 #credit p{
-    line-height: 0.1rem;
+    /* line-height: 0.1rem; */
+    line-height: 0.2rem;
     color: var(--bs-gray-400);
     font-size: medium;
 }
@@ -1463,7 +1466,8 @@ section{
         font-size: 14.5px;
     }
     .footer p{
-        text-align: center;
+        /* text-align: center; */
+        text-align: start;
     }
     #error{
         padding-top: 6rem;
