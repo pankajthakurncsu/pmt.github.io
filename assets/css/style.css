@@ -1263,8 +1263,8 @@ section{
     margin-bottom: 1.8rem;
     /* margin-left: 1rem;
     margin-right: 1rem; */
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
 }
 .bi-linkedin{
     padding: 0.3rem;
@@ -1497,6 +1497,9 @@ section{
     }
     #ul-start > ul > li{
         text-align: start !important;
+    }
+    #hero-social-links{
+        padding-right: 3rem;
     }
     #myBtn {
         bottom: 7px;
