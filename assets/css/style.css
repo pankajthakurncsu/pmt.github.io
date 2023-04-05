@@ -1387,7 +1387,7 @@ section{
         border: 0.5px solid #232331df;
         /* border-radius: 5px; */
         border-radius: 10px;
-        transition: all 0.3s ease-in;
+        transition: all 0.1s ease-in-out;
     }
     .dark-mode .navbar-collapse{
         background-color: #ededf39d;
