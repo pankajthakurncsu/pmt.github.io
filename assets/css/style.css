@@ -1413,7 +1413,7 @@ section{
         border: 0.5px solid #e0e0e0df;
     }
     ul{
-        text-align: center;
+        /* text-align: center; */
         /* padding-top: 0.1rem;
         padding-bottom: 0.1rem; */
         padding-top: 0.4rem;
