@@ -1398,7 +1398,8 @@ section{
         font-weight: 300;
     }
     .navbar-collapse{
-        background-color: #22223478;
+        /* background-color: #22223478; */
+
         /* margin-top: 1.5rem;
         margin-bottom: 1.5rem; */
         margin-top: 2rem;
@@ -1409,11 +1410,12 @@ section{
         transition: all 0.1s ease-in-out;
     }
     .dark-mode .navbar-collapse{
-        background-color: #ededf39d;
+        /* background-color: #ededf39d; */
+
         border: 0.5px solid #e0e0e0df;
     }
     ul{
-        /* text-align: center; */
+        text-align: center;
         /* padding-top: 0.1rem;
         padding-bottom: 0.1rem; */
         padding-top: 0.4rem;
@@ -1499,7 +1501,7 @@ section{
         text-align: start !important;
     }
     #hero-social-links{
-        padding-right: 3rem;
+        padding-right: 1rem;
     }
     #myBtn {
         bottom: 7px;
