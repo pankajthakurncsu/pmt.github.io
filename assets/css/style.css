@@ -1245,8 +1245,10 @@ section{
 .hr-footer{
     color: var(--bs-gray-400);
     margin-top: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 .bi-linkedin{
     padding: 0.3rem;
