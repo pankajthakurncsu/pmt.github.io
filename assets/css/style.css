@@ -401,7 +401,7 @@ body::-webkit-scrollbar-thumb {
    color: var(--bs-gray-400);
    /* font-weight: bold; */
    /* font-family: 'Cedarville Cursive', cursive; */
-   font-family: 'Croissant One', cursive;
+   /* font-family: 'Croissant One', cursive; */
    /* font-family: 'Courgette', cursive; */
    padding-inline: 4px;
    /* font-size: 28px; */
@@ -725,6 +725,9 @@ section{
     color: var(--txt-color);
     font-weight: var(--font-weight) !important;
 }
+/* #project-width-5{
+    width: 60%;
+} */
 .project-item{
     font-family: var(--font-family1);
     font-weight: var(--font-weight);
