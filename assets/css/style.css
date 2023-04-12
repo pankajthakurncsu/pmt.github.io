@@ -728,6 +728,11 @@ section{
 #project-width-5{
     width: 100%;
 }
+.card-img-top{
+    height: 120px;
+    width: 240px;
+    margin-top: 0.5rem;
+}
 .project-item{
     font-family: var(--font-family1);
     font-weight: var(--font-weight);
@@ -1500,6 +1505,9 @@ section{
     .project-details{
         width: 96%;
         padding-top: 2;
+    }
+    #card-width{
+        width: 21.5rem !important;
     }
     #container-width-2{
         width: 96%;
