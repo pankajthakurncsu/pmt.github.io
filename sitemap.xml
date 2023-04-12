@@ -8,8 +8,69 @@
 
 
 <url>
-  <loc>https://dnyaneshkolhe.in/</loc>
-  <lastmod>2022-04-10T04:59:56+00:00</lastmod>
+  <loc>https://dnyaneshkolhe.com/</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/blog.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/mycalculator-project.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/smart-door-project.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/my-weather-app.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/renting-services-project.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/personal-portfolio-website.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/index.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/photography.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/what_is_entrepreneurship.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/free_learning_resources.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/what_is_salesforce.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://dnyaneshkolhe.com/hello_world.html</loc>
+  <lastmod>2023-04-11T13:57:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
