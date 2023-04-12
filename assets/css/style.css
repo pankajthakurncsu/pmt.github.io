@@ -725,9 +725,9 @@ section{
     color: var(--txt-color);
     font-weight: var(--font-weight) !important;
 }
-/* #project-width-5{
-    width: 60%;
-} */
+#project-width-5{
+    width: 100%;
+}
 .project-item{
     font-family: var(--font-family1);
     font-weight: var(--font-weight);
