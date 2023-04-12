@@ -719,6 +719,9 @@ section{
 #project{
     background-color: #0e0e19ef;
 }
+.card-2{
+    background-color: #0e0e19ef !important;
+}
 .project{
     font-family: var(--font-family1);
     font-size: var(--font-size);
@@ -1507,7 +1510,7 @@ section{
         padding-top: 2;
     }
     #card-width{
-        width: 21.5rem !important;
+        width: 24rem !important;
     }
     #container-width-2{
         width: 96%;
