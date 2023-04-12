@@ -218,6 +218,16 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--bg-color-light);
     color: var(--txt-color-light);
 }
+.dark-mode .project-item2 {
+    border: var(--border-border-light);
+    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    background-color: var(--bg-color-light);
+    color: var(--txt-color-light);
+}
+.dark-mode #mylink:hover{
+    color: mediumseagreen !important;
+    border-bottom: 1px solid mediumseagreen !important;
+}
 .dark-mode .overview{
     color: var(--bs-gray-dark);
 }
@@ -722,14 +732,14 @@ section{
 .card-2{
     background-color: #0e0e19ef !important;
 }
+.card-title{
+    margin-bottom: 1rem;
+}
 .project{
     font-family: var(--font-family1);
     font-size: var(--font-size);
     color: var(--txt-color);
     font-weight: var(--font-weight) !important;
-}
-#project-width-5{
-    width: 100%;
 }
 .card-img-top{
     height: 120px;
@@ -752,8 +762,28 @@ section{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
 .project-item:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.04);
+}
+.project-item2{
+    font-family: var(--font-family1);
+    font-weight: var(--font-weight);
+    border: var(--border-border);
+    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: var(--bg-padding);
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    font-size: var(--font-size);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.project-item2:hover{
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     transform: scale(1.04);
@@ -767,6 +797,13 @@ section{
     color: palevioletred; */
     border-bottom: 1px solid plum;
     color: plum;
+}
+#mylink{
+    border-bottom: 1px solid var(--bs-gray);
+}
+#mylink:hover{
+    color: var(--bs-pink);
+    border-bottom: 1px solid var(--bs-pink);
 }
 /* .project2{
     font-family: var(--font-family1);
@@ -1508,9 +1545,6 @@ section{
     .project-details{
         width: 96%;
         padding-top: 2;
-    }
-    #card-width{
-        width: 22rem !important;
     }
     #container-width-2{
         width: 96%;
