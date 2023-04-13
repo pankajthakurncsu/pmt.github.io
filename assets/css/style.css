@@ -15,6 +15,8 @@
 /* font-family: 'Croissant One', cursive; */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 /* font-family: 'Courgette', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+/* font-family: 'DM Sans', sans-serif; */
 *{
     padding: 0;
     margin: 0;
@@ -101,7 +103,8 @@ body::-webkit-scrollbar-thumb {
     --font-size-2: 16px;
     --font-weight: 400;
     --bg-padding: 14px;
-    --font-family1: 'Inter', sans-serif;
+    /* --font-family1: 'Inter', sans-serif; */
+    --font-family1: 'DM Sans', sans-serif;
     --font-family2: 'Poppins', sans-serif;
     --scrollbarBG: #0b0b15;
     /* --thumbBG: #2c2c3fdb; */
@@ -909,7 +912,8 @@ section{
 }
 .project-details{
     border-radius: var(--border-radius);
-    width: 65%;
+    /* width: 65%; */
+    width: 82%;
     transition: var(--transition);
     position: relative;
     z-index: 2;
@@ -917,7 +921,9 @@ section{
     padding-top: 2rem;
     padding-bottom: 2rem;
     margin-top: 2rem;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: var(--font-size);
+    font-family: 'DM Sans', sans-serif;
 }
 .project-details-title{
     color: var(--bs-gray-400);
@@ -1543,7 +1549,8 @@ section{
         font-size: 0.8rem
     }
     .project-details{
-        width: 96%;
+        /* width: 96%; */
+        width: 100%;
         padding-top: 2;
     }
     #container-width-2{
@@ -1562,7 +1569,8 @@ section{
         text-align: start !important;
     }
     #hero-social-links{
-        padding-right: 1rem;
+        /* padding-right: 1rem; */
+        padding-right: 3rem;
     }
     #myBtn {
         bottom: 7px;
