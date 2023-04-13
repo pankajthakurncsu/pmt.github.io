@@ -450,8 +450,8 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.5s ease-in-out;
 }
 .navbar{
-    --bs-navbar-toggler-font-size: 1rem;
-    /* --bs-navbar-toggler-font-size: 1.1rem; */
+    /* --bs-navbar-toggler-font-size: 1rem; */
+    --bs-navbar-toggler-font-size: 1.1rem;
 
     --bs-navbar-toggler-border-radius: 0;
     background-color: #0b0b15df !important;
