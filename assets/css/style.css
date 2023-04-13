@@ -160,7 +160,7 @@ body::-webkit-scrollbar-thumb {
 
     /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='1.5' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>");   */
 
-    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='3' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 24h24'/></svg>"); 
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='2.5' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>"); 
 }
 .dark-mode .nav-hr{
     color: var(--bs-gray-800);
@@ -444,16 +444,14 @@ body::-webkit-scrollbar-thumb {
     
     /* background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(240, 240, 240, 0.8)' stroke-width='1.5' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>");  */
 
-    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(240, 240, 240, 0.8)' stroke-width='3' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 24h24'/></svg>"); 
+    background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(240, 240, 240, 0.8)' stroke-width='2.5' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>"); 
 }
 .navbar-toggler-icon:hover{
     transition: all 0.5s ease-in-out;
 }
 .navbar{
-    /* --bs-navbar-toggler-font-size: 1rem; */
-
-    /* --bs-navbar-toggler-font-size: 1.1rem; */
     --bs-navbar-toggler-font-size: 1rem;
+    /* --bs-navbar-toggler-font-size: 1.1rem; */
 
     --bs-navbar-toggler-border-radius: 0;
     background-color: #0b0b15df !important;
@@ -1570,7 +1568,7 @@ section{
     }
     #hero-social-links{
         /* padding-right: 1rem; */
-        padding-right: 4rem;
+        padding-right: 5rem;
     }
     #myBtn {
         bottom: 7px;
