@@ -29,7 +29,7 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Live
 
-**Visit Portfolio [Website](http://bit.ly/3ZMNTZC)**
+**Visit Portfolio [Website](https://dnyaneshkolhe.com/)**
 
 # Screenshot
 
@@ -42,4 +42,4 @@ If you need any help feel free to contact me.
 
 # Update
 
-The last Update was on 7/03/2023  by  **[`Dnyanesh Kolhe`](http://bit.ly/3ZMNTZC)**
+The last Update was on 14/04/2023  by  **[`Dnyanesh Kolhe`](https://dnyaneshkolhe.com/)**
