@@ -463,7 +463,8 @@ body::-webkit-scrollbar-thumb {
     padding: 0.1rem;
 }
 .nav-link {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: var(--font-family1);
     font-size: large;
     font-weight: var(--font-weight);
     color: var(--bs-gray-400);
@@ -1460,19 +1461,20 @@ section{
     .navbar-collapse{
         /* background-color: #22223478; */
 
-        /* margin-top: 1.5rem;
-        margin-bottom: 1.5rem; */
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
 
         /* margin-top: 2rem;
         margin-bottom: 2rem; */
 
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        /* margin-top: 3rem;
+        margin-bottom: 3rem; */
         
         border: 0.5px solid #232331df;
         /* border-radius: 5px; */
         border-radius: 10px;
-        transition: all 0.1s ease-in-out;
+
+        transition: all 0.1s ease-out;
     }
     .dark-mode .navbar-collapse{
         /* background-color: #ededf39d; */
@@ -1481,17 +1483,19 @@ section{
     }
     ul{
         text-align: center;
-        /* padding-top: 0.1rem;
-        padding-bottom: 0.1rem; */
-        padding-top: 0.4rem;
-        padding-bottom: 0.4rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+
+        /* padding-top: 0.4rem;
+        padding-bottom: 0.4rem; */
     }
     .nav-item{
         /* padding: 0; */
-        padding: 0.4rem;
+        /* padding: 0.4rem; */
+        padding: 0.2rem;
     }
     .nav-link{
-        font-size: 16px;
+        font-size: 15px;
     }
     #home{
         /* padding-top: 10rem; */
