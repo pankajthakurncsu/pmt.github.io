@@ -1496,11 +1496,11 @@ section{
     .navbar-collapse{
         background-color: #22223478;
 
-        /* margin-top: 1rem;
-        margin-bottom: 1rem; */
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        /* margin-top: 2rem;
+        margin-bottom: 2rem; */
 
         /* margin-top: 3rem;
         margin-bottom: 3rem; */
@@ -1518,8 +1518,8 @@ section{
     }
     ul{
         text-align: center;
-        padding-top: 0.1rem;
-        padding-bottom: 0.1rem;
+        /* padding-top: 0.1rem;
+        padding-bottom: 0.1rem; */
 
         padding-top: 0.4rem;
         padding-bottom: 0.4rem;
@@ -1527,17 +1527,14 @@ section{
     .nav-item{
         /* padding: 0; */
         /* padding: 0.4rem; */
-        /* padding: 0.1rem; */
-        padding: 0.2rem;
+        padding: 0.1rem;
     }
-    .nav-link{
-        /* font-size: 16px; */
-        font-size: 17px;
-    }
+    /* .nav-link{
+        font-size: 16px;
+    } */
     .nav-link:hover{
-        scroll-behavior: smooth;
         border-bottom: 0.5px solid springgreen;
-        transition: all 5s ease-out;
+        transition: all 3s ease-out;
     }
     .nav-link #mybtn2:hover{
         border-bottom: none;
@@ -1619,9 +1616,9 @@ section{
         /* padding-right: 1rem; */
         padding-right: 5rem;
     }
-    /* #myBtn {
+    #myBtn {
         bottom: 7px;
         right: 14px;
-    } */
+    }
 }
   
