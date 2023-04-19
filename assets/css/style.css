@@ -127,21 +127,21 @@ body::-webkit-scrollbar-thumb {
 .dark-mode #myBtn2{
     margin-top: 0.2rem;
     font-size: 14px;
-    background-color: #eae5e5ba !important;
-    border-radius: 5rem;
+    /* background-color: #eae5e5ba !important; */
+    /* border-radius: 5rem; */
 }
-.dark-mode #myBtn2:hover{
+/* .dark-mode #myBtn2:hover{
     background-color: var(--bs-gray-100) !important;
-}
+} */
 #myBtn2{
     margin-top: 0.2rem;
     font-size: 14px;
-    background-color: var(--bs-dark);
-    border-radius: 5rem;
+    /* background-color: var(--bs-dark); */
+    /* border-radius: 5rem; */
 }
-#myBtn2:hover{
+/* #myBtn2:hover{
     background-color: #0b0b15df;
-}
+} */
 .dark-mode .bi-brightness-high{
     color: orangered;
 }
@@ -1494,7 +1494,7 @@ section{
         font-weight: 300;
     }
     .navbar-collapse{
-        /* background-color: #22223478; */
+        background-color: #22223478;
 
         /* margin-top: 1rem;
         margin-bottom: 1rem; */
@@ -1512,7 +1512,7 @@ section{
         transition: all 0.1s ease-out;
     }
     .dark-mode .navbar-collapse{
-        /* background-color: #ededf39d; */
+        background-color: #ededf39d;
 
         border: 0.5px solid #e0e0e0df;
     }
@@ -1535,9 +1535,9 @@ section{
         font-size: 17px;
     }
     .nav-link:hover{
-        font-size: 18px;
-        border-bottom: 1px solid var(--bs-orange);
-        transition: all 0.5s ease-out;
+        scroll-behavior: smooth;
+        border-bottom: 0.5px solid springgreen;
+        transition: all 5s ease-out;
     }
     .nav-link #mybtn2:hover{
         border-bottom: none;
