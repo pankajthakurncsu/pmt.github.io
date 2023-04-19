@@ -444,7 +444,8 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.3s ease-in-out;
 }
 .navbar-toggler{
-    color: rgba(161, 161, 161, 0.13);
+    /* color: rgba(161, 161, 161, 0.13); */
+    color: rgba(161, 161, 161, 0);
     border: 1px solid rgba(223, 223, 223, 0);
     border-radius: 6px;
     padding: 2px 3px 2px 3px;
@@ -1495,11 +1496,11 @@ section{
     .navbar-collapse{
         /* background-color: #22223478; */
 
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        /* margin-top: 1rem;
+        margin-bottom: 1rem; */
 
-        /* margin-top: 2rem;
-        margin-bottom: 2rem; */
+        margin-top: 2rem;
+        margin-bottom: 2rem;
 
         /* margin-top: 3rem;
         margin-bottom: 3rem; */
@@ -1507,7 +1508,7 @@ section{
         border: 0.5px solid #232331df;
         /* border-radius: 5px; */
         border-radius: 10px;
-
+    
         transition: all 0.1s ease-out;
     }
     .dark-mode .navbar-collapse{
@@ -1520,16 +1521,26 @@ section{
         padding-top: 0.1rem;
         padding-bottom: 0.1rem;
 
-        /* padding-top: 0.4rem;
-        padding-bottom: 0.4rem; */
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
     }
     .nav-item{
         /* padding: 0; */
         /* padding: 0.4rem; */
-        padding: 0.1rem;
+        /* padding: 0.1rem; */
+        padding: 0.2rem;
     }
     .nav-link{
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: 17px;
+    }
+    .nav-link:hover{
+        font-size: 18px;
+        border-bottom: 1px solid var(--bs-orange);
+        transition: all 0.5s ease-out;
+    }
+    .nav-link #mybtn2:hover{
+        border-bottom: none;
     }
     #home{
         /* padding-top: 10rem; */
