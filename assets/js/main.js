@@ -34,55 +34,6 @@ function topFunction() {
 }
 // End Back to Top Button
 
-
-// Email Js
-// function validate() {
-//   let name = document.querySelector(".name");
-//   let email = document.querySelector(".email");
-//   let msg = document.querySelector(".message");
-//   let sendBtn = document.querySelector(".send-btn");
-
-//   sendBtn.addEventListener('click', (e) => {
-//       e.preventDefault();
-//       if (name.value == "" || email.value == "" || msg.value == ""){
-//           emptyerror();
-//       } else {
-//           sendmail (name.value, email.value, msg.value);
-//           success();
-//       }
-//   });
-// }
-// validate();
-
-// function sendmail(name,email,msg){
-//   emailjs.send("service_gw8ecli","template_wtg6f5w",{
-//       from_name: email,
-//       to_name: name,
-//       message: msg,
-//       });
-// }
-
-// function emptyerror() {
-//   swal({
-//       title: "Oh No....!",
-//       text: "Fields can not be empty!",
-//       icon: "error",
-//       // icon: "success",
-//       // button: "error!",
-//     });
-// }
-
-// function success() {
-//   swal({
-//       title: "Email sent sucessfully!",
-//       // text: "We try to replay in 24 hours!",
-//   text: "Thanks for connecting, I try to replay asap!",
-//       icon: "success",
-//     });
-// }
-
-// Email Js End
-
 // // preloader
 // $(document).ready(function() {
 //     setTimeout(()=>{
@@ -152,16 +103,6 @@ $('.navbar-nav>li>a').on('click', function(){
 
 // End preloader
 
-
-// function email() {
-//   window.location.href ='mailto:dnyaneshkolhe1@gmail.com';
-// }
-
-// function myFunction() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-// }
-
 function darkmode(){
   var SetTheme = document.body;
 
@@ -186,4 +127,4 @@ console.log(GetTheme);
 if(GetTheme == "DARK"){
   document.body.classList = "dark-mode";
 }
-// =========================================================
+
