@@ -280,6 +280,9 @@ body::-webkit-scrollbar-thumb {
 .dark-mode .card{
     background-color: var(--bs-gray-100) !important;
 }
+.dark-mode #blog-latest-post-title{
+    color: var(--bs-gray-dark);
+}
 .dark-mode #medium-blog-link{
     font-size: small;
     border-bottom: 1px solid var(--bs-gray-900) !important;
@@ -847,6 +850,9 @@ section{
 .blog_home_page_title{
     color: var(--bs-gray-400);
 }
+#blog-latest-post-title{
+    color: var(--bs-gray-400);
+}
 #blog-intro{
     color: var(--bs-gray-400);
     font-size: medium;
@@ -965,6 +971,10 @@ section{
 }
 .dark-mode #hr-post{
     color: var(--bs-dark);
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    /* color: rgb(138 170 255 / 75%); */
+    color: var(--bs-gray-600);
 }
 .breadcrumb-item{
     font-weight: bold;
@@ -1088,6 +1098,7 @@ section{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: var(--bs-gray-400);
 }
 .bi-info-circle-fill{
     color: var(--bs-teal);
@@ -1352,4 +1363,15 @@ section{
         right: 14px;
     }
 }
-  
+
+#privacy-link-color{
+    color: var(--bs-primary) !important;
+}
+#privacy-link-color:hover{
+    border-bottom: 1px solid var(--bs-primary) !important;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 1px;
+    border: 1px solid var(--bs-gray);
+    transition: all 0.5s ease-in-out !important;
+}
