@@ -389,10 +389,11 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.3s ease-in-out;
 }
 .navbar-toggler{
-    /* color: rgba(161, 161, 161, 0.13); */
-    color: rgba(161, 161, 161, 0);
+    color: rgba(161, 161, 161, 0.13);
+    /* color: rgba(161, 161, 161, 0); */
     border: 1px solid rgba(223, 223, 223, 0);
-    border-radius: 6px;
+    /* border-radius: 6px; */
+    border-radius: 50%;
     padding: 2px 3px 2px 3px;
 }
 .navbar-toggler-icon{
@@ -1202,6 +1203,10 @@ section{
 #myBtn:hover {
     background-color: #2c2c3fa4;
     backdrop-filter: blur(10px) !important;
+    border: 0.8px solid rgba(240, 248, 255, 0.237);
+}
+.dark-mode #myBtn:hover{
+    border: 0.8px solid rgba(255, 68, 0, 0.482);
 }
 .bi-hand-index-thumb-fill{
     color: var(--bs-orange);
@@ -1288,13 +1293,6 @@ section{
     }
     .nav-item{
         padding: 0.1rem;
-    }
-    .nav-link:hover{
-        border-bottom: 0.5px solid springgreen;
-        transition: all 3s ease-out;
-    }
-    .nav-link #mybtn2:hover{
-        border-bottom: none;
     }
     #home{
         padding-top: 11rem;
