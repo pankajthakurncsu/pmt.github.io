@@ -1365,8 +1365,14 @@ section{
         bottom: 30px;
         right: 14px;
     }
+    #container-privacy{
+        width: 94% !important;
+    }
 }
 
+#container-privacy{
+    width: 80%;
+}
 #privacy-link-color{
     color: var(--bs-primary) !important;
 }
