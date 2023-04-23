@@ -892,6 +892,7 @@ section{
 .card-body > h5 > a {
     color: var(--bs-gray-400);
     font-weight: bold;
+    font-size: larger;
 }
 .card-body > h5 > a:hover {
     color: mediumaquamarine;
