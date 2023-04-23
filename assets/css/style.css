@@ -1369,6 +1369,18 @@ section{
     #container-privacy{
         width: 94% !important;
     }
+    .bi-linkedin{
+        padding-inline: 0.5rem;
+    }
+    .bi-instagram{
+        padding-inline: 0.5rem;
+    }
+    .bi-github{
+        padding-inline: 0.5rem;
+    }
+    .bi-twitter{
+        padding-inline: 0.5rem;
+    }
 }
 
 #container-privacy{
