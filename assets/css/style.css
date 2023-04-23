@@ -309,7 +309,7 @@ body::-webkit-scrollbar-thumb {
 }
 .dark-mode .btn{
     font-size: small;
-    color: var(--bs-dark);
+    /* color: var(--bs-dark); */
     color: var(--bs-gray-400);
     background-color: var(--bs-gray-100);
     margin-bottom: 2rem;
@@ -963,7 +963,8 @@ section{
     text-align: center;
 }
 .btn:hover{
-    background-color: var(--bs-gray-300) !important;
+    /* background-color: var(--bs-gray-300) !important; */
+    background-color: var(--bs-light) !important;
     color: var(--bs-dark) !important;
     border: 1px solid rg !important;
 }
