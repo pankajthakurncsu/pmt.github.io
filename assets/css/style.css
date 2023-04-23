@@ -1282,8 +1282,10 @@ section{
         background-color: #22223478;
         /* margin-top: 1rem;
         margin-bottom: 1rem; */
-        margin-top: 1.2rem;
-        margin-bottom: 1.2rem;
+        /* margin-top: 1.2rem;
+        margin-bottom: 1.2rem; */
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         border: 0.5px solid #232331df;
         border-radius: 10px;
         transition: all 0.1s ease-out;
