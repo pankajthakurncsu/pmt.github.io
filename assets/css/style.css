@@ -80,11 +80,13 @@ body::-webkit-scrollbar-thumb {
     --bg-color-light: #f8f9f9f7;
     --txt-color: var(--bs-gray-400);
     --txt-color-light: var(--bs-gray-dark);
-    --font-size: 18px;
+    /* --font-size: 18px; */
+    --font-size: 19px;
     --font-size-2: 16px;
     --font-weight: 400;
     --bg-padding: 14px;
     --font-family1: 'DM Sans', sans-serif;
+    /* Temp Disable */
     --font-family2: 'Poppins', sans-serif;
     --scrollbarBG: #0b0b15;
     --thumbBG: var(--bs-secondary);
@@ -530,7 +532,10 @@ section{
     border-bottom: 2px solid var(--bs-gray);
     border-radius: 0;
     font-weight: bold;
-    font-size: 21px;
+
+    /* font-size: 21px; */
+    /* font-size: var(--font-family1); */
+    font-size: 30px;
 }
 #home{
     padding-top: 16rem;
@@ -668,22 +673,11 @@ section{
 #project{
     background-color: #0e0e19ef;
 }
-.card-2{
-    background-color: #0e0e19ef !important;
-}
-.card-title{
-    margin-bottom: 1rem;
-}
 .project{
     font-family: var(--font-family1);
     font-size: var(--font-size);
     color: var(--txt-color);
     font-weight: var(--font-weight) !important;
-}
-.card-img-top{
-    height: 120px;
-    width: 240px;
-    margin-top: 0.5rem;
 }
 .project-item{
     font-family: var(--font-family1);
@@ -718,7 +712,7 @@ section{
     border-radius: var(--border-radius);
     background-color: var(--bg-color);
     color: var(--txt-color);
-    font-size: var(--font-size);
+    font-size: var(--font-size-2);
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -1289,13 +1283,17 @@ section{
         margin-bottom: 2rem;
         border: 0.5px solid #232331df;
         border-radius: 10px;
-        transition: all 0.1s ease-out;
+        transition: all .5s !important;
     }
     .dark-mode .navbar-collapse{
         /* background-color: #ededf39d; */
         background-color: #ededf363;
         border: 0.5px solid #e0e0e0df;
+        transition: all .5s !important;
     }
+    /* .navbar-toggler:focus{
+        box-shadow: none;
+    } */
     ul{
         text-align: center;
         /* padding-top: 0.4rem;
