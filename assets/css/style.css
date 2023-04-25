@@ -1283,13 +1283,15 @@ section{
         margin-bottom: 2rem;
         border: 0.5px solid #232331df;
         border-radius: 10px;
-        transition: all .5s !important;
+        /* transition: all .5s !important; */
+        transition: all .3s !important;
     }
     .dark-mode .navbar-collapse{
         /* background-color: #ededf39d; */
         background-color: #ededf363;
         border: 0.5px solid #e0e0e0df;
-        transition: all .5s !important;
+        /* transition: all .5s !important; */
+        transition: all .3s !important;
     }
     /* .navbar-toggler:focus{
         box-shadow: none;
