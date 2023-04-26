@@ -452,8 +452,7 @@ body::-webkit-scrollbar-thumb {
     color: #22223478;
 }
 .bi-brightness-high{
-    /* color: var(--bs-info); */
-    color: #5477e2;
+    color: #0dcaf0;
 }
 .bi-brightness-high:hover{
     color: palevioletred;
