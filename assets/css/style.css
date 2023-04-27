@@ -1284,7 +1284,7 @@ section{
         border-radius: 10px;
         /* transition: all .5s !important; */
         /* transition: all .3s !important; */
-        transition: all .3s linear;
+        transition: all .3s ease !important;
     }
     .dark-mode .navbar-collapse{
         /* background-color: #ededf39d; */
@@ -1292,7 +1292,7 @@ section{
         border: 0.5px solid #e0e0e0df;
         /* transition: all .5s !important; */
         /* transition: all .3s !important; */
-        transition: all .3s linear;
+        transition: all .3s ease !important;
     }
     /* .navbar-toggler:focus{
         box-shadow: none;
