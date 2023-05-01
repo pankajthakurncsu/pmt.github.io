@@ -159,7 +159,7 @@
           </p>
         </div>
           <div class="about_pic text-center">
-            <img class="img-fluid rounded-circle" src="./assets/img/profile-pic.webp" width="125" height="125" alt="profile-pic">
+            <img class="img-fluid rounded-5" src="./assets/img/profile-pic.webp" width="125" height="125" alt="profile-pic">
         </div>
           <div class="text-center" id="resume">
               <a class="btn btn-primary btn-sm resume" href="https://bit.ly/3GLZGz8" role="link" rel="noopener noreferrer" target="_blank">Resume</a>
@@ -345,17 +345,60 @@
           <div class="col-sm">
             <div class="container" id="container-width-2">
 
-             <p id="p-justify">If you have any questions or just want say hi email me at below "Say Hello" buttton or get in touch with me on <a href="https://www.linkedin.com/in/dnyaneshkolhe/"><span id="contact-linkedin">Linkedin</span></a>.</p>
+             <!-- <p id="p-justify">If you have any questions or just want say hi email me at below "Say Hello" buttton or get in touch with me on <a href="https://www.linkedin.com/in/dnyaneshkolhe/"><span id="contact-linkedin">Linkedin</span></a>.</p>
 
-             <div class="sayhello">
+            <div class="sayhello">
               <a href="mailto:dnyaneshkolhe1@gmail.com" rel="opener nonoreferrer" target="_blank" id="sayhello">Say Hello</a>
+            </div> -->
+
+            <p id="p-justify">If you have any questions or just want to say hi, submit form below or directly get in touch with me on <a href="https://www.linkedin.com/in/dnyaneshkolhe/"><span id="contact-linkedin">Linkedin</span></a>.</p>
+
+            <!-- <div class="sayhello">
+              <a href="mailto:dnyaneshkolhe1@gmail.com" rel="opener nonoreferrer" target="_blank" id="sayhello">Say Hello</a>
+            </div> -->
+
+             <div class="form-title text-start">Send Message</div>
+
+             <form class="p-1" action="https://formspree.io/f/mknaqgkw" method="POST" id="form" data-aos="fade-up"
+             data-aos-duration="1000">
+
+              <div class="row mb-3">
+                <!-- <label for="name" class="col-sm-2 col-form-label col-form-label-sm">Name</label> -->
+                <div class="col-sm-10">
+                  <input type="text" name="Name" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Your Name" required>
+                </div>
+              </div>
+
+             <div class="row mb-3">
+              <!-- <label for="email" class="col-sm-2 col-form-label col-form-label-sm">Email</label> -->
+              <div class="col-sm-10 contact-form">
+                <input type="email" name="Email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Your Email" required>
+              </div>
              </div>
+
+             <div class="row mb-3">
+              <!-- <label for="textarea" class="col-sm-2 col-form-label col-form-label-sm">Message</label> -->
+              <div class="col-sm-10 contact-form">
+               <textarea type="textarea" name="Message" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Write message here.." id="textarea"></textarea>
+              </div>
+             </div>
+
+              <div class="text-start">
+                <button class="btn btn-primary" id="form-btn">Submit Info</button>
+              </div>
+
+            </form>
+
             </div>
           </div>
         </div>
         </div>
     </div>
   </section>
+
+  <div class="container text-start" id="imp-links">
+    <p><a href="#home">Home</a> | <a href="./blog.html">Blog</a> | <a href="./photography.html">Gallary</a></p>
+  </div>
 
 <!-- Footer -->
 <section id="footer">
@@ -368,7 +411,7 @@
             <div id="credit">
               <p>Design & Built by</p>
               <p>Dnyanesh Kolhe</p>
-              <p>&copy; 2023.</p>
+              <p>Copyrights &copy; 2023.</p>
             </div>
           </div>
           

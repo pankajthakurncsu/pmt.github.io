@@ -3,6 +3,8 @@
 /* font-family: 'Nunito Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 /* font-family: 'DM Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
 *{
     padding: 0;
     margin: 0;
@@ -141,7 +143,7 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--bs-dark) !important;
 }
 .dark-mode .navbar {
-    background-color: #f8f9fa99 !important;
+    background-color: #f8f9fac7 !important;
 }
 .dark-mode .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>"); 
@@ -430,7 +432,8 @@ body::-webkit-scrollbar-thumb {
     /* --bs-navbar-toggler-font-size: 1rem; */
     --bs-navbar-toggler-font-size: 1.1rem;
     --bs-navbar-toggler-border-radius: 0;
-    background-color: #0b0b15df !important;
+    /* background-color: #0b0b15df !important; */
+    background-color: #0b0b15e6 !important;
     backdrop-filter: blur(10px) !important;
     --bs-navbar-toggler-focus-width: 0.1rem;
     scroll-behavior: smooth !important;
@@ -1141,8 +1144,8 @@ section{
     color: var(--bs-gray-400);
     margin-top: 0;
     margin-bottom: 1.8rem;
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    /* margin-left: 0.2rem;
+    margin-right: 0.2rem; */
 }
 .bi-linkedin{
     padding: 0.3rem;
@@ -1169,8 +1172,19 @@ section{
 }
 #credit p{
     line-height: 0.2rem;
+    font-family: 'Roboto', sans-serif !important;
     color: var(--bs-gray-400);
-    font-size: medium;
+    /* font-size: medium; */
+    font-size: 16px;
+    font-weight: 400;
+}
+#imp-links a{
+    font-family: 'Roboto', sans-serif !important;
+}
+#imp-links a:hover{
+    color: palevioletred !important;
+    border-bottom: 1px solid palevioletred;
+    transition: all 0.5s ease-in-out;
 }
 #source a{
     font-size: 10.5px;
@@ -1282,12 +1296,16 @@ section{
     }
     .navbar-collapse{
         /* background-color: #22223478; */
-        /* margin-top: 1rem;
-        margin-bottom: 1rem; */
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
         /* margin-top: 1.2rem;
         margin-bottom: 1.2rem; */
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+
+        /* margin-top: 2rem;
+        margin-bottom: 2rem; */
+        
         /* border: 0.5px solid #232331df; */
         border-radius: 10px;
         /* transition: all .3s ease !important; */
@@ -1304,7 +1322,10 @@ section{
     }
     ul{
         text-align: center;
-        padding-top: 1.5rem;
+        /* padding-top: 1.5rem; */
+
+        /* padding-top: 1rem; */
+        padding-top: 0.5rem;
         padding-bottom: 0rem;
     }
     .nav-item{
@@ -1369,6 +1390,9 @@ section{
     .footer p{
         text-align: start;
     }
+    #credit p{
+        font-size: 13.5px;
+    }
     #error{
         padding-top: 6rem;
         padding-bottom: auto;
@@ -1414,6 +1438,9 @@ section{
     .bi-twitter{
         padding-inline: 0.5rem;
     }
+    .col-form-label{
+        text-align: start;
+    }
 }
 
 #container-privacy{
@@ -1429,4 +1456,130 @@ section{
     padding: 1px;
     border: 1px solid var(--bs-gray);
     transition: all 0.5s ease-in-out !important;
+}
+
+/* form */
+.form-title{
+    /* color: var(--bs-gray-400); */
+    color: mediumaquamarine;
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+    margin-bottom: 0.5rem;
+}
+.dark-mode .form-title{
+    color: palevioletred;
+}
+.form-control-sm{
+    background-color: #0b0b15 !important;
+    border: none;
+    border-radius: 0;
+    border-bottom: 0.1px solid #ffffff3b;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    outline: none !important;
+}
+.form-control-sm:hover{
+    color: orange !important;
+    border-bottom: 0.1px solid rgb(153, 179, 60) !important;
+    font-size: 14px;
+}
+.form-control-sm:focus{
+    box-shadow: none;
+}
+#form input::placeholder{
+    /* color: mediumseagreen; */
+    color: var(--bs-gray-300);
+    background-color: #0b0b15;
+    padding: 0 !important;
+    font-size: 14px;
+}
+#form input{
+    /* color: mediumaquamarine; */
+    /* color: var(--bs-gray-100); */
+    color: orange;
+    font-size: 14px;
+}
+.contact-form textarea::placeholder{
+    /* color: mediumseagreen; */
+    color: var(--bs-gray-300);
+    font-size: 14px;
+}
+/* .form-control-sm:hover{
+    color: mediumaquamarine;
+} */
+textarea.form-control-sm{
+    /* color: mediumaquamarine; */
+    color: orange;
+    font-size: 14px;
+}
+textarea.form-control-sm:focus{
+    color: mediumaquamarine;
+}
+/* form dark-mode */
+.dark-mode .form-control-sm{
+    background-color: var(--bs-gray-100) !important;
+    border: none;
+    border-radius: 0;
+    border-bottom: 0.1px solid #ffffff3b !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    outline: none !important;
+}
+.dark-mode .form-control-sm:hover{
+    border-bottom: 0.1px solid mediumseagreen;
+}
+.dark-mode .form-control-sm:focus{
+    box-shadow: none;
+}
+.dark-mode #form input::placeholder{
+    color: #000;
+    background-color: var(--bs-gray-100);
+    padding: 0 !important;
+}
+.dark-mode #form input{
+    color: rgb(205, 116, 102);
+    border-bottom: 1px solid var(--bs-gray) !important;
+}
+.dark-mode .contact-form textarea::placeholder{
+    color: #000;;
+}
+.dark-mode .form-control-sm:hover{
+    color: rgb(205, 116, 102) !important;
+}
+.dark-mode textarea.form-control-sm{
+    color: rgb(205, 116, 102);
+    border-bottom: 1px solid var(--bs-gray) !important;
+}
+.dark-mode textarea.form-control-sm:focus{
+    color: rgb(205, 116, 102) !important;
+}
+.dark-mode #form-btn{
+    color: #000;
+}
+.dark-mode #form-btn:hover{
+    margin-left: 0.2rem;
+    transition: all 0.5s ease-in-out;
+}
+/* end form dark-mode */
+/* End form */
+
+#modal-btn-close{
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+    text-align: end;
+    padding: 0;
+    margin-left: 90%;
+}
+
+.nature-img-1{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+.nature-img-2{
+    margin-top: 0;
+    margin-bottom: 1.5rem;
 }

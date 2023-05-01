@@ -116,8 +116,8 @@
         data-aos-offset="0">
             <div class="col photography text-center p-1" id="img-photo-blog">
 
-                <div class="p-2">
-                    <img class="img-fluid rounded-3" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-1.jpg?updatedAt=1681722623231" alt="nature-img-1">
+                <div class="p-2" data-bs-toggle="modal" data-bs-target="#nature-img-1">
+                    <a href="#"><img class="img-fluid rounded-3" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-1.jpg?updatedAt=1681722623231" alt="nature-img-1"></a>
                 </div>
 
                 <div class="p-2">
@@ -172,8 +172,8 @@
 
             <div class="col photography text-center p-1" id="img-photo-blog">
 
-                 <div class="p-2">
-                    <img class="img-fluid rounded-3" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-2.jpg?updatedAt=1681722593610" alt="nature-img-2">
+                <div class="p-2" data-bs-toggle="modal" data-bs-target="#nature-img-2">
+                   <a href="#"><img class="img-fluid rounded-3" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-2.jpg?updatedAt=1681722593610" alt="nature-img-2"></a> 
                 </div>
 
                 <div class="p-2">
@@ -205,7 +205,7 @@
                 </div>
 
                 <div class="p-2">
-                  <img class="img-fluid rounded-3 lozad" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-18.jpg?updatedAt=1681722642642" alt="nature-img-18">
+                  <img class="img-fluid rounded-3 lozad" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-18.jpg?updatedAt=1681722642642" alt="nature-img-18" id="img-18">
                 </div>
 
                 <div class="p-2">
@@ -282,6 +282,56 @@
 
   </div>
 </section>
+ 
+<!-- Modal Start For Images -->
+
+<!-- Modal for img 1-->
+<div class="modal fade" id="nature-img-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="btn-close" id="modal-btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="nature-img-2">
+          <img class="img-fluid rounded-1" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-1.jpg?updatedAt=1681722623231" alt="nature-img-1">
+        </div>
+        <!-- <a class="btn" href="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-2.jpg?updatedAt=1681722593610" download="dk-nature-img-2">
+          Download <i class="bi bi-download"></i></a>
+        </a> -->
+        <a href="assets\nature images\dk-nature-img-1.webp" download="dk-nature-img-2">
+          <button class="btn text-dark text-bg-warning" type="button">Download</button>
+        </a>
+      <p class="text-success-emphasis">This feature is currently in the update process for all images. Download features available only for the Img 1 & Img 2.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for img 1-->
+
+<!-- Modal for img 2-->
+<div class="modal fade" id="nature-img-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="btn-close" id="modal-btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body">
+        <div class="nature-img-2">
+          <img class="img-fluid rounded-1" src="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-2.jpg?updatedAt=1681722593610" alt="nature-img-2">
+        </div>
+        <!-- <a class="btn" href="https://ik.imagekit.io/dk23/My_Images/dk-nature-img-2.jpg?updatedAt=1681722593610" download="dk-nature-img-2">
+          Download <i class="bi bi-download"></i></a>
+        </a> -->
+        <a href="assets\nature images\dk-nature-img-2.webp" download="dk-nature-img-2">
+          <button class="btn text-dark text-bg-warning" type="button">Download</button>
+        </a>
+      <p class="text-success-emphasis">This feature is currently in the update process for all images.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal for img 2-->
+
+<!-- End Modal Start For Images -->
+
+
 
 <!-- End Footer -->
 
