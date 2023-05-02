@@ -1445,7 +1445,7 @@ section{
         text-align: center;
     }
     .form-check-label {
-        margin-left: -3rem !important;
+        margin-left: -6rem !important;
         font-size: 14px;
     }
     .form-check-input[type=checkbox] {
@@ -1664,6 +1664,15 @@ button, input, optgroup, select, textarea {
 }
 .build{
     margin-top: 2rem;
+}
+.tools{
+    margin-top: 2rem;
+}
+.tools p{
+    color: yellow;
+}
+.dark-mode .tools p{
+    color: rgb(105, 143, 29) !important;
 }
 .changlog{
     margin-top: 2rem;
