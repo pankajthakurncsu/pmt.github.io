@@ -1441,8 +1441,21 @@ section{
     .col-form-label{
         text-align: start;
     }
+    #imp-links{
+        text-align: center;
+    }
+    .form-check-label {
+        margin-left: -3rem !important;
+        font-size: 14px;
+    }
+    .form-check-input[type=checkbox] {
+        margin-top: 8px !important;
+    }
 }
 
+.bi-box-arrow-up-right{
+    font-size: small;
+}
 #container-privacy{
     width: 80%;
 }
@@ -1517,6 +1530,38 @@ textarea.form-control-sm{
 textarea.form-control-sm:focus{
     color: mediumaquamarine;
 }
+.form-check-input {
+    background-color: #221d25;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.form-check-label{
+    font-family: 'Roboto', sans-serif;
+    margin-left: -29rem;
+}
+.form-check {
+    padding-left: 1.2em;
+}
+.form-check-input[type=checkbox] {
+    margin-top: 6.5px;
+    border-radius: 1.25em;
+}
+#form-data-privacy a{
+    color: mediumaquamarine;
+}
+#form-data-privacy a:hover{
+    color: mediumspringgreen;
+    border-bottom: 1px solid mediumspringgreen;
+    transition: all 0.5s ease;
+}
+.form-check-input:checked {
+    background-color: #30884c;
+    border-color: #30884c;
+}
 /* form dark-mode */
 .dark-mode .form-control-sm{
     background-color: var(--bs-gray-100) !important;
@@ -1582,4 +1627,55 @@ textarea.form-control-sm:focus{
 .nature-img-2{
     margin-top: 0;
     margin-bottom: 1.5rem;
+}
+/* Stat Page */
+#stat{
+    font-family: 'Roboto', sans-serif;
+}
+#container-stat{
+    width: 60%;
+}
+@media(max-width:576px){
+    #container-stat{
+        width: 92%;
+    }
+}
+.stat-page-title{
+    margin-top: 2rem;
+}
+.status{
+    margin-top: 2rem;
+}
+.status p{
+    color: #20c997;
+}
+.dark-mode .status p{
+    color: #1e8d6b !important;
+}
+.build{
+    margin-top: 2rem;
+}
+.changlog{
+    margin-top: 2rem;
+}
+.changlog p{
+    color: var(--bs-info);
+}
+.dark-mode .changlog p{
+    color: var(--bs-blue) !important;
+}
+.compability{
+    margin-top: 2rem;
+}
+.compability p{
+    color: orange;
+}
+.dark-mode .compability p{
+    color: var(--bs-orange) !important;
+}
+.update{
+    margin-top: 2rem;
+}
+.visitor{
+    margin-top: 2rem;
 }
