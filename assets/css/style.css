@@ -1533,6 +1533,10 @@ textarea.form-control-sm:focus{
 .form-check-input {
     background-color: #221d25;
 }
+.dark-mode .form-check-input {
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-dark);
+}
 button, input, optgroup, select, textarea {
     margin: 0;
     font-family: inherit;
@@ -1542,6 +1546,9 @@ button, input, optgroup, select, textarea {
 .form-check-label{
     font-family: 'Roboto', sans-serif;
     margin-left: -29rem;
+}
+.dark-mode .form-check-label{
+    color: var(--bs-dark);
 }
 .form-check {
     padding-left: 1.2em;
@@ -1553,9 +1560,12 @@ button, input, optgroup, select, textarea {
 #form-data-privacy a{
     color: mediumaquamarine;
 }
+.dark-mode #form-data-privacy a{
+    color: mediumseagreen !important;
+}
 #form-data-privacy a:hover{
-    color: mediumspringgreen;
-    border-bottom: 1px solid mediumspringgreen;
+    color: mediumturquoise !important;
+    border-bottom: 1px solid mediumturquoise !important;
     transition: all 0.5s ease;
 }
 .form-check-input:checked {
