@@ -220,8 +220,10 @@ body::-webkit-scrollbar-thumb {
     border-bottom: 1px solid #000 !important;
 }
 .dark-mode .stretched-link:hover{
-    color: darkcyan !important;
-    border-bottom: 1px solid darkcyan !important;
+    /* color: darkcyan !important;
+    border-bottom: 1px solid darkcyan !important; */
+    color: palevioletred !important;
+    border-bottom: 1px solid palevioletred !important;
 }
 .dark-mode .show-more-less{
     background-color: var(--bs-gray-100) !important;
