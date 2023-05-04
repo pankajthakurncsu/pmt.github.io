@@ -461,8 +461,10 @@ body::-webkit-scrollbar-thumb {
     color: #22223478;
 }
 .bi-brightness-high{
-    color: #0dcaf0;
-    border: 1px solid #0dcaf0;
+    /* color: #0dcaf0;
+    border: 1px solid #0dcaf0; */
+    color: #b09cf2;
+    border: 1px solid #b09cf2;
     border-radius: 10rem;
     padding: 0.5rem;
 }
@@ -1338,6 +1340,9 @@ section{
         /* padding-top: 1rem; */
         padding-top: 0.5rem;
         padding-bottom: 0rem;
+        
+        /* New Add */
+        margin-left: 2rem;
     }
     .nav-item{
         padding: 0.1rem;
