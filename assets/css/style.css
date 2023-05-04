@@ -1332,7 +1332,7 @@ section{
         box-shadow: none;
     }
     ul{
-        text-align: center;
+        /* text-align: center; */
         /* padding-top: 1.5rem; */
 
         /* padding-top: 1rem; */
@@ -1352,6 +1352,7 @@ section{
     }
     #myBtn2 {
         margin-top: 0.6rem;
+        margin-left: -1.2rem;
         text-decoration: none;
     }
     .dark-mode  #myBtn2 {
