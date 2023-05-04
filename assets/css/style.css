@@ -814,7 +814,8 @@ section{
 }
 .project-details{
     border-radius: var(--border-radius);
-    width: 82%;
+    /* width: 82%; */
+    width: 75%;
     transition: var(--transition);
     position: relative;
     z-index: 2;
@@ -874,6 +875,9 @@ section{
 }
 .bi-arrow-left{
     font-size: small;
+}
+#project-details-hr{
+    color: olivedrab;
 }
 /* Blog Page Home */
 #blog-home{
