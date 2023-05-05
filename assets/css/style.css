@@ -1419,7 +1419,6 @@ section{
         padding: 0;
     } */
     .nav-link{
-        font-size: 17.5px;
         font-weight: bold;
     }
     .nav-link:hover{
@@ -1479,6 +1478,9 @@ section{
     }
     #post-content{
         font-size: 14.5px;
+    }
+    #photography-container{
+        width: 92%;
     }
     .footer p{
         text-align: start;
