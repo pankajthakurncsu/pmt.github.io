@@ -263,7 +263,8 @@ body::-webkit-scrollbar-thumb {
     border-bottom: 0.5px solid darkcyan !important;
 }
 .dark-mode .hr-footer{
-    color: var(--bs-gray-600) !important;
+    /* color: var(--bs-gray-600) !important; */
+    color: var(--bs-gray-100) !important;
 }
 .dark-mode #hero-social-links a{
     color: var(--bs-gray-dark);
@@ -1173,7 +1174,8 @@ section{
     padding-bottom: 0.8rem;
 }
 .hr-footer{
-    color: var(--bs-gray-400);
+    /* color: var(--bs-gray-400); */
+    color: #0b0b15;
     margin-top: 0;
     margin-bottom: 1.8rem;
     /* margin-left: 0.2rem;
@@ -1535,7 +1537,8 @@ section{
     color: var(--bs-gray-400);
     /* color: mediumaquamarine; */
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    margin-bottom: 1.5rem;
     /* margin-bottom: 0.5rem; */
 }
 .dark-mode .form-title{
