@@ -1757,6 +1757,13 @@ button, input, optgroup, select, textarea {
     margin-top: 0;
     margin-bottom: 1.5rem;
 }
+body.modal-open {
+    overflow: visible;
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
 /* Stat Page */
 #stat{
     font-family: 'Roboto', sans-serif;
