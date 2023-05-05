@@ -667,6 +667,9 @@ section{
 #about{
     background-color: #0e0e19ef;
 }
+.dark-mode #about{
+    background-color: #f5f5f5 !important;
+}
 .about{
     text-align: justify;
     font-family: var(--font-family1);
@@ -731,6 +734,9 @@ section{
 /* Project */
 #project{
     background-color: #0e0e19ef;
+}
+.dark-mode #project{
+    background-color: #f5f5f5 !important;
 }
 .project{
     font-family: var(--font-family1);
