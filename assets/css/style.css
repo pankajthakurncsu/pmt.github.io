@@ -1153,6 +1153,10 @@ section{
 /* Photography Page */
 #photography{
     margin-top: 0rem;
+    background-color: #0e0e19ef;
+}
+.dark-mode #photography{
+    background-color: #f5f5f5 !important;
 }
 #photography-title span{
     color: var(--bs-gray-400);
