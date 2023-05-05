@@ -1408,7 +1408,7 @@ section{
         padding: 0;
     } */
     .nav-link{
-        font-size: 16.5px;
+        font-size: 17.5px;
         font-weight: bold;
     }
     .nav-link:hover{
@@ -1420,7 +1420,8 @@ section{
         transition: all .5s ease-in-out;
     }
     #myBtn2 {
-        margin-top: 0.6rem;
+        /* margin-top: 0.6rem; */
+        margin-top: 0.8rem;
         /* margin-left: -1.2rem; */
         text-decoration: none;
     }
