@@ -1642,6 +1642,7 @@ textarea.form-control-sm:focus{
     color: mediumaquamarine;
 }
 #form-btn{
+    margin-top: 0.5rem;
     background-color: var(--bs-light);
     color: var(--bs-dark);
     font-size: 14.5px;
