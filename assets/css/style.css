@@ -1626,8 +1626,7 @@ section{
         font-weight: bold;
     } */
     #home{
-       /* padding-top: 8rem; */
-       padding-top: 7.5rem;
+       padding-top: 8rem;
         /* padding-top: 11rem; */
     }
     .home-content{
