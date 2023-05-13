@@ -1344,7 +1344,9 @@ section{
 .dark-mode .feedback{
     background-color: #f5f1f1f7;
 }
-.feedback a{
+
+/* Temp disabled */
+/* .feedback a{
     font-family: var(--font-family1);
     font-size: 13px;
     color: var(--bs-gray-300) !important;
@@ -1359,7 +1361,8 @@ section{
     font-size: 14px;
     border-bottom: 1px solid var(--bs-primary) !important;
     transition: all 0.5s ease-in-out;
-}
+} */
+
 .hr-footer{
     /* color: var(--bs-gray-400); */
     color: #0b0b15;
@@ -1973,5 +1976,6 @@ button, input, optgroup, select, textarea {
 }
 /* end form dark-mode */
 /* End form */
+
 
 
