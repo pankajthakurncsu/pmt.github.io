@@ -1991,15 +1991,18 @@ button, input, optgroup, select, textarea {
     /* border-radius: 0; */
     /* border-radius: 30px; */
     padding: 20px;
+    width: 200px;
+    height: 100px;
+}
+@media(max-width: 576px){
+    .card-img-top{
+        /* width: 150px;
+        height: 100px; */
+        width: 180px;
+        height: 100px;
+    }
 }
 .p-card{
-    /* border: 1px solid var(--bs-gray-dark); */
-    /* border-radius: 30px; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-
-    /* border: var(--border-border-light);
-    box-shadow: 0 0 30px -15px var(--bg-shadow-light); */
-    /* background-color: var(--bg-color-light); */
     background-color: var(--bg-color);
     color: var(--txt-color-light);
     border: var(--border-border);
@@ -2007,35 +2010,24 @@ button, input, optgroup, select, textarea {
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius); */
+    border-radius: 8px;
     font-size: var(--font-size);
     z-index: 2;
     /* padding: var(--bg-padding); */
+    padding: 10px;
 }
-
-/* font-family: var(--font-family1);
-    font-weight: var(--font-weight);
-    border: var(--border-border);
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
-    transition: var(--transition);
-    position: relative;
-    z-index: 2;
-    padding: var(--bg-padding);
-    border-radius: var(--border-radius);
-    background-color: var(--bg-color);
-    color: var(--txt-color);
-    font-size: var(--font-size);
-    margin-top: 1rem;
-    margin-bottom: 1rem; */
-
+@media(max-width: 576px){
+    .p-card{
+        padding: 0.5px;
+    }
+}
 .p-card:hover {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     transform: scale(1.04);
 }
 .dark-mode .p-card{
-    /* background-color: var(--bg-color-light);
-    color: var(--txt-color-light); */
     border: var(--border-border-light);
     box-shadow: 0 0 30px -15px var(--bg-shadow-light);
     background-color: var(--bg-color-light);
