@@ -1978,4 +1978,81 @@ button, input, optgroup, select, textarea {
 /* End form */
 
 
+#project-container{
+    width: 60%;
+}
+@media(max-width: 576px){
+    #project-container{
+        width: 100%;
+    }
+}
+#project-2{
+    font-family: var(--font-family1);
+    background-color: #0e0e19ef;
+}
+.dark-mode #project-2{
+    background-color: #f5f5f5 !important;
+}
+.card-img-top{
+    /* border-radius: 0; */
+    /* border-radius: 30px; */
+    padding: 20px;
+}
+.p-card{
+    /* border: 1px solid var(--bs-gray-dark); */
+    /* border-radius: 30px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 
+    /* border: var(--border-border-light);
+    box-shadow: 0 0 30px -15px var(--bg-shadow-light); */
+    /* background-color: var(--bg-color-light); */
+    background-color: var(--bg-color);
+    color: var(--txt-color-light);
+    border: var(--border-border);
+    font-weight: var(--font-weight);
+    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    transition: var(--transition);
+    position: relative;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size);
+    z-index: 2;
+    /* padding: var(--bg-padding); */
+}
+
+/* font-family: var(--font-family1);
+    font-weight: var(--font-weight);
+    border: var(--border-border);
+    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    transition: var(--transition);
+    position: relative;
+    z-index: 2;
+    padding: var(--bg-padding);
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    font-size: var(--font-size);
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
+
+.p-card:hover {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.04);
+}
+.dark-mode .p-card{
+    /* background-color: var(--bg-color-light);
+    color: var(--txt-color-light); */
+    border: var(--border-border-light);
+    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    background-color: var(--bg-color-light);
+    color: var(--txt-color-light);
+}
+.p-body{
+    padding: 25px;
+    margin-top: -15px;
+    background-color: var(--bg-color);
+}
+.dark-mode .p-body{
+    background-color: var(--bg-color-light);
+    color: var(--txt-color-light);
+}
