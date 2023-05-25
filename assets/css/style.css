@@ -601,7 +601,8 @@ section{
 .home-content{
     font-size: 20px;
     /* width: 99%; */
-    width: 90%;
+    /* width: 90%; */
+    width: 98%;
     font-weight: 400;
 }
 .hello{
@@ -698,7 +699,7 @@ section{
     font-family: var(--font-family1);
     font-size: small;
     font-weight: 500;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     color: var(--bs-gray-400);
     background-color: #070b1b ;
     border: 2px solid var(--bs-gray-400);
@@ -1971,7 +1972,6 @@ button, input, optgroup, select, textarea {
 /* end form dark-mode */
 /* End form */
 
-
 #project-container{
     width: 60%;
 }
@@ -1993,6 +1993,7 @@ button, input, optgroup, select, textarea {
     padding: 20px;
     width: 200px;
     height: 100px;
+    margin-left: 5px;
 }
 @media(max-width: 576px){
     .card-img-top{
@@ -2003,18 +2004,17 @@ button, input, optgroup, select, textarea {
     }
 }
 .p-card{
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    background-color: #0e0e19ef;
     color: var(--txt-color-light);
-    border: var(--border-border);
+    /* border: var(--border-border); */
     font-weight: var(--font-weight);
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow);
     transition: var(--transition);
     position: relative;
-    /* border-radius: var(--border-radius); */
-    border-radius: 8px;
+    border-radius: 8px; */
     font-size: var(--font-size);
     z-index: 2;
-    /* padding: var(--bg-padding); */
     padding: 10px;
 }
 @media(max-width: 576px){
@@ -2026,19 +2026,38 @@ button, input, optgroup, select, textarea {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
     transform: scale(1.04);
+    background-color: var(--bg-color);
+    border: var(--border-border);
+    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    position: relative;
+    border-radius: 8px;
 }
 .dark-mode .p-card{
+    /* border: var(--border-border-light);
+    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    background-color: var(--bg-color-light); */
+    background-color: #f5f5f5 !important;
+    color: var(--txt-color-light);
+}
+.dark-mode .p-card:hover{
     border: var(--border-border-light);
     box-shadow: 0 0 30px -15px var(--bg-shadow-light);
     background-color: var(--bg-color-light);
-    color: var(--txt-color-light);
+    position: relative;
+    border-radius: 8px;
 }
 .p-body{
     padding: 25px;
     margin-top: -15px;
+    /* background-color: var(--bg-color); */
+    background-color: #0e0e19ef;
+}
+.p-body:hover{
     background-color: var(--bg-color);
+    transition: all 0.5s ease-in-out;
 }
 .dark-mode .p-body{
-    background-color: var(--bg-color-light);
+    /* background-color: var(--bg-color-light); */
+    background-color: #f5f5f5 !important;
     color: var(--txt-color-light);
 }
