@@ -13,8 +13,8 @@
 - Fast Loading.
 - Used SEO.
 - Available on Google an Bing Search Engine.
-- 95% Performance, 94% Accessibility, 100% Best Practices, 100% SEO for the Desktop, and 64% Performance, Accessibility, 100% Best 
-  Practices, 100% SEO on Mobile. This report asses using "PageSpeed Insight" tools provided by Google.
+- 96% Performance, 96% Accessibility, 92% Best Practices, 90% SEO for the Desktop, and 66% Performance, 98% Accessibility, 92% Best 
+  Practices, 92% SEO on Mobile. This report asses using "PageSpeed Insight" tools provided by Google.
 
 # How to Install
 
@@ -33,7 +33,7 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Screenshot
 
-![portfolio screenshot](https://user-images.githubusercontent.com/61074868/223459621-a3142103-dee6-48c3-8b51-c297e81b0c3c.png)
+![IMG_20230602_211935](https://github.com/dnyanesh2408/dnyanesh2408.github.io/assets/61074868/f964dbc6-9373-4a26-8765-0eb02899022e)
 
 # Feedback
 Feedback is Welcome. 
