@@ -13,8 +13,8 @@
 - Fast Loading.
 - Used SEO.
 - Available on Google an Bing Search Engine.
-- 95% Performance, 94% Accessibility, 100% Best Practices, 100% SEO for the Desktop, and 64% Performance, Accessibility, 100% Best 
-  Practices, 100% SEO on Mobile. This report asses using "PageSpeed Insight" tools provided by Google.
+- 96% Performance, 96% Accessibility, 92% Best Practices, 90% SEO for the Desktop, and 66% Performance, 98% Accessibility, 92% Best 
+  Practices, 92% SEO on Mobile. This report asses using "PageSpeed Insight" tools provided by Google.
 
 # How to Install
 
