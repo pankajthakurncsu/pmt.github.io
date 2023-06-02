@@ -33,7 +33,7 @@ I am happy to freely share my code with the community, the beginner-level develo
 
 # Screenshot
 
-![portfolio screenshot](https://user-images.githubusercontent.com/61074868/223459621-a3142103-dee6-48c3-8b51-c297e81b0c3c.png)
+![IMG_20230602_211935](https://github.com/dnyanesh2408/dnyanesh2408.github.io/assets/61074868/f964dbc6-9373-4a26-8765-0eb02899022e)
 
 # Feedback
 Feedback is Welcome. 
