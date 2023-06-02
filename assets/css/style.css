@@ -1606,7 +1606,6 @@ section{
     }
     .nav-link:hover{
         color: mediumseagreen;
-        /* border-bottom: 1px solid mediumseagreen; */
         text-decoration: underline;
         text-decoration-style: dotted;
         text-decoration-color: mediumseagreen;
@@ -1617,6 +1616,7 @@ section{
         margin-top: 0.9rem;
         /* margin-left: -1.2rem; */
         text-decoration: none;
+        border: none;
     }
     .dark-mode  #myBtn2 {
         margin-top: 0.9rem;
