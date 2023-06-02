@@ -42,4 +42,4 @@ If you need any help feel free to contact me.
 
 # Update
 
-The last Update was on 23/04/2023  by  **[`Dnyanesh Kolhe`](https://dnyaneshkolhe.com/)**
+The last Update was on 2/06/2023  by  **[`Dnyanesh Kolhe`](https://dnyaneshkolhe.com/)**
