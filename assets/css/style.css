@@ -1243,7 +1243,8 @@ section{
     width: 85%;
 }
 #p-justify{
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: start;
     font-size: var(--font-size-2);
 }
 #contact-linkedin{
