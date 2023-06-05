@@ -473,8 +473,8 @@ body::-webkit-scrollbar-thumb {
     color: var(--bs-gray-400);
 }
 .nav-link:hover{
-    color: plum;
-    text-decoration-color: plum;
+    color: plum !important;
+    text-decoration-color: plum !important;
     font-weight: 400;
     border-bottom: none;
     transition: all 0.5s ease-in-out;
@@ -894,8 +894,10 @@ section{
 }
 .stretched-link:hover{
     pointer-events: pointer;
-    border-bottom: 1px solid plum;
-    color: plum;
+    /* border-bottom: 1px solid plum;
+    color: plum; */
+    border-bottom: 1px solid mediumturquoise;
+    color: mediumturquoise;
 }
 #mylink{
     border-bottom: 1px solid var(--bs-gray);
@@ -915,7 +917,7 @@ section{
     border-color: var(--bs-gray) !important;
     margin-left: 0.1rem;
     font-weight: 600 !important;
-    font-size: var(--font-size-2) !important;
+    /* font-size: var(--font-size-2) !important; */
 }
 .show-more-less:hover{
     color: var(--bs-light);
@@ -929,8 +931,20 @@ section{
     font-size: 300;
 }
 .high_light span{
+    padding-left: 0.9px;
+    padding-right: 0.9px;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
     margin-inline-end: 8px;
-    border-bottom: 1px solid var(--bs-gray);
+    /* border-bottom: 1px solid var(--bs-gray); */
+    /* color: #0dcaf0; */
+    color: mediumturquoise;
+    background-color: rgba(56, 170, 201, 0.235);
+    border-radius: 4px;
+}
+.dark-mode .high_light span{
+    color: #4078f2;
+    background-color: rgb(236, 246, 255);
 }
 .high_light_2{
     border-bottom: none !important;
