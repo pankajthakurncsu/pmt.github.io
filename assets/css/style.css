@@ -920,7 +920,7 @@ section{
     border-color: var(--bs-gray) !important;
     margin-left: 0.1rem;
     font-weight: 600 !important;
-    /* font-size: var(--font-size-2) !important; */
+    font-size: var(--font-size-2) !important;
 }
 .show-more-less:hover{
     color: var(--bs-light);
