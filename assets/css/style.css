@@ -1489,6 +1489,9 @@ section{
     color: pink !important;
     border-bottom: 1px solid pink !important;
 }
+.dark-mode #wcb.wcb-d #wcb_2 {
+    color: rgb(50, 49, 48);
+}
 /* Back to top button */
 #myBtn {
     display: none;
