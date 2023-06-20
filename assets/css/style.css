@@ -1497,7 +1497,7 @@ section{
 }
 @media(max-width:576px){
     #wcb.carbonbadge {
-        text-align: center;
+        text-align: center !important;
     }
 }
 /* Back to top button */
