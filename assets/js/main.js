@@ -110,23 +110,12 @@ function darkmode(){
 
   var theme;
 
-  // if(SetTheme.classList.contains("dark-mode")){
-  //   console.log("Dark mode");
-  //   theme = "DARK";
-  // } else {
-  //   console.log("Light mode");
-  //   theme = "LIGHT";
-  // }
-
-
-  // Changes take place
-
   if(SetTheme.classList.contains("dark-mode")){
-    console.log("Light mode");
-    theme = "LIGHT";
-  } else {
     console.log("Dark mode");
     theme = "DARK";
+  } else {
+    console.log("Light mode");
+    theme = "LIGHT";
   }
 
   // save to localstorage
@@ -135,13 +124,8 @@ function darkmode(){
 let GetTheme = JSON.parse(localStorage.getItem("PageTheme"))
 console.log(GetTheme);
 
-// changes take place
 
-// if(GetTheme == "DARK"){
-//   document.body.classList = "dark-mode";
-// }
-
-if(GetTheme == "LIGHT"){
+if(GetTheme == "DARK"){
   document.body.classList = "dark-mode";
 }
 
