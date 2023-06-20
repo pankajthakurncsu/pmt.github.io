@@ -1493,7 +1493,7 @@ section{
     color: rgb(50, 49, 48);
 }
 #wcb.carbonbadge {
-    text-align: start;
+    text-align: start !important;
 }
 @media(max-width:576px){
     #wcb.carbonbadge {
