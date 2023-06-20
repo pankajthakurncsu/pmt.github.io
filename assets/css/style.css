@@ -1492,6 +1492,14 @@ section{
 .dark-mode #wcb.wcb-d #wcb_2 {
     color: rgb(50, 49, 48);
 }
+#wcb.carbonbadge {
+    text-align: start;
+}
+@media(max-width:576px){
+    #wcb.carbonbadge {
+        text-align: center;
+    }
+}
 /* Back to top button */
 #myBtn {
     display: none;
