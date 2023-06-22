@@ -462,6 +462,7 @@ body::-webkit-scrollbar-thumb {
 .bi-arrow-left {
     font-size: small;
     color: var(--bs-gray-400);
+    transition: all 0.3s ease-in-out;
 }
 .dark-mode .bi-arrow-left {
     color: darkolivegreen;
