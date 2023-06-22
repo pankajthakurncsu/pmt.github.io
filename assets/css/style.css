@@ -432,6 +432,10 @@ body::-webkit-scrollbar-thumb {
     background-color: currentColor;
     border-radius: 2rem;
 }
+.navbar-toggler:hover{
+    border-color: rgba(249, 214, 84, 0.548);
+    transition: all 0.3s ease-in-out;
+}
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(240, 240, 240, 0.8)' stroke-width='2' stroke-linecap='square' stroke-miterlimit='10'  d='M4 8h24M4 16h24M4 24h24'/></svg>"); 
 }
@@ -454,6 +458,13 @@ body::-webkit-scrollbar-thumb {
  
 .navbar button[aria-expanded="false"] > span.close {
     display: none;
+}
+.bi-arrow-left {
+    font-size: small;
+    color: var(--bs-gray-400);
+}
+.dark-mode .bi-arrow-left {
+    color: darkolivegreen;
 }
 .navbar{
     /* --bs-navbar-toggler-font-size: 1rem; */
@@ -1653,7 +1664,8 @@ section{
     }
     .nav-link{
         /* font-weight: bold; */
-        font-size: var(--font-size-2);
+        /* font-size: var(--font-size-2); */
+        font-size: var(--font-size);
     }
     .nav-link:hover{
         color: mediumseagreen;
