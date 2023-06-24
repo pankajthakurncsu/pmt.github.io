@@ -969,9 +969,6 @@ section{
     /* background-color: rgb(236, 246, 255); */
     background-color: rgb(223, 230, 236);
 }
-.high_light_2{
-    border-bottom: none !important;
-}
 .overview{
     color: var(--bs-gray-400);
     margin-top: 2rem;
