@@ -2089,6 +2089,8 @@ button, input, optgroup, select, textarea {
 @media(max-width: 576px){
     .p-card{
         padding: 0.5px;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
     }
 }
 .p-card:hover {
