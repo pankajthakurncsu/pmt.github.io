@@ -584,7 +584,8 @@ a {
 section{
     scroll-margin-top: 80px;
     min-height: 5em;
-    padding: 100px 0.9%;
+    /* padding: 100px 0.9%; */
+    padding: 100px 1%;
 }
 .col-lg-4{
     padding-bottom: 1rem;
@@ -2099,8 +2100,7 @@ button, input, optgroup, select, textarea {
     border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     position: relative;
-    /* border-radius: 8px; */
-    border-radius: 12px;
+    border-radius: 8px;
 }
 .dark-mode .p-card{
     /* border: var(--border-border-light);
@@ -2114,19 +2114,19 @@ button, input, optgroup, select, textarea {
     box-shadow: 0 0 30px -15px var(--bg-shadow-light);
     background-color: var(--bg-color-light);
     position: relative;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .p-body{
     padding: 25px;
     margin-top: -15px;
     background-color: var(--bg-color);
     /* background-color: #0e0e19ef; */
-    border-radius: 12px;
+    border-radius: 8px;
 }
 .p-body:hover{
     background-color: var(--bg-color);
     transition: all 0.5s ease-in-out;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 .dark-mode .p-body{
     background-color: var(--bg-color-light);
