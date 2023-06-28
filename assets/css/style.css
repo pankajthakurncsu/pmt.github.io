@@ -2104,7 +2104,10 @@ button, input, optgroup, select, textarea {
 .dark-mode .p-card{
     /* border: var(--border-border-light);
     box-shadow: 0 0 30px -15px var(--bg-shadow-light); */
-    background-color: var(--bg-color-light);
+    
+    /* background-color: var(--bg-color-light); */
+    background-color: #ffffff !important;
+
     /* background-color: #f5f5f5 !important; */
     color: var(--txt-color-light);
 }
@@ -2128,7 +2131,9 @@ button, input, optgroup, select, textarea {
     border-radius: 8px;
 }
 .dark-mode .p-body{
-    background-color: var(--bg-color-light);
+    /* background-color: var(--bg-color-light); */
+    background-color: #ffffff !important;
+
     /* background-color: #f5f5f5 !important; */
     color: var(--txt-color-light);
 }
