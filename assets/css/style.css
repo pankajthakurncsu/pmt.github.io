@@ -1751,7 +1751,8 @@ section{
         text-align: center;
     }
     #credit p{
-        font-size: 13.5px;
+        /* font-size: 13.5px; */
+        font-size: 15px;
     }
     #error{
         padding-top: 6rem;
@@ -1827,8 +1828,16 @@ section{
         font-size: x-small !important;
         margin-right: 1.2rem;
     }
+    /* .stat{
+        text-align: center;
+    } */
 }
-
+/* .stat{
+    margin-bottom: 0.5rem;
+} */
+.bi-dot{
+    color: mediumseagreen;
+}
 #privacy-home{
    background-color: #0e0e19ef;
 }
