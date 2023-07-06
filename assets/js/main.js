@@ -88,6 +88,9 @@ function topFunction() {
 //   $('.navbar-collapse').collapse('hide');
 // });
 
+
+
+
 // $(document).ready(function() {
 //   setTimeout(()=>{
 //       $('#Preloader').addClass('loader');
@@ -97,9 +100,12 @@ function topFunction() {
 //   },200);
 // })
 
-// $('.navbar-nav>li>a').on('click', function(){
-//   $('.navbar-collapse').collapse('hide');
-// });
+
+
+
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
 
 // End preloader
 
