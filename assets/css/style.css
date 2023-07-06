@@ -449,7 +449,13 @@ body::-webkit-scrollbar-thumb {
 .bi-x-lg{
     color: rgba(240,240,240,0.8);
 }
+.bi-x{
+    color: rgba(240,240,240,0.8);
+}
 .dark-mode .bi-x-lg{
+    color: rgba(0, 0, 0, 0.8);
+}
+.bi-x{
     color: rgba(0, 0, 0, 0.8);
 }
 .navbar button[aria-expanded="true"] > span.close {
@@ -473,8 +479,8 @@ body::-webkit-scrollbar-thumb {
 }
 .navbar{
     /* --bs-navbar-toggler-font-size: 1rem; */
-    /* --bs-navbar-toggler-font-size: 1.1rem; */
-    --bs-navbar-toggler-font-size: 1.2rem;
+    --bs-navbar-toggler-font-size: 1.1rem;
+    /* --bs-navbar-toggler-font-size: 1.2rem; */
     --bs-navbar-toggler-border-radius: 0;
     /* background-color: #0b0b15e6 !important; */
     background-color: #0e0e19d3 !important;
