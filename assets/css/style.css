@@ -449,13 +449,13 @@ body::-webkit-scrollbar-thumb {
 .bi-x-lg{
     color: rgba(240,240,240,0.8);
 }
-.bi-x{
-    color: rgba(240,240,240,0.8);
-}
 .dark-mode .bi-x-lg{
     color: rgba(0, 0, 0, 0.8);
 }
-.bi-x{
+.bi-dash{
+    color: rgba(240,240,240,0.8);
+}
+.dark-mode .bi-dash{
     color: rgba(0, 0, 0, 0.8);
 }
 .navbar button[aria-expanded="true"] > span.close {
@@ -487,6 +487,19 @@ body::-webkit-scrollbar-thumb {
     backdrop-filter: blur(10px) !important;
     --bs-navbar-toggler-focus-width: 0.1rem;
     scroll-behavior: smooth !important;
+}
+#menu-name{
+    display: none;
+}
+@media(max-width: 575px){
+    #menu-name{
+        display: contents;
+        font-size: var(--font-size);
+        color: powderblue;
+    }
+    .dark-mode #menu-name{
+        color: var(--bs-gray-800);
+    }
 }
 .nav-item{
     padding: 0.1rem;
