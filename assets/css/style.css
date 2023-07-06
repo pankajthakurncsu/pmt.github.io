@@ -1583,7 +1583,7 @@ section{
     color: var(--bs-yellow);
 }
 /* Preloader */
-/* #Preloader {
+#Preloader {
     position: fixed;
     left: 0;
     top: 0;
@@ -1601,7 +1601,7 @@ section{
 .loader {
     visibility: hidden;
     opacity: 0;
-} */
+}
 
 /* 404 Html Page */
 #error{
