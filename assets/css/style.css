@@ -1391,15 +1391,17 @@ section{
     padding: 0.8rem;
     padding-bottom: 0.8rem;
  
-    background-color: #0e0e19ef;
+    /* background-color: #0e0e19ef; */
+    background: linear-gradient(to top, #202030ef, #0e0e19f5);
     /* background-color: #11111dbd; */
    
     /* Disable Last */
     /* background-color: #11111deb; */
 }
 .dark-mode #footer{
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     /* background-color: #f5f1f1f7; */
+    background: linear-gradient(to top, #f5f5f5, #f5f5f585);
 }
 
 /* Temp disabled */
