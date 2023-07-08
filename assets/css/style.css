@@ -1541,7 +1541,8 @@ section{
 }
 @media(max-width:576px){
     #wcb.carbonbadge {
-        text-align: start !important;
+        text-align: center !important;
+        font-size: x-small !important;
     }
 }
 /* Back to top button */
@@ -1630,8 +1631,7 @@ section{
         width: 80%;
     }
     .footer p{
-        /* text-align: center; */
-        text-align: start !important;
+        text-align: center;
     }
     ul{
         margin-left: 5rem;
@@ -1821,8 +1821,7 @@ section{
         /* bottom: 30px; */
         /* bottom: 50px; */
 
-        /* bottom: 60px; */
-        bottom: 38px;
+        bottom: 60px;
         right: 14px;
     }
     #container-privacy{
