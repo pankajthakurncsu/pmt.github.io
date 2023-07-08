@@ -1256,7 +1256,7 @@ section{
 #post-content{
     color: var(--txt-color) !important;
     font-family: var(--font-family-1);
-    font-size: var(--font-size-2);
+    font-size: var(--font-size-2) !important;
 }
 #post-content a:hover{
     margin-left: 2px;
@@ -1744,6 +1744,9 @@ section{
     #about h3{
         margin-left: 0;
     }
+    .about{
+        font-size: var(--font-size-2);
+    }
     .about_pic img{
         margin-top: 1rem;
     }
@@ -1754,7 +1757,8 @@ section{
         margin-left: 0;
     }
     .skill p{
-        font-size: 16px;
+        /* font-size: 16px; */
+        font-size: var(--font-size-2);
     }
     .view-all a{
         font-weight: 400;
@@ -1959,7 +1963,8 @@ textarea.form-control-sm:focus{
     margin-top: 0.5rem;
     background-color: var(--bs-light);
     color: var(--bs-dark);
-    font-size: 14.5px;
+    /* font-size: 14.5px; */
+    font-size: var(--font-size-2);
 }
 #form-btn:hover{
     background-color: var(--bs-primary) !important;
@@ -2098,6 +2103,7 @@ button, input, optgroup, select, textarea {
     .card-img-top{
         /* width: 150px;
         height: 100px; */
+
         width: 180px;
         height: 100px;
     }
@@ -2112,14 +2118,21 @@ button, input, optgroup, select, textarea {
     transition: var(--transition);
     position: relative;
     border-radius: 8px; */
-    border-radius: 12px;
+
+    /* border-radius: 12px; */
+    border-radius: 40px;
     font-size: var(--font-size);
     z-index: 2;
-    padding: 10px;
+    /* padding: 10px; */
+    padding: 6px;
+    border: 1px solid var(--bs-gray-900);
 }
 @media(max-width: 576px){
-    .p-card{
+    /* .p-card{
         padding: 0.5px;
+    } */
+    .p-card{
+        font-size: var(--font-size-2);
     }
 }
 .p-card:hover {
@@ -2130,7 +2143,8 @@ button, input, optgroup, select, textarea {
     border: var(--border-border);
     box-shadow: 0 0 30px -15px var(--bg-shadow);
     position: relative;
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    border-radius: 40px !important;
 }
 .dark-mode .p-card{
     /* border: var(--border-border-light);
@@ -2141,6 +2155,7 @@ button, input, optgroup, select, textarea {
 
     /* background-color: #f5f5f5 !important; */
     color: var(--txt-color-light);
+    border: 1px solid var(--bs-gray-300);
 }
 .dark-mode .p-card:hover{
     border: var(--border-border-light);
@@ -2154,12 +2169,13 @@ button, input, optgroup, select, textarea {
     margin-top: -15px;
     background-color: var(--bg-color);
     /* background-color: #0e0e19ef; */
-    border-radius: 8px;
+    /* border-radius: 8px; */
+    border-radius: 40px;
 }
 .p-body:hover{
     background-color: var(--bg-color);
     transition: all 0.5s ease-in-out;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 .dark-mode .p-body{
     /* background-color: var(--bg-color-light); */
