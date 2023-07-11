@@ -1505,7 +1505,7 @@ section{
     color: mediumseagreen;
 }
 #privacy a{
-    font-size: 14px;
+    font-size: var(--font-size-2);
     font-family: 'Inter', sans-serif; 
 }
 #privacy a:hover{
@@ -1519,7 +1519,7 @@ section{
 @media(max-width: 576px){
     #privacy a{
         /* font-size: 13.5px; */
-        font-size: 12px;
+        font-size: 13.5px;
     }
 }
 #explore{
@@ -1588,7 +1588,7 @@ section{
     #wcb.carbonbadge {
         /* text-align: center !important; */
         text-align: start !important;
-        font-size: 10px !important;
+        font-size: 11px !important;
     }
 }
 /* Back to top button */
