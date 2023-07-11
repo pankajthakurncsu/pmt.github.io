@@ -253,6 +253,9 @@ body::-webkit-scrollbar-thumb {
     color: #4078f2 !important;
     border-bottom: 1px solid #4078f2 !important;
 }
+.show-more-less{
+    padding: 0.5rem;
+}
 .dark-mode .show-more-less{
     background-color: var(--bs-gray-100) !important;
     color: var(--bs-gray-dark-dark) !important;
@@ -745,7 +748,8 @@ section{
 #hero-social-links a{
     color: var(--bs-gray-400);
     padding: 0.1rem;
-    font-size: medium;
+    /* font-size: medium; */
+    font-size: large;
     font-weight: 500;
 }
 #hero-social-links a:hover{  
@@ -1723,7 +1727,7 @@ section{
         padding: 0;
     }
     .nav-link{
-        font-weight: bold;
+        /* font-weight: bold; */
         /* font-size: var(--font-size-2); */
         font-size: var(--font-size);
     }
