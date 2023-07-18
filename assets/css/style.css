@@ -2176,13 +2176,15 @@ button, input, optgroup, select, textarea {
     border-radius: 8px; */
 
     /* border-radius: 12px; */
-    border-radius: 40px;
+
+    /* border-radius: 40px; */
+    border-radius: 16px;
     font-size: var(--font-size);
     z-index: 2;
     /* padding: 10px; */
     padding: 6px;
     /* border: 1px solid var(--bs-gray-900); */
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow); */
 }
 @media(max-width: 576px){
     /* .p-card{
@@ -2198,14 +2200,15 @@ button, input, optgroup, select, textarea {
     transform: scale(1.04);
     background-color: var(--bg-color);
     /* border: var(--border-border); */
-    box-shadow: 0 0 30px -15px var(--bg-shadow);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow); */
     position: relative;
     /* border-radius: 8px; */
-    border-radius: 40px !important;
+    /* border-radius: 40px !important; */
+    border-radius: 16px !important;
 }
 .dark-mode .p-card{
     border: var(--border-border-light);
-    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow-light); */
     
     /* background-color: var(--bg-color-light); */
     background-color: #ffffff !important;
@@ -2216,7 +2219,7 @@ button, input, optgroup, select, textarea {
 }
 .dark-mode .p-card:hover{
     border: var(--border-border-light);
-    box-shadow: 0 0 30px -15px var(--bg-shadow-light);
+    /* box-shadow: 0 0 30px -15px var(--bg-shadow-light); */
     background-color: var(--bg-color-light);
     position: relative;
     border-radius: 8px;
@@ -2227,7 +2230,8 @@ button, input, optgroup, select, textarea {
     background-color: var(--bg-color);
     /* background-color: #0e0e19ef; */
     /* border-radius: 8px; */
-    border-radius: 40px;
+    /* border-radius: 40px; */
+    border-radius: 16px;
 }
 .p-body:hover{
     background-color: var(--bg-color);
