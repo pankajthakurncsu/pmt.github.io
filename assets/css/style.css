@@ -446,17 +446,17 @@ body::-webkit-scrollbar-thumb {
     /* border-radius: 20%; */
     /* padding: 2px 3px 2px 3px; */
     padding: 5px 6px 5px 6px;
-    /* background-color: currentColor; */
+    background-color: currentColor;
     border-radius: 2rem;
 }
 .navbar-toggler:hover{
-    /* border-color: rgba(249, 213, 84, 0.404); */
-    border-color: var(--bs-gray);
+    border-color: rgba(249, 213, 84, 0.404);
+    /* border-color: var(--bs-gray); */
     transition: all 0.5s ease-in-out;
 }
 .dark-mode .navbar-toggler:hover{
-    /* border-color: rgba(177, 148, 41, 0.432); */
-    border-color: var(--bs-gray);
+    border-color: rgba(177, 148, 41, 0.432);
+    /* border-color: var(--bs-gray); */
     transition: all 0.5s ease-in-out;
 }
 .navbar-toggler-icon{
