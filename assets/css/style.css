@@ -507,19 +507,18 @@ body::-webkit-scrollbar-thumb {
     --bs-navbar-toggler-focus-width: 0.1rem;
     scroll-behavior: smooth !important;
 }
-#menu-name{
+/* #menu-name{
     display: none;
 }
 @media(max-width: 575px){
     #menu-name{
         display: contents;
         font-size: var(--font-size);
-        /* color: powderblue; */
     }
     .dark-mode #menu-name{
         color: var(--bs-gray-800);
     }
-}
+} */
 .nav-item{
     padding: 0.1rem;
 }
@@ -1751,8 +1750,9 @@ section{
     }
     .nav-link{
         /* font-weight: bold; */
-        /* font-size: var(--font-size-2); */
-        font-size: var(--font-size);
+        font-size: var(--font-size-2);
+        /* font-size: var(--font-size); */
+        margin: 0.2rem;
     }
     .nav-link:hover{
         color: mediumseagreen;
@@ -2160,18 +2160,25 @@ button, input, optgroup, select, textarea {
 .card-img-top{
     /* border-radius: 0; */
     /* border-radius: 30px; */
+
     padding: 20px;
-    width: 200px;
-    height: 100px;
+
+    /* width: 200px;
+    height: 100px; */
+    width: auto;
+    height: 200px;
     margin-left: 5px;
+    margin-right: 5px;
 }
 @media(max-width: 576px){
     .card-img-top{
         /* width: 150px;
         height: 100px; */
 
-        width: 180px;
-        height: 100px;
+        /* width: 180px;
+        height: 100px; */
+        width: auto;
+        height: 200px;
     }
 }
 .p-card{
@@ -2194,7 +2201,9 @@ button, input, optgroup, select, textarea {
     font-size: var(--font-size);
     z-index: 2;
     /* padding: 10px; */
+
     padding: 6px;
+
     /* border: 1px solid var(--bs-gray-900); */
     /* box-shadow: 0 0 30px -15px var(--bg-shadow); */
 }
@@ -2265,4 +2274,16 @@ button, input, optgroup, select, textarea {
 
 .card-new{
     border-radius: 5rem;
+}
+
+.toast-msg{
+    background-color: #0e0e19ef;
+    color: #fff;
+}
+.bi-emoji-smile{
+    color: orangered;
+}
+.dark-mode .toast-msg{
+    background-color: #f5f5f5 !important;
+    color: #000;
 }
