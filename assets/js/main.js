@@ -136,19 +136,19 @@ if(GetTheme == "DARK"){
 }
 
 
-const toastTrigger = document.getElementById('liveToastBtn')
-const toastLiveExample = document.getElementById('liveToast')
+// const toastTrigger = document.getElementById('liveToastBtn')
+// const toastLiveExample = document.getElementById('liveToast')
 
-if (toastTrigger) {
-  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-  toastTrigger.addEventListener('click', () => {
-    toastBootstrap.show()
-  })
-}
+// if (toastTrigger) {
+//   const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+//   toastTrigger.addEventListener('click', () => {
+//     toastBootstrap.show()
+//   })
+// }
 
-window.onload = (event) => {
-  var toastLiveExample = document.getElementById('liveToast')
-  var toast = new bootstrap.Toast(toastLiveExample)
-  toast.show()
-}
+// window.onload = (event) => {
+//   var toastLiveExample = document.getElementById('liveToast')
+//   var toast = new bootstrap.Toast(toastLiveExample)
+//   toast.show()
+// }
 
