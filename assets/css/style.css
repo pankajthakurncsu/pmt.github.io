@@ -1115,7 +1115,7 @@ section {
   font-size: small;
 }
 #project-details-hr {
-  color: olivedrab;
+  color: rgba(106, 142, 35, 0);
 }
 /* Blog Page Home */
 #blog-home {
