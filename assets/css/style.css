@@ -1048,7 +1048,7 @@ section {
 }
 .project-details {
   border-radius: var(--border-radius);
-  border: 0.1px solid var(--bs-gray-900) !important;
+  border: 0.1px solid var(--bs-gray-800) !important;
   /* width: 70%; */
   width: 65%;
   transition: var(--transition);
