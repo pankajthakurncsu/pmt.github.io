@@ -1,0 +1,59 @@
+.modal {
+  font-weight: var(--font-weight) !important;
+  background-color: #0e0e19 !important;
+}
+.dark-mode .modal {
+  background-color: #f5f5f5 !important;
+}
+.modal-content {
+  background-color: #0e0e19 !important;
+}
+.dark-mode .modal-content {
+  background-color: #f5f5f5 !important;
+}
+.modal-top-button {
+  margin-left: 0.1rem;
+  color: var(--bs-dark) !important;
+  background-color: var(--bs-light) !important;
+}
+.dark-mode .modal-top-button {
+  color: var(--bs-light) !important;
+  background-color: #b9b9b9 !important;
+}
+#top-close-btn {
+  font-size: 14px;
+}
+.modal-footer {
+  border-top: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.modal-footer-button {
+  color: var(--bs-dark);
+  background-color: var(--bs-light);
+  font-size: 16px !important;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none !important;
+}
+.modal-footer-button:hover {
+  background-color: aquamarine !important;
+  transition: all 0.3s ease-in-out;
+}
+.dark-mode .modal-footer-button {
+  color: var(--bs-light);
+  background-color: var(--bs-dark);
+  border: none !important;
+}
+.dark-mode .modal-footer-button:hover{
+  background-color: var(--bs-primary) !important;
+  border: none !important;
+}
+#arrow-2 {
+  color: var(--bs-dark) !important;
+}
+.dark-mode #arrow-2 {
+  color: var(--bs-light) !important;
+}
