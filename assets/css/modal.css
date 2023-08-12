@@ -1,3 +1,6 @@
+.modal-body{
+  padding: 0;
+}
 .modal {
   font-weight: var(--font-weight) !important;
   background-color: #0e0e19 !important;

@@ -1048,18 +1048,16 @@ section {
 }
 .project-details {
   border-radius: var(--border-radius);
-  border: 1px solid var(--bs-gray-700) !important;
-  /* width: 82%; */
-  /* width: 75%; */
+  border: 0.1px solid var(--bs-gray-900) !important;
   /* width: 70%; */
-  width: 60%;
+  width: 65%;
   transition: var(--transition);
   position: relative;
   z-index: 2;
   padding: var(--bg-padding);
-  padding-top: 2rem;
+  /* padding-top: 2rem;
   padding-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 2rem; */
   font-size: var(--font-size);
   font-family: "DM Sans", sans-serif;
 }
@@ -1704,8 +1702,8 @@ section {
   }
   .project-details {
     /* width: 92%; */
-    width: 99% !important;
-    padding-top: 2rem;
+    width: 98% !important;
+    /* padding-top: 2rem; */
   }
 }
 
