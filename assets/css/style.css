@@ -102,6 +102,10 @@ body::-webkit-scrollbar-thumb {
   --scrollbarBG: #0b0b15;
   --thumbBG: var(--bs-secondary);
 }
+.image-container {
+  float: right; /* Float the image container to the right */
+  width: 20%; /* Set the width of the image container */
+}
 /* Dark & Light Mode */
 .dark-mode {
   background-color: var(--bs-gray-100);
